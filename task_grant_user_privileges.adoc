@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: task_grant_user_privileges.html 
+keywords: grant, user, privileges, TACACS+, server, group, command, commands, access, CSA, user, account 
+summary: 如果您使用的是 TACACS+ 服务器，并且需要为交换机授予 CSA 用户权限，则必须创建一个用户权限组，并为该组授予对 CSA 所需的特定设置命令的访问权限。 
+---
+= 使用 TACACS+ 服务器授予 CSA 用户权限
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您使用的是 TACACS+ 服务器，并且需要为交换机授予 CSA 用户权限，则必须创建一个用户权限组，并为该组授予对 CSA 所需的特定设置命令的访问权限。以下命令应写入 TACACS+ 服务器的配置文件。
+
+.步骤
+. 输入以下命令创建具有只读访问权限的用户权限组： group=group_name ｛ default service=deny service=exec ｛ priv-lvl=0 ｝ ｝
+. 输入以下命令以授予对 CSA 所需命令的访问权限： cmd=show ｛ permit "environment" permit "version" permit "feature" permit "feature-set" permit hardware 。 * permit "interface" permit "interface tunter" permit "inventory" permit "license" permit "module" permit "port-channel database" permit "ntp peers" permit "license use" permit "port-channel summary" permit "running-config " permit "start-config" permit "permit. "CDP 邻居详细信息 " 允许 "VLAN" 允许 "VPC" 允许 "VPC 对等保活 " 允许 "Mac 地址表 " 允许 "LACP 端口通道 " 允许 "policy-map" 允许 "policy-map system type QoS" 允许 "policy-map system type queuing" 允许 "policy-map system type network-cns" 允许 "zoneset active" 允许 "s"san-l" 允许 "fet" 数据库详细信息 允许 "zoneset active" 允许 "vsan" 允许 "vsan use" 允许 "vsan 成员资格 " ｝
+. 输入以下命令将 CSA 用户帐户添加到新创建的组： user=user_account ｛ member=group_name login=file/etc/passwd ｝
+

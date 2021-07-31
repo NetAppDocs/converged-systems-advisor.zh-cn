@@ -1,0 +1,122 @@
+---
+sidebar: sidebar 
+permalink: task_monitor_rules.html 
+keywords: review, alerts, warnings, failed, rules, alerts, history, remediate, remediation, suppress, display, fail, warning, pass, notifications, email 
+summary: 您可以修复失败的规则，禁止规则，查看已禁止的规则列表，如果需要，还可以选择结束禁止。 
+---
+= 监控基础架构中的规则
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+要监控基础架构，您可以修复失败的规则，禁止规则，查看已禁止的规则列表，如果需要，还可以选择结束禁止。
+
+
+
+== 查看警报中失败的规则和警告
+
+Converged Systems Advisor 会持续监控您的基础架构，并生成警告和故障，以确保系统已配置并按照最佳实践运行。
+
+.步骤
+. 登录到 https://csa.netapp.com/["Converged Systems Advisor 门户"^] 然后单击 * 规则 * 。
++
+" 规则 " 页面显示所有规则的摘要。每个规则的状态为 * 通过 * ， * 警告 * 或 * 失败 * 。
+
+. 单击状态列中的筛选器图标，然后选择 * 失败 * ， * 警告 * 或两者。
++
+image:screenshot_rules_filter.gif["显示筛选器图标，可用于筛选表，以便仅显示已通过，失败或包含警告的规则。"]
+
+. 单击状态列旁边的箭头，查看有关各个规则的详细信息。
++
+image:screenshot_rules_information.gif["显示有关规则的详细信息，包括问题描述，影响和解析。"]
+
+. 按照解决方案中的说明修复问题描述。
++
+如果需要， <<Reviewing the history for an infrastructure,查看配置历史记录>> 基础架构以帮助您解决问题描述。
+
+
+
+在代理的下一个收集期之后，您解决的规则的状态应显示为 " 通过 " 。
+
+
+
+== 修复失败的规则
+
+Converged Systems Advisor 可以通过更正融合基础架构中的底层问题描述来解决某些失败的规则。
+
+.关于此任务
+* 您必须具有高级许可证。
+* 您必须被分配为融合基础架构的所有者。
+
+
+.步骤
+. 登录到 https://csa.netapp.com/["Converged Systems Advisor 门户"^] 然后单击 * 规则 * 。
++
+" 规则 " 页面显示所有规则的摘要。每个规则的状态为 * 通过 * ， * 警告 * 或 * 失败 * 。
+
+. 选择 * 可修复的筛选器规则 * 。
+. 展开要解析的规则。
+. 单击 image:wrench_icon.jpg["显示了扳手图标，可用于自动修复失败的规则。"] 位于扩展规则的右上角。
++
+如果此图标已禁用，则可能是因为代理脱机，您没有所有者权限或您没有高级许可证。
+
+. 如有必要，请填写输入值。
++
+根据失败的规则，需要使用某些输入值来解析问题描述。
+
+. 如果要在成功完成修复后进行数据收集，请选择 * 修复作业完成时收集 * 选项。
+. 单击 * 运行修复 * 。
+. 单击 * 确认 * 。
+. 要查看为解决失败的规则而采取的操作，请单击 * 操作 * 图标并选择 * 修复操作 * 。
++
+image:operations_icon.gif["显示操作图标，用于打开菜单以查看已修复的操作。"]
+
+
+
+
+
+== 禁止失败的规则
+
+Converged Systems Advisor 允许您禁止显示规则，以便不会显示在信息板中，也不会再在规则失败时发送电子邮件通知。
+
+例如，建议不要启用 telnet ，但如果您希望启用它，则可以禁止该规则。
+
+要配置通知，您必须具有高级许可证。
+
+.步骤
+. 在信息板中，单击 * 规则 * 。
+. 通过筛选表的内容来查找要查找的规则。
+. 为状态为 " 警告 " 或 " 失败 " 的规则选择一行或多行，然后单击 * 警报 * 图标。
++
+image:screenshot_rules_suppress.gif["显示表上方的警报图标，可用于禁止规则。"]
+
+. 选择持续时间，然后单击 * 提交 * 。
+
+
+
+TIP: 如果要启用警报，请按照相同步骤操作，然后选择 * 结束禁止 * 。
+
+Converged Systems Advisor 在指定的持续时间内不再向您通知此规则，并且此规则将不再显示在信息板中。
+
+
+
+== 显示禁止的规则
+
+.步骤
+. 单击 * 设置 * 图标并选择 * 禁止规则 * 。
++
+image:screenshot_suppressed_rules.gif["显示了设置图标，可打开菜单以选择禁止的规则。"]
+
+. 选择要开始显示的禁止规则。
+. 单击 * 警报 * 图标。
++
+image:screenshot_rules_suppress.gif["显示表上方的警报图标，可用于禁止规则。"]
+
+. 选择 * 结束禁止 * ，然后单击 * 提交 * 。
+
+
+已为选定规则启用警报，此规则将显示在规则表和信息板中。

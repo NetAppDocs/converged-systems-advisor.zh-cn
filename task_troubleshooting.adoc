@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: task_troubleshooting.html 
+keywords: troubleshoot, agent, connectivity, browser, discover, error, internet, connection 
+summary: 如果您在使用 Converged Systems Advisor 时遇到问题，以下信息可能有助于您解决问题描述。 
+---
+= 对 Converged Systems Advisor 进行故障排除
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您在使用 Converged Systems Advisor 时遇到问题，以下信息可能有助于您解决问题描述。
+
+
+
+== 您无法通过 Web 浏览器连接到代理
+
+您需要通过 Web 浏览器连接到代理，以配置 FlexPod 设备的发现。如果无法通过 Web 浏览器进行连接，请确保代理已通过出站 Internet 连接到 csa.netapp.com 。如果没有 Internet 连接，代理应用程序将无法启动，从而使您无法访问其 Web 界面。
+
+如果需要代理服务器才能访问 Internet ， link:task_getting_started.html#setting-up-networking-for-the-agent["配置代理虚拟机以使用它"]。
+
+
+
+== 代理无法发现设备
+
+如果代理无法发现 FlexPod 设备，请验证以下内容：
+
+* 确保代理与每个 FlexPod 设备的连接均已打开。
++
+要进行验证，请从代理对每个设备执行 ping 操作。
+
+* 验证本地网络是否正在使用 172.17.x.x 子网。
++
+代理在内部使用 172.17.x.x 子网。如果本地网络使用同一子网，则必须更改代理上的子网：
+
++
+.. 登录到代理的虚拟机控制台。
++
+默认用户名为 `CSA` ，默认密码为 `NetApp` 。您应在登录后更改默认密码。
+
+.. 使用以下内容添加文件 ` /etc/docker/daemon.json` ：
++
+....
+{ "bip": "172.44.x.x"}
+....
++
+bip 地址可以是任何不冲突的 IP 地址。不需要处于 172 范围内。
+
+.. 重新启动虚拟机。
+
+
+
+
+
+
+== 无法使用 SSH 连接到代理 VM
+
+默认情况下，代理虚拟机的 SSH 处于禁用状态。
+
+* 要启动 SSH ，请通过 vCenter 中的控制台登录到代理 VM ，然后运行以下命令：
++
+`sUdo su` `systemctl start ssh`
+
+* 要检查是否已启用 SSH ，请运行以下命令：
++
+`sytemctl 已启用 ssh`
+
+* 要检查代理 VM 上的 SSH 状态，请运行以下命令：
++
+`systemctl status ssh`
+
+* 要使 SSH 在重新启动后保持不变，请运行以下命令：
++
+`sUdo su` `sytemctl enable ssh`
+
+

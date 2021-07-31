@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: task_add_infrastructure.html 
+keywords: add, infrastructure, FlexPod, configuration, Cisco, ACI, UCS, server, FlexPod, converged, infrastructure, sharing, portal 
+summary: 向门户添加基础架构。 
+---
+= 向门户添加基础架构
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+配置代理后，它会将有关每个 FlexPod 设备的信息发送到 Converged Systems Advisor 门户。现在，您必须在门户中选择每个组件，以创建可监控的整个基础架构。
+
+.步骤
+. 在中 https://csa.netapp.com/["Converged Systems Advisor 门户"^]下，单击 * 添加基础架构 * 。
+. 完成以下步骤以添加基础架构：
++
+.. 输入有关基础架构的基本详细信息。
++
+如果要添加 Cisco ACI 基础架构，请在系统询问您的 FlexPod 是否使用 Cisco UCS Manager 时输入 * 是 * ；如果系统询问您的 FlexPod 包含的网络配置类型，请在 ACI 模式下输入 * Nexus switch 。
+
+.. 选择属于 FlexPod 配置的每个设备。
++
+
+TIP: 选择设备时，资格列将显示 * 符合条件 * 或 * 不符合条件 * 。如果设备是由其他代理发现的，则该设备将不符合条件。
+
+
+
+. 选择所有必需组件后，您应在每个设备类型旁边看到一个绿色复选标记。
++
+image:screenshot_add_infrastructure_pikesupdate.gif["显示表中选择的四个设备以及每个设备对应的绿色复选标记，这表示您已选择所有必需组件。"]
+
++
+.. 添加 link:concept_licensing.html["Converged Systems Advisor 序列号"] 解锁密钥功能。
+.. 查看摘要，接受许可协议的条款，然后单击 * 添加基础架构 * 。
+
+
++
+
+NOTE: 如果您是合作伙伴或经销商，则可以跳过有关添加许可证或序列号的步骤，只需单击 * 添加基础架构 * 即可。
+
+
+
+Converged Systems Advisor 会将基础架构添加到门户中，并开始收集有关每个设备的配置数据。等待几分钟，以便代理从设备收集信息。
+
+
+
+= 与其他用户共享基础架构
+
+通过共享融合基础架构，其他人可以登录到 Converged Systems Advisor 门户，以便查看和监控配置。与您共享基础架构的人员必须具有 https://mysupport.netapp.com["NetApp 支持站点"^] 帐户。
+
+.步骤
+. 在 Converged Systems Advisor 门户中，单击 * 设置图标 * ，然后单击 * 用户 * 。
++
+image:screenshot_settings.gif["显示了设置菜单，其中包含指向用户页面的链接。"]
+
+. 从用户表中选择配置。
+. 单击 image:screenshot_share_icon.gif["用于共享基础架构的图标。"] 图标。
+. 在要提供的用户角色旁边输入一个或多个电子邮件地址。
++
+link:reference_user_roles.html["查看每个角色之间的差异"]。
+
++
+
+TIP: 您可以在一个字段中输入多个电子邮件地址，方法是在第一个电子邮件地址后按 * Enter * 。
+
+. 单击 * 发送 * 。
+
+
+用户应收到一封电子邮件，其中包含有关访问 Converged Systems Advisor 的说明。

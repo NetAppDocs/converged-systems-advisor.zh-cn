@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task_deployment_validation.html 
+keywords: partner, validate, deployment validation 
+summary: 如果您是 NetApp 合作伙伴，则可以在运行部署验证之前与客户合作部署代理并设置门户，以便开始使用 Converged Systems Advisor 。 
+---
+= 合作伙伴部署验证报告
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 合作伙伴可以运行部署验证，以验证是否已正确配置 FlexPod 融合基础架构。然后，合作伙伴可以将报告交给客户。
+
+.步骤
+. 登录到 https://csa.netapp.com/["Converged Systems Advisor 门户"^]。
+. 从客户列表中展开客户的配置。
++
+image:screenshot_partner_customer_list.gif["显示了客户的三个融合基础架构。"]
+
+. 在部署验证报告下，单击 * 生成 * 。
+. 选择是要在浏览器中以 PDF 格式还是通过电子邮件查看报告。
+. 查看报告并更正任何互操作性问题和部署验证错误。
++
+* 示例 *
+
++
+在此示例配置中，不支持 Nexus 交换机的固件版本：
+
++
+image:screenshot_validation_interop.gif["显示了部署验证报告的互操作性部分。它包括两个具有不受支持固件版本的交换机。"]
+
++
+由于交换机连接问题，四个验证规则也失败：
+
++
+image:screenshot_validation_errors.gif["显示了部署验证报告的错误部分。此互联阵列不会通过上行链路连接到相应的 Nexus 光纤通道网络结构。"]
+
++
+升级固件可以更正配置的互操作性，添加链接可以更正失败的验证规则。
+
+. 更正问题后，收集数据以确保 Converged Systems Advisor 具有最新的配置数据：
++
+.. 选择融合基础架构。
+.. 在右上角，单击 * 收集 * 。
++
+image:screenshot_collect_button.gif["显示了在选择融合基础架构后可用的右上角收集按钮。"]
+
+
+
+. 再次生成报告以验证您是否已更正问题。
+. 将最终部署验证报告发送给客户。
+
+
+现在，融合基础架构已根据最佳实践进行设置。

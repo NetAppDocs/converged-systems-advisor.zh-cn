@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: reference_user_roles.html 
+keywords: read only, write, owner, privileges, access, security, roles 
+summary: 当您与其他用户共享融合基础架构时，您可以提供只读，写入或所有者权限。 
+---
+= 用户角色
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+当您与其他用户共享融合基础架构时，必须提供只读，写入或所有者权限。
+
+下表列出了每个用户角色可以执行的任务。
+
+[cols="25,25,25,25"]
+|===
+| 任务 | 只读 | 写入 | 所有者 
+
+
+| 查看系统 | 是的。 | 是的。 | 是的。 
+
+
+| 更新系统名称 | 否 | 是的。 | 是的。 
+
+
+| 更新支持合同详细信息 | 否 | 是的。 | 是的。 
+
+
+| 编辑数据收集间隔 | 否 | 是的。 | 是的。 
+
+
+| 请求新的数据收集 | 否 | 是的。 | 是的。 
+
+
+| 共享系统 | 否 | 是，具有只读或写访问权限 | 是，具有只读，写或所有者访问权限 
+
+
+| 修改系统的组件 | 否 | 否 | 是的。 
+
+
+| 删除系统 | 否 | 否 | 是的。 
+|===

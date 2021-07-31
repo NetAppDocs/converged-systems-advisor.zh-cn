@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="093e4ca191076aaeab8a87c32f3e59b9" category="summary">已知问题用于确定可能会阻止您成功使用此服务的问题。如果存在 Bug Online 报告，则错误 ID 包含指向此报告的超链接。</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">已知问题</block>
+  <block id="b066ca6122c9857ad1ee3a44f18cc5e7" category="cell">错误 ID</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
+  <block id="07646d96b0a5453c5d151d754d2dbb4b" category="inline-link">1234597</block>
+  <block id="5dc015869ee1fffcfe18ffb7b0380578" category="cell"><block ref="e9377e240fb8deadfedc2e31ee75b093" category="inline-link-rx"></block></block>
+  <block id="ad53fa7bb171e082d2d1cb699a67c551" category="cell">Converged Systems Advisor 不会修复四个以上 SVM 的 DNS 配置。</block>
+  <block id="798bb4078a98dfc398ee27ded37fccb9" category="inline-link">123123603</block>
+  <block id="63b2552c29ae354107fcfb9604981826" category="cell"><block ref="9ea63614a471f724be04717758df478d" category="inline-link-rx"></block></block>
+  <block id="7d459d150271ac4124abd6ef7eb50437" category="cell">在启用收集的情况下创建多个修复作业后，仅会为第一个修复作业触发收集。</block>
+  <block id="954aaefe49d225da7ff2a5c6265a3f74" category="inline-link">133590</block>
+  <block id="56cbc985c9341566bd1bcdccacae3c33" category="cell"><block ref="cb1155f7f28efdd1e05510903264c499" category="inline-link-rx"></block></block>
+  <block id="361198e1f4f8acd67465a74b3b90cabe" category="cell">已从 Converged Systems Advisor 中删除 " 存储故障转移状态 " CA 规则。</block>
+  <block id="59dd5af94dc714215999ade6dcfc5e6d" category="inline-link">1335593</block>
+  <block id="0737ee285ab66d2b8009bb58d622261c" category="cell"><block ref="8a3f01dd75676a73cfafd2b1daf552ce" category="inline-link-rx"></block></block>
+  <block id="839eaaea535ab65cf6fcf7a1845e1d71" category="cell">Nexus 和 MDS 交换机的版本号在 "Upgrade Advisor" 下显示不正确。</block>
+  <block id="1fac350b63f9cdd13f2a806c4b0df46c" category="summary">NetApp 会定期更新 Converged Systems Advisor ，为您提供新功能，增强功能和错误修复。</block>
+  <block id="4cc1d8055af07717e6a2ef77c1ccd878" category="doc">《 Converged Systems Advisor 中的新增功能》归档</block>
+  <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">NetApp 互操作性表工具</block>
+  <block id="65d73807e625a264821492e5d4d33a03" category="paragraph">要确认 CSA 代理支持 FlexPod 组件，请参考<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block> IMT</block>
+  <block id="c1df1da7a1ce305a3b60af9d5733ac1d" category="section-title">内容</block>
+  <block id="10e44b58c927b3793e7f2955f75f28e1" category="paragraph">此归档文件包含以下版本中的信息：</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
+  <block id="08c7a44165e799a355ebdc0f1ea70824" category="list-text"><block ref="145ef373c65808f9e952c78fb0e16c8e" category="inline-xref-macro-rx"></block></block>
+  <block id="2840e6a3600b55dceaa37ee80ec335fe" category="list-text"><block ref="42c4d619be309721d53c234cf3e5ff62" category="inline-xref-macro-rx"></block></block>
+  <block id="0bcb4151c66555aa13c51fb3b2a0a165" category="list-text"><block ref="ff3199e7c1970c02e0fd6c613ab0cce7" category="inline-xref-macro-rx"></block></block>
+  <block id="7b3a2fc382a596f810e0b8e710c8f711" category="list-text"><block ref="d2238c839e2fd698d2dbfb6f4c4e7d87" category="inline-xref-macro-rx"></block></block>
+  <block id="15176397357e4255e6362e5d05e4c485" category="list-text"><block ref="92d4523432902f3accb2306b045d583f" category="inline-xref-macro-rx"></block></block>
+  <block id="5e00a79faef421b2fe94f16e0a17775d" category="list-text"><block ref="b7b5b50c4a5efe1b9e45ea1d0e26a6ae" category="inline-xref-macro-rx"></block></block>
+  <block id="63e51da11fa43c2342d55984be82f013" category="list-text"><block ref="48d43c26a55ab7429e9668ebb7b374a4" category="inline-xref-macro-rx"></block></block>
+  <block id="a6490175aa5211c7fdb6af58bbf5ad58" category="list-text"><block ref="6687bc1c3d75b9a19804b86bf196a6d2" category="inline-xref-macro-rx"></block></block>
+  <block id="ed27e56e8d1aaac52ff5846f18293cad" category="section-title">2020 年 4 月 30 日</block>
+  <block id="d3cafecaed44ca675980389b10250736" category="paragraph">此版本包含以下增强功能：</block>
+  <block id="76474e02e81d415c3af99611aa7fd9db" category="list-text"><block ref="e91c3dcf41ee65cf857a4e2744c7116f" category="inline-xref-macro-rx"></block></block>
+  <block id="f9cbb438ee7ec2413c4e51c6dd1cc0a1" category="list-text"><block ref="0440a41fa8d53d80c2925fd5b2f412d2" category="inline-xref-macro-rx"></block></block>
+  <block id="5cd898867cfea299e6bb00bf416b9543" category="list-text"><block ref="8800f9920c62cf189ef2790b6cf576c0" category="inline-xref-macro-rx"></block></block>
+  <block id="92189b298e4d66f3b20c9ee7eb4420d1" category="list-text"><block ref="090331b4b8642fa566a355a973455d3b" category="inline-xref-macro-rx"></block></block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">Upgrade Advisor</block>
+  <block id="3f23a5d9cd3790369771e0a3bf58d7b4" category="inline-image-macro">屏幕截图，宽度 = 65% ，对齐 = 左</block>
+  <block id="7e8467d4e506341be39612804bb6fd31" category="paragraph">现在，您可以检查 VMware vCenter 和 ONTAP 版本与 Nexus 和 UCS 组件的兼容性。要检查兼容性，请使用信息板中 " 固件互操作性 " 下的 Upgrade Advisor 。您看到的所有版本均受支持。<block ref="70a9fa1e61ddb2086ced7efe6d468e67" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a44c62f2e89581c2cf4b405ac4bc48d1" category="section-title">集群互连交换机</block>
+  <block id="17a266803afb405673de128775490aa3" category="paragraph">在信息板视图的 * 固件互操作性 * 下添加了 * 集群互连交换机 * 。现在，您可以监控以下型号的 ONTAP 集群互连交换机的可支持性：</block>
+  <block id="1d8bdbbecd2a7992d9b2c5314cbc8da8" category="list-text">Cisco Nexus 3132Q-V</block>
+  <block id="21cefb007c9064d8adcf6c162e74b0bf" category="list-text">Cisco Nexus 3232C</block>
+  <block id="f8215ac1ab39569e2ede8f10c0a8405a" category="list-text">Cisco Nexus 92300YC</block>
+  <block id="19f18e62543870b928eb9b2e96e164e5" category="paragraph"><block ref="19f18e62543870b928eb9b2e96e164e5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14203af76d3ed0d9f147b636afc6df00" category="paragraph">现在，在代理中，您可以在 * 添加设备信息 * 下拉菜单中将集群互连交换机添加为设备。</block>
+  <block id="22584daa6922a9f57595fff0e66aaeac" category="inline-image-macro">屏幕截图，宽度 = 35% ，对齐 = 左</block>
+  <block id="514f8c728a2790b1558d08079076380c" category="paragraph"><block ref="514f8c728a2790b1558d08079076380c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="77c929b6a6cda6208e81c181eef47740" category="section-title">容量卡增强功能</block>
+  <block id="721acbf5f459d09509fd8f70d1f967c8" category="paragraph">此外，还添加了指向网络端口利用率和 UCS 刀片服务器利用率的链接，以帮助您监控和扩展 FlexPod 基础架构。在信息板视图中，当您转到容量时，您将看到两个新链接。<block ref="060bfad4c8cdb501dd093dad2bc44ef5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c678373d74bb6da469f6748ecd369a85" category="paragraph">端口利用率链接到网络层中接口的详细信息。<block ref="aca1a8b86c59dfb174ed946d595bbf84" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="648afe57a27e117a191a79a8d6d0abb2" category="paragraph">UCS 刀片式服务器利用率链接到计算层中刀片式服务器的详细信息。<block ref="a13bb6f0073a0a088151d532da9b6312" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="93bbd48ded0a0454703eb895c255d06d" category="section-title">系统图警报</block>
+  <block id="a6282442e8c29dd3f2b8dc110cfc9ae4" category="paragraph">现在，您将在系统的图表视图中看到警报，以便更好地监控基础架构。<block ref="f9157057998e51b9fb12515c6a346233" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="69464e68a5cdd0b54694ac92276fa1a3" category="section-title">已修复的问题</block>
+  <block id="6aa177b471b9d5a16c4090627dbb93a9" category="paragraph">此版本已修复以下已知问题：</block>
+  <block id="34e17db35518e448663a73c33632b94b" category="inline-link">1253405</block>
+  <block id="0ee79ab5ee2af58e1c534d21e395fe77" category="cell"><block ref="68039b95c5a75e0be8228eccc6908ff8" category="inline-link-rx"></block></block>
+  <block id="64131c95b7858ed72eedb62e9a32ff2f" category="cell">Nexus 交换机端口状态可能在 Converged Systems Advisor 中显示不正确。</block>
+  <block id="d12d95a3af8745784a9064d204004d3c" category="list-text">返回到 <block ref="1a241aed8804786761beb208ad9f11d4" category="inline-xref-macro-rx"></block></block>
+  <block id="48328ffa37012f3f870faa37b9fa666a" category="section-title">2020 年 2 月 3 日</block>
+  <block id="86d9e6345baacd928ad8dada377cab74" category="list-text"><block ref="c553ce28d20d5f7e40a45ea2ba52989a" category="inline-xref-macro-rx"></block></block>
+  <block id="e046a22b8cbc00a605fbea199b8e1ab1" category="list-text"><block ref="115938d820b660b16bc33f86e52bebc4" category="inline-xref-macro-rx"></block></block>
+  <block id="654d496d9bbb3eb7aed8b9d7e7bede02" category="section-title">导航增强功能</block>
+  <block id="c7da2deb892e540c5a400fbfff29bafc" category="list-text">通过此版本，您可以在 * 查看所有系统 * 中查看所有系统。</block>
+  <block id="8ee281360fa3bd26cbb98359f0a790c5" category="list-text">您可以更轻松地查看和浏览组件层的结构。您可以使用下拉菜单和箭头查看设备。</block>
+  <block id="5df6c4a2075cc06374be4ce2aa57b3d2" category="list-text">此外，使用痕迹记录在信息板（主页）视图之间导航也会更方便。</block>
+  <block id="3533fddef5dd5fcf0e1d388ddf48e22c" category="paragraph"><block ref="3533fddef5dd5fcf0e1d388ddf48e22c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="294ca68e36dc38cbc11f8aeb5a06fb7b" category="section-title">聚合详细信息</block>
+  <block id="bcaccaf4d97300681fbb5cfee359717e" category="paragraph">在信息板视图中，转到容量时，您现在可以看到指向 * 聚合详细信息 * 的链接。您可以使用提供的链接查看有关存储层中聚合的详细信息。</block>
+  <block id="2a5652cfbaed3bd793169739d862fe44" category="paragraph"><block ref="2a5652cfbaed3bd793169739d862fe44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3d764022cf533eaeab2378fa40c2eda" category="paragraph"><block ref="e3d764022cf533eaeab2378fa40c2eda" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6dd20b51a073e00e72a5886489d9ac23" category="inline-link">1279956</block>
+  <block id="46907cddd9ff63e0466a78c60f4c60b9" category="cell"><block ref="2f1de675eb087c523328ea1df509e554" category="inline-link-rx"></block></block>
+  <block id="31d9ba8fb9df9a35fd5988e6a338be5c" category="cell">单节点 MetroCluster 不会在集群详细信息页面上的概述和规则摘要中显示 IOXM 扩展模块。</block>
+  <block id="cb03043febda9c865a13af70e1efe360" category="section-title">2019 年 11 月 7 日</block>
+  <block id="bf647454e36069fd16f1a7a35cf6a865" category="inline-link-macro">入门</block>
+  <block id="5137e1743b8c3f4b2f072f0907d5941c" category="admonition">将 FlexPod 添加到 Converged Systems Advisor 后，此版本中的所有新功能和增强功能将自动包括在内。按照中的说明进行操作 <block ref="73c402b67f510704de8228c6214ccf6d" category="inline-link-macro-rx"></block> 将 FlexPod 作为融合基础架构添加到融合系统顾问中。</block>
+  <block id="1bcec21d67da91d55b9e2b14c867c995" category="paragraph">此版本包含以下新增功能和增强功能：</block>
+  <block id="555719e2c4114db93af1d8b3d3ac0fc0" category="list-text"><block ref="d5b57589f05f189cbc860a5c385e1cb5" category="inline-xref-macro-rx"></block></block>
+  <block id="60ac199a07c4f68f6d2d7bdbef65ec1c" category="list-text"><block ref="31d477d44391b3c0b58e41ee9a37948f" category="inline-xref-macro-rx"></block></block>
+  <block id="9cd9a2aa347af7513b4c663660832244" category="list-text"><block ref="27f68d9d616c3d419db9436ca7436cbc" category="inline-xref-macro-rx"></block></block>
+  <block id="62a8f36b0f440492e49f8e922d741d17" category="section-title">MetroCluster 感知</block>
+  <block id="a5f7ef2db62928a50ba7f96892ad00c8" category="paragraph">现在， Converged Systems Advisor 支持将 MetroCluster FlexPod 的单个站点添加为融合基础架构。分析功能现在可以确定 MetroCluster 两端的运行状况。</block>
+  <block id="0f63d57e26b097fe542bb83633e6398d" category="section-title">NVMe 感知</block>
+  <block id="22f7ebd445d477df205c0982fa2468e2" category="paragraph">现在， Converged Systems Advisor 将运行分析来检查 ONTAP 9.4 及更高版本支持的 NVMe 协议的配置。</block>
+  <block id="1a6b93828ae59ab63dc0d438e21af378" category="section-title">改进了互操作性功能</block>
+  <block id="0547c0a84d599658af4f58d553e0dcd2" category="paragraph">Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链接到一个弹出窗口，其中显示了每个组件支持的当前，最近和最新版本。弹出窗口中添加了一个新报告，用于显示每个组件层的个性化互操作性报告。</block>
+  <block id="7be03ea15608a3afd4b7f1553a8b93b1" category="section-title">2019 年 7 月 24 日</block>
+  <block id="3de14a766018f3a0e190f6963cf79b65" category="list-text"><block ref="285069d07f51b91a90e9daf7e4a22c2c" category="inline-xref-macro-rx"></block></block>
+  <block id="a51081ace27562019c87ffdb141acdcc" category="list-text"><block ref="b6d9e8cd9b98324fab9ceb53ed799778" category="inline-xref-macro-rx"></block></block>
+  <block id="c88b794def2afa5b760b26678860c517" category="section-title">支持 FlexPod 中的 Cisco ACI</block>
+  <block id="e0729bd1bd4fb7a2ed7e509b4001a117" category="paragraph">现在， Converged Systems Advisor 可通过 Cisco ACI 网络支持 FlexPod 设计。我们将评估 FlexPod 中所有设备的支持和配置情况，即使连接到其他 FlexPod 设备的两个动态确定的叶交换机也是如此。</block>
+  <block id="b7e76920c826212726bcd2c4c278cece" category="section-title">支持在一个 FlexPod 中使用多个集群</block>
+  <block id="53c03d655b92c79a60b56c91dcfc3d33" category="paragraph">现在， Converged Systems Advisor 可在一个 FlexPod 中支持多个集群。所有集群都会处理 Storage ONTAP 规则，所有集群都会反映在系统图中。</block>
+  <block id="6852c0ff45224de595d5295eac339442" category="section-title">2019 年 4 月 25 日</block>
+  <block id="ec290a4ea4f9c1d799baf6e50cdfa64e" category="list-text"><block ref="7dbc36f3c2a4e546cd038b61fa66adad" category="inline-xref-macro-rx"></block></block>
+  <block id="bf5e8a112746ae204916387b6224d8b3" category="list-text"><block ref="bacba7b8b1af2d91560cbd6ddd21cbcf" category="inline-xref-macro-rx"></block></block>
+  <block id="346e5b8d27b5bc4b8b1705dd89b91797" category="section-title">自动解决失败的规则</block>
+  <block id="0f4328bb9454528512249e468db30c3e" category="paragraph">现在， Converged Systems Advisor 可以自动解决发生原因某些规则失败的问题。重新启动代理会自动启用此功能。</block>
+  <block id="c783bfb0f4281a0a2dc92570b6e2b20b" category="section-title">显示禁止的规则</block>
+  <block id="05814bc364b125b53f0cf12dbf6c8438" category="paragraph">现在，您可以在 Converged Systems Advisor 中显示禁止规则的全局列表，并从该列表中重新启用禁止规则的警报。</block>
+  <block id="f16c3ebec6a5ded39b75c6f38f570780" category="inline-link">1211321</block>
+  <block id="2d3f80599531b8b63fd835200e3d6727" category="cell"><block ref="a44c06a4b2a6170ea5a33c220414d285" category="inline-link-rx"></block></block>
+  <block id="bc30687d397ed706898ea444df0dde4c" category="cell">对于融合基础架构，可能不会显示系统图图像</block>
+  <block id="1c8ff7117059b27ffa62f6bd8a591101" category="inline-link">1211987</block>
+  <block id="042c2d583f25282609b9503d09d51155" category="cell"><block ref="44d8592541f939183de2e0a885375edf" category="inline-link-rx"></block></block>
+  <block id="a50c7fa8095657476c27aec123b192e0" category="cell">Storage Cluster 效率值显示不正确</block>
+  <block id="07cd1efd9b1bbc1c1cc4d38e19c07589" category="inline-link">1211995</block>
+  <block id="04c016fc549ac6850c08110fd3409666" category="cell"><block ref="b9702e7ed530a19bec6f645dc7a6866d" category="inline-link-rx"></block></block>
+  <block id="185d625ed6330faeb271f3dce51808d6" category="cell">Nexus 交换机端口状态可能显示不正确</block>
+  <block id="b060712ac43c210355429accd269de4e" category="inline-link">1211999</block>
+  <block id="84ac921ab1a975fc2c21ad5f7919e0a3" category="cell"><block ref="b80cb91305a095366aa4a78015bfbc70" category="inline-link-rx"></block></block>
+  <block id="e7db1e98b025a528671c622f3b0fabde" category="cell">空间预留状态显示不正确</block>
+  <block id="5d5316487266b882f235edf2575eaeec" category="section-title">2019 年 3 月 28 日</block>
+  <block id="7aba6d8ee839fe7a78123c0207d3edab" category="inline-link">1211993</block>
+  <block id="9572132c0bc007159a9b08486308eeba" category="cell"><block ref="4b1ffacdbfc8af9ce08b31a0abb940fa" category="inline-link-rx"></block></block>
+  <block id="b637f3519598b2cc4e7b31b1afc6c01c" category="cell">CSA 中显示的精简配置状态不正确</block>
+  <block id="9251ffcb0c3da1ea28d59acc9376f6a9" category="inline-link">1211998</block>
+  <block id="ee17bbc8d10290ea608a1e55abae6528" category="cell"><block ref="02d3e3a4942ec08f5d2adfe3e0a3a20c" category="inline-link-rx"></block></block>
+  <block id="c2a3227c220126274034a0478eb67de3" category="cell">磁盘空间利用率百分比在 CSA 中显示不正确</block>
+  <block id="07b3432777ce890e768e06a9216f9e17" category="inline-link">1211990</block>
+  <block id="73b904199eb87ae4c41fb7baa1ef9c3e" category="cell"><block ref="a5f604ba6ece1c21d65563c22d9dfa09" category="inline-link-rx"></block></block>
+  <block id="229885f383807af450d10b03b8f4fe80" category="cell">在 Nexus 交换机中映射到 VLAN 的接口可能与 CSA 中的实际设备输出不匹配</block>
+  <block id="1bc43dc9c0ccf501bb125bee86c0762d" category="inline-link">1212001</block>
+  <block id="c929bc8afa52722c4ea36633f2342986" category="cell"><block ref="0afdd8fc92549c954cf056c0fd2f43e9" category="inline-link-rx"></block></block>
+  <block id="6371eb3c6ede0799d86928f822ecd62a" category="cell">机架式服务器的电源信息可能会在 CSA 中显示不正确</block>
+  <block id="885796f1558f69819a19653c55fc70df" category="section-title">2019 年 1 月 17 日</block>
+  <block id="1ce083f756b15c285486292953c6322f" category="list-text"><block ref="411f434e0a9ed872a9f1bb58c9537de4" category="inline-xref-macro-rx"></block></block>
+  <block id="784e8f995a17e4b20cc48d2e3b85733d" category="list-text"><block ref="082d18ba9d4541f4622119fe7163d353" category="inline-xref-macro-rx"></block></block>
+  <block id="ae1f56d899a738074bc45d19117bb7b3" category="list-text"><block ref="eb95827ed3a78b450622544c911aaef6" category="inline-xref-macro-rx"></block></block>
+  <block id="09578b9e2fba7ffc0f760074de6dbd42" category="list-text"><block ref="d7d8cc5a2328c43a800dee79efc9edd7" category="inline-xref-macro-rx"></block></block>
+  <block id="a0927389ed150a6d3dd3f199e2f02203" category="list-text"><block ref="bef3e86ecb3e9b0bd334e2d7808e2f6f" category="inline-xref-macro-rx"></block></block>
+  <block id="549fee24f6eab5da3408e162e7c36792" category="section-title">支持新的 FlexPod 设备</block>
+  <block id="3dda465897f38c44199dff7e943f026c" category="paragraph">Converged Systems Advisor 现在支持以下 FlexPod 设备：</block>
+  <block id="74ef034873be6e75908e22616e82181f" category="list-text">Cisco UCS C 系列机架式服务器</block>
+  <block id="65bc074f6f89fc7a2c4ddd76c483b40a" category="list-text">Nexus 3000 系列交换机</block>
+  <block id="d8ff0147940c2dea2c2e10bee47a16a6" category="list-text">直接连接到 NetApp 控制器的 Cisco UCS 交换机</block>
+  <block id="eba015cdb18494bab904be12811fbac4" category="paragraph">有关受支持设备的完整列表，请参见<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>。</block>
+  <block id="b55147098ea79a37c44c3f969962658c" category="section-title">有关主机和虚拟机的详细信息</block>
+  <block id="1f05349a9a559af8f60a2124d6b92acb" category="paragraph">Converged Systems Advisor 现在可提供有关虚拟化环境的更多信息。您可以向下钻取以查看有关各个主机和虚拟机的信息，包括图表，清单列表和规则摘要。</block>
+  <block id="cf577b1db36c3d9fa2729b836cc9ee7d" category="paragraph"><block ref="cf577b1db36c3d9fa2729b836cc9ee7d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6430949860b854b1fbddcf3d7e22cbda" category="section-title">简化添加基础架构的体验</block>
+  <block id="438a9fb42090e4c9a930857d04f88e11" category="paragraph">现在，向 Converged Systems Advisor 添加基础架构变得更加简单。通过门户，您可以分步输入信息：</block>
+  <block id="cfa524a6fd491de0c00bd6dd5c436577" category="paragraph"><block ref="cfa524a6fd491de0c00bd6dd5c436577" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="da3321aced7c009c6a3c95bb47c8a5db" category="inline-link-macro">了解如何将基础架构添加到 Converged Systems Advisor</block>
+  <block id="9ea1990012ed7bcb428aa3a678b3cef1" category="paragraph"><block ref="f26c49940495a2374917e5099fe60e0e" category="inline-link-macro-rx"></block>。</block>
+  <block id="b021522d2331d2749a808707884b5d64" category="section-title">使用文件导入设备</block>
+  <block id="222bdb07e138433c7340c22a4b2be824" category="paragraph">现在，您可以通过导入包含每个设备相关信息的文件来配置 Converged Systems Advisor 代理，以发现您的 FlexPod 基础架构。导入设备是手动逐个添加每个设备的替代方法。</block>
+  <block id="3e4f861d1f41e3909e3cb2edcfd8c2c4" category="paragraph"><block ref="3e4f861d1f41e3909e3cb2edcfd8c2c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2b58ea2ceb1d32edb5672b4763042add" category="inline-link-macro">了解如何配置代理以发现您的 FlexPod 基础架构</block>
+  <block id="19dde02c5aa9d7eff0a98c1479042e8c" category="paragraph"><block ref="411c46172c11c949d9c5775fe02e578b" category="inline-link-macro-rx"></block>。</block>
+  <block id="af65db9beaf7491f0e97cd298af6d2ec" category="section-title">与 NetApp Active IQ 集成</block>
+  <block id="de3967986e98713f03423ebafc1ed7a3" category="paragraph">现在，您可以从 Converged Systems Advisor 启动 Active IQ 。以下示例显示了存储页面中提供的 Active IQ 链接：</block>
+  <block id="dc4eaa1dd902716b8c6730ea5857bf06" category="paragraph"><block ref="dc4eaa1dd902716b8c6730ea5857bf06" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="722caafb4825ef5d8670710fa29087cf" category="cell">4671</block>
+  <block id="4af1d2e9326336996680f2800e8f9255" category="cell">在浏览 Converged Systems Advisor 门户时， Firefox 可能会停止响应。</block>
+  <block id="7d6548bdc0082aacc950ed35e91fcccb" category="cell">4500</block>
+  <block id="fa94538c06427a7eee07a7d149129ed6" category="cell">超时间间隔到期后， Converged Systems Advisor 门户不会注销您。您仍保持登录状态，但无法看到 FlexPod 系统。</block>
+  <block id="e465ae46b07058f4ab5e96b98f101756" category="cell">2794</block>
+  <block id="da31ea1df7858bacfe34c952e3742b07" category="cell">尽管虚拟机上未安装 VMware 工具，但 Converged Systems Advisor 对名为 "VMware tools check" 的规则显示 "Pass" 。</block>
+  <block id="d49a667ac74125df1b94fe71d09ffe0e" category="section-title">2018 年 9 月 13 日</block>
+  <block id="283458aba148e98cebd1c3b4f751c858" category="paragraph">此版本的 Converged Systems Advisor 包含以下新功能：</block>
+  <block id="e49eace41b9f30aba321e27c558d7fc6" category="list-text">全新的用户界面和用户体验，可简化客户的 FlexPod 操作</block>
+  <block id="d129f055ca827c53ec3d0376a207f245" category="list-text">VMware 虚拟化的运行状况和最佳实践验证</block>
+  <block id="aeceeff9b721328a53ecf24ddcdb02f7" category="list-text">支持具有扩展光纤通道支持的 Cisco MDS 交换机</block>
+  <block id="1f060636fe5b0a8ed84fb873b522ba92" category="summary">如果您是 NetApp 合作伙伴，则可以在运行部署验证之前与客户合作部署代理并设置门户，以便开始使用 Converged Systems Advisor 。</block>
+  <block id="8d10e09bd713073b88005ddecbf5705a" category="doc">合作伙伴部署验证报告</block>
+  <block id="62cc019b98cca9e1b65c304991c3dca4" category="paragraph">NetApp 合作伙伴可以运行部署验证，以验证是否已正确配置 FlexPod 融合基础架构。然后，合作伙伴可以将报告交给客户。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
+  <block id="a58c9e4d78fea3ec21310844f2a1a057" category="inline-link">Converged Systems Advisor 门户</block>
+  <block id="c45ae599d04d2b26de9c536e2bd168db" category="list-text">登录到<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block>。</block>
+  <block id="91ab85eefd69d7cffdeaeafa97f57ef0" category="list-text">从客户列表中展开客户的配置。</block>
+  <block id="66b8bcf3d36b277ad8598bfaebbb4a0d" category="inline-image-macro">显示了客户的三个融合基础架构。</block>
+  <block id="436ecfb9b85682461b5bef001b3da4f1" category="paragraph"><block ref="436ecfb9b85682461b5bef001b3da4f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5ebb04ca9d563bbc59f02045e89b0296" category="list-text">在部署验证报告下，单击 * 生成 * 。</block>
+  <block id="b2d71063ea8fde5885ee791895d5b980" category="list-text">选择是要在浏览器中以 PDF 格式还是通过电子邮件查看报告。</block>
+  <block id="78bf58d229f9d24f426ff1c4f3828e65" category="list-text">查看报告并更正任何互操作性问题和部署验证错误。</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 示例 *</block>
+  <block id="a9a2b2fd01902eb7f49cb1c9804e3a26" category="paragraph">在此示例配置中，不支持 Nexus 交换机的固件版本：</block>
+  <block id="bb64e3d66337e032632e2ed6ec12ae72" category="inline-image-macro">显示了部署验证报告的互操作性部分。它包括两个具有不受支持固件版本的交换机。</block>
+  <block id="dd9c33553627d1d3b83629490b10df63" category="paragraph"><block ref="dd9c33553627d1d3b83629490b10df63" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b095a50bfe33e9fe8853f327e3bd8096" category="paragraph">由于交换机连接问题，四个验证规则也失败：</block>
+  <block id="60e4bd0929967950652424f215972c08" category="inline-image-macro">显示了部署验证报告的错误部分。此互联阵列不会通过上行链路连接到相应的 Nexus 光纤通道网络结构。</block>
+  <block id="31703635dd32ada82bfb46847cbf2dc6" category="paragraph"><block ref="31703635dd32ada82bfb46847cbf2dc6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1f8f0171baa7230cba1d85a6c7319cb" category="paragraph">升级固件可以更正配置的互操作性，添加链接可以更正失败的验证规则。</block>
+  <block id="3c96b2dab570e1aa3d25891c5dd4535a" category="list-text">更正问题后，收集数据以确保 Converged Systems Advisor 具有最新的配置数据：</block>
+  <block id="c4502a9584d9a8ef2a0725e38125721e" category="list-text">选择融合基础架构。</block>
+  <block id="f3ebaa3a8eccc55285a7255f35ac0959" category="list-text">在右上角，单击 * 收集 * 。</block>
+  <block id="45fafa74ca5c8a674fae2461dafb1b36" category="inline-image-macro">显示了在选择融合基础架构后可用的右上角收集按钮。</block>
+  <block id="a8f5313e16a911a45da81a60a5bf3e0f" category="paragraph"><block ref="a8f5313e16a911a45da81a60a5bf3e0f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ee82c853dbac102b9219eea66b5b703c" category="list-text">再次生成报告以验证您是否已更正问题。</block>
+  <block id="3b44cf4d04f47c573ce4cab54a472577" category="list-text">将最终部署验证报告发送给客户。</block>
+  <block id="94e52eed71380953e3f8c1a6475f9c91" category="paragraph">现在，融合基础架构已根据最佳实践进行设置。</block>
+  <block id="70a81ab3570971044c051a122f25ee0b" category="summary">您可以通过各种资源获得有关 Converged Systems Advisor 的帮助和更多信息。</block>
+  <block id="3cd12697cda279c9c99b093a265c1ba8" category="doc">从何处获取帮助和查找更多信息</block>
+  <block id="ba69e3ff884a3e60e26bcffcb121315d" category="inline-link">Converged Systems Advisor 产品规格</block>
+  <block id="5bcf85e8807e9d7961fa86529a7ee3ac" category="list-text"><block ref="5bcf85e8807e9d7961fa86529a7ee3ac" category="inline-link-rx"></block></block>
+  <block id="b1b49e994988385600e529f9e03aeded" category="paragraph">有关 Converged Systems Advisor 提供的价值的更多详细信息。</block>
+  <block id="5768a4e6671c0fb61f9cc9bccc217998" category="inline-link">NetApp 技术报告 4036 ：《 FlexPod 数据中心技术规格》</block>
+  <block id="9569519d894aa3e75942763a12a60c12" category="list-text"><block ref="9569519d894aa3e75942763a12a60c12" category="inline-link-rx"></block></block>
+  <block id="d5ae438f326f42644223635842ca89cc" category="paragraph">查看 Converged Systems Advisor 将您的配置与之进行比较的最佳实践和固件要求。</block>
+  <block id="b1540a3ec25c7d8277b499a1cc1d920b" category="list-text"><block ref="b1540a3ec25c7d8277b499a1cc1d920b" category="inline-link-rx"></block></block>
+  <block id="b9c8769caa39394587c227d447b7343b" category="paragraph">验证是否支持您的配置</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="inline-link">NetApp 社区</block>
+  <block id="692fac6072c610332c2f66f183595f71" category="list-text"><block ref="692fac6072c610332c2f66f183595f71" category="inline-link-rx"></block></block>
+  <block id="4c7cda3e1dc1461a889607095bfa6769" category="paragraph">与同行联系、提出问题、交换意见、查找资源并共享最佳实践。</block>
+  <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link">NetApp 产品文档</block>
+  <block id="178e09d5859093549cf62631c31b4e03" category="list-text"><block ref="178e09d5859093549cf62631c31b4e03" category="inline-link-rx"></block></block>
+  <block id="66c5be124e373109c15d21cfd76b84a5" category="paragraph">在 NetApp 产品文档中搜索说明、资源和答案。</block>
+  <block id="7732b9007870fcad946e2c77ac91e87d" category="inline-link">创建支持案例</block>
+  <block id="0dcb6d5b41f9b4b5ae94ff5f19c1d12e" category="list-text"><block ref="0dcb6d5b41f9b4b5ae94ff5f19c1d12e" category="inline-link-rx"></block></block>
+  <block id="b4ec9fb497489f10c512e2032e49fb08" category="paragraph">创建支持案例以获得更多帮助。支持案例应在 * 类别 1 -&gt; 远程诊断工具 * 和 * 类别 2 -&gt; 融合系统顾问 * 下打开。</block>
+  <block id="2eb056f6c6b223bb3c50b4fcf727d4eb" category="summary">Converged Systems Advisor 会收集有关 FlexPod 融合基础架构的配置数据，以帮助您验证和监控系统。您可能希望了解如何收集数据，如何将数据传输到 NetApp 以及如何确保数据安全和隐私。</block>
+  <block id="2fae32629d4ef4fc6341f1751b405e45" category="doc">安全性</block>
+  <block id="0dde8a78d38311a247bbf2fa6af88b26" category="section-title">如何收集数据</block>
+  <block id="74a2c114e006124264aa6d139846b389" category="paragraph">Converged Systems Advisor 代理需要凭据才能访问 FlexPod 融合基础架构中的设备。Cisco UCS 和 Nexus 交换机需要只读凭据，而 ONTAP 则需要管理员凭据。凭据会进行加密并存储在代理本地，不会发送到基于云的门户。</block>
+  <block id="3d146764dc7da8ff645fe77b5678a05b" category="paragraph">提供凭据后，代理将从设备收集 _configuration_data 。从不访问或传输设备上的 _Customer_ 数据。代理收集的典型配置数据示例包括：</block>
+  <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="list-text">Capacity</block>
+  <block id="c9d686789d1b6040c1e28229509dad68" category="list-text">CPU 和内存</block>
+  <block id="39f32b6d9ba3ada83f10b3e2eec6d54b" category="list-text">设备连接</block>
+  <block id="ba21ed5910360635a1c11252020f1ddc" category="list-text">设备名称和 ID</block>
+  <block id="25231a54747f5f95826dacef2fa019da" category="list-text">设备状态</block>
+  <block id="798084429970e88fa1f49f12b5f60f32" category="list-text">固件版本</block>
+  <block id="1d9e509ddb93a176b7d369a91ad7deaf" category="list-text">IP 地址</block>
+  <block id="df6170f24d35cedf1aade86eb5bf3677" category="list-text">iSCSI 目标</block>
+  <block id="f6aca2dcfee051b254bbcb878dc70d09" category="list-text">licenses</block>
+  <block id="3f3982b71a0b2c0fc888ae360cac17e0" category="list-text">MAC 地址</block>
+  <block id="a2f9557c1ef079d139d75178f75297ad" category="list-text">型号</block>
+  <block id="e79c08243e599c00a89a413b1f4a2833" category="list-text">序列号</block>
+  <block id="f57b3db31dc3631b0e4002674f7c5224" category="section-title">数据传输方式</block>
+  <block id="ce25f4ff29d29c32de78f11e0ead410b" category="paragraph">代理从 FlexPod 融合基础架构发现配置数据后，将使用 HTTPS 将数据发送到 Converged Systems Advisor 门户。通信使用 NetApp 的 TLS 1.2 证书进行加密。</block>
+  <block id="397c3a0728520f5f02fedcc4d52ce7d4" category="inline-image-macro">显示了从代理到门户的加密 HTTPS 连接。</block>
+  <block id="925c5ef979c196c708b4af9aed3b0c61" category="paragraph"><block ref="925c5ef979c196c708b4af9aed3b0c61" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b1fdc903c6928dc480b8c082d1319427" category="section-title">如何保护数据的安全和隐私</block>
+  <block id="9ea2a5555b9f0b48272507704c0bff54" category="paragraph">配置数据驻留在 NetApp 网络中，并由 NetApp IT 管理。数据通过数据访问层进行保护，该层要求对请求访问的每个用户进行正面标识。</block>
+  <block id="f78cd1b36118788b43de167b4accc127" category="paragraph">部署此代理的用户可以通过使用 NetApp 支持站点帐户登录来从 Converged Systems Advisor 门户访问数据。此用户对融合基础架构拥有 _owner_ 权限。所有者可以通过授予只读，写入或所有者权限与其他用户共享融合基础架构。这些用户还必须拥有已注册的 NetApp 支持站点帐户才能登录到该门户。</block>
+  <block id="b254250f174f69b5a6865ed48495f383" category="inline-link-macro">查看只读，写入和所有者权限之间的差异</block>
+  <block id="f68fd2bda477ef42116068a57cdb124f" category="paragraph"><block ref="771ba01147318949b5eb029f7646acb8" category="inline-link-macro-rx"></block>。</block>
+  <block id="fead888004a92d6dfa05d65937791d7a" category="summary">向门户添加基础架构。</block>
+  <block id="74b63237fcb1f920a090dda1571975fa" category="doc">向门户添加基础架构</block>
+  <block id="09482af74c0fb235cb990c21fd64ac8a" category="paragraph">配置代理后，它会将有关每个 FlexPod 设备的信息发送到 Converged Systems Advisor 门户。现在，您必须在门户中选择每个组件，以创建可监控的整个基础架构。</block>
+  <block id="6143810a5758d40ca944c87e723c2336" category="list-text">在中<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block>下，单击 * 添加基础架构 * 。</block>
+  <block id="b6fc266df6b5347cf745a3bb726ee8fb" category="list-text">完成以下步骤以添加基础架构：</block>
+  <block id="e5995527f37c1280c19b1f208371dc88" category="list-text">输入有关基础架构的基本详细信息。</block>
+  <block id="3f1895854fcfd3f43e655e98f5e23785" category="paragraph">如果要添加 Cisco ACI 基础架构，请在系统询问您的 FlexPod 是否使用 Cisco UCS Manager 时输入 * 是 * ；如果系统询问您的 FlexPod 包含的网络配置类型，请在 ACI 模式下输入 * Nexus switch 。</block>
+  <block id="b0b7f31250da7bf765e10779d0365272" category="list-text">选择属于 FlexPod 配置的每个设备。</block>
+  <block id="c7151a24306478a168450ab965978056" category="admonition">选择设备时，资格列将显示 * 符合条件 * 或 * 不符合条件 * 。如果设备是由其他代理发现的，则该设备将不符合条件。</block>
+  <block id="5ccd3ae8019aaa20043decdb88b02c77" category="list-text">选择所有必需组件后，您应在每个设备类型旁边看到一个绿色复选标记。</block>
+  <block id="a00e5d02f688427a8d0d4d44e6ca5323" category="inline-image-macro">显示表中选择的四个设备以及每个设备对应的绿色复选标记，这表示您已选择所有必需组件。</block>
+  <block id="619835ed3a90c1cb330d44e60f8274be" category="paragraph"><block ref="619835ed3a90c1cb330d44e60f8274be" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ab6978789cc8f83bdbe9c52865c923d2" category="inline-link-macro">Converged Systems Advisor 序列号</block>
+  <block id="8cbaf181bdfa1c67af784fdd2194eaa5" category="list-text">添加 <block ref="f595728f50d76ab728ff7bd8910a61b2" category="inline-link-macro-rx"></block> 解锁密钥功能。</block>
+  <block id="797a00180da92226080260f480aefccc" category="list-text">查看摘要，接受许可协议的条款，然后单击 * 添加基础架构 * 。</block>
+  <block id="1d6a8b8a7a248d55ebc08413d1f0351f" category="admonition">如果您是合作伙伴或经销商，则可以跳过有关添加许可证或序列号的步骤，只需单击 * 添加基础架构 * 即可。</block>
+  <block id="4bf1a4af8a8cb8351b634079b83482c9" category="paragraph">Converged Systems Advisor 会将基础架构添加到门户中，并开始收集有关每个设备的配置数据。等待几分钟，以便代理从设备收集信息。</block>
+  <block id="8b130f5642a0375b57405ab988e2f3c8" category="section-title">与其他用户共享基础架构</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支持站点</block>
+  <block id="b68d29191b4bf17413d0de2fb367a174" category="paragraph">通过共享融合基础架构，其他人可以登录到 Converged Systems Advisor 门户，以便查看和监控配置。与您共享基础架构的人员必须具有<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> 帐户。</block>
+  <block id="b757778aa184cb17827f163a931435c8" category="list-text">在 Converged Systems Advisor 门户中，单击 * 设置图标 * ，然后单击 * 用户 * 。</block>
+  <block id="1334f18240a22161ba3220b536dafca8" category="inline-image-macro">显示了设置菜单，其中包含指向用户页面的链接。</block>
+  <block id="3309334356038ffefd55e44fd5bdf676" category="paragraph"><block ref="3309334356038ffefd55e44fd5bdf676" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d3b855a8cec281d1ddcd757db875bf3d" category="list-text">从用户表中选择配置。</block>
+  <block id="b7a1706b38d181dd429f28a8d8b01a9a" category="inline-image-macro">用于共享基础架构的图标。</block>
+  <block id="b6dc779a70da38c6a44e7e3ac6b8c105" category="list-text">单击 <block ref="1298afe1dc7b9f75c44b6fc7c17da58f" category="inline-image-macro-rx" type="image"></block> 图标。</block>
+  <block id="08db01e9434b8967d82716afd99a12da" category="list-text">在要提供的用户角色旁边输入一个或多个电子邮件地址。</block>
+  <block id="38d0e6accfd7998dd4374f37ab584784" category="inline-link-macro">查看每个角色之间的差异</block>
+  <block id="c8b1c03512472d09b840b43806763819" category="paragraph"><block ref="9a80d53ca716b5bdc550d031e48e1f7b" category="inline-link-macro-rx"></block>。</block>
+  <block id="877183fb9a9e175360206e3b5c15f472" category="admonition">您可以在一个字段中输入多个电子邮件地址，方法是在第一个电子邮件地址后按 * Enter * 。</block>
+  <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">单击 * 发送 * 。</block>
+  <block id="27d99b7c3e654fa561ca825398cd698b" category="paragraph">用户应收到一封电子邮件，其中包含有关访问 Converged Systems Advisor 的说明。</block>
+  <block id="8d2c4ebf93aef876f912d1dbc5d5f446" category="summary">如果您的环境没有 DHCP 服务器，则可以在 Converged Systems Advisor 代理上设置静态 IP 地址。</block>
+  <block id="bb970f20a14446757048e71ed32f976f" category="doc">在代理上设置静态 IP 地址</block>
+  <block id="42f326fc7913ed803404dc30e968aa06" category="list-text">使用 VMware vSphere 客户端登录到代理的虚拟机控制台。</block>
+  <block id="d9a5f12699bae674c63f2c267573224b" category="paragraph">默认用户名为 * 。 sc* ，默认密码为 * 。 netapp* 。如果出现提示，请更改密码。</block>
+  <block id="b6de644e9b5b1e58594eba0a09555428" category="list-text">在 CSA 提示符处输入 `sudo su –` 以成为 root 用户。</block>
+  <block id="53b9d6386077deb220e39848631a1432" category="list-text">输入 ` # systemctl stop csa.service` 以停止 CSA 服务。</block>
+  <block id="23d5cee3449e29c27ec154cf829a69c3" category="list-text">输入以下命令以确定正确的接口文件名。</block>
+  <block id="2bf1d3038022317a128963915a08f202" category="paragraph">在此示例中，接口文件名称为 `eth0` 。</block>
+  <block id="bcf28884b8c036a478d2f25650c43a5f" category="paragraph">` # ls /etc/network/interfaces.d/`</block>
+  <block id="f77dbe6328f12a32ab9eb2576246ec8f" category="list-text">输入 ` # /sbin/ifdown eth0` 以停止活动接口。</block>
+  <block id="9660dc3d2d47bb1edf0d90bc60359a4f" category="list-text">使用您选择的编辑器编辑 /etc/network/interfaces.d/eth0 文件。</block>
+  <block id="cdb12d95400318fd9ca6cc49132ab819" category="paragraph">` # nano /etc/network/interfaces.d/eth0` 或 ` # vi /etc/network/interfaces.d/eth0`</block>
+  <block id="1756345afbc4de489ffcc0f962d00c59" category="paragraph">此文件包含以下内容：</block>
+  <block id="96127d77fba94b76446bd73e9a3088e5" category="paragraph">`allow-hotplug eth0` `iface eth0 inet dhcp`</block>
+  <block id="25e011b9fcda92e242aa20ba3c216c64" category="list-text">删除 `iface eth0 inet dhcp` 并添加以下内容。注意：必须用正确的值替换下面示例中字段名称后面的所有条目。例如，示例中的网关值为 `192.168.11.1` 。但是，您应输入正确的网关地址，而不是 `192.168.11.1` 。</block>
+  <block id="69e9edbe64528504bd6ba53958fd606a" category="paragraph">`iface eth0 inet static` `address 192.168.11.100` `netmask 255.255.255.0` `gateway 192.168.11.1` `dns-domain example.com` `dns-nameservers 192.168.11.1`</block>
+  <block id="01d3a32280cc94c7c057cd3d14488785" category="list-text">保存文件。</block>
+  <block id="38c39deaa2f53315e7b202e17baffc26" category="paragraph">在 nano 中，输入 * 。 Ctrl + o* ，然后输入 * 。 Ctrl + x* 进行保存。</block>
+  <block id="4cd2bda6af7660c1598f39b9c7d6f529" category="list-text">输入 `vi/etc/resolv.conf` 以打开配置文件。</block>
+  <block id="2c0c5618501d3f3f63b49af53d2fbd47" category="list-text">将 `nameserver &lt;IP_address&gt;` 添加到文件顶部。</block>
+  <block id="b3030219c1ea1568cd293ed2279fad1e" category="list-text">输入 ` # ifup eth0` 以启动网络接口。</block>
+  <block id="67579867e6a21ae6d929c597a6c6b46f" category="list-text">输入 `systemctl start csa.service` 以重新启动 Converged Systems Advisor 。</block>
+  <block id="a2344a362f5275955ff01f4c0302c7e7" category="summary">您可以修复失败的规则，禁止规则，查看已禁止的规则列表，如果需要，还可以选择结束禁止。</block>
+  <block id="e0f02631aa2e940e03b75a523e459eb3" category="doc">监控基础架构中的规则</block>
+  <block id="24744aeb927fc4dede0eec8cf1e1c8d7" category="paragraph">要监控基础架构，您可以修复失败的规则，禁止规则，查看已禁止的规则列表，如果需要，还可以选择结束禁止。</block>
+  <block id="b4459af605041a7930492df886bb4471" category="section-title">查看警报中失败的规则和警告</block>
+  <block id="da4489f0980a33fa90b138ab1711c18c" category="paragraph">Converged Systems Advisor 会持续监控您的基础架构，并生成警告和故障，以确保系统已配置并按照最佳实践运行。</block>
+  <block id="fdc06c9d5f91b90f8456a6b05f258299" category="list-text">登录到<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block> 然后单击 * 规则 * 。</block>
+  <block id="763d1db2c64a3c2393a29e26e3822f16" category="paragraph">" 规则 " 页面显示所有规则的摘要。每个规则的状态为 * 通过 * ， * 警告 * 或 * 失败 * 。</block>
+  <block id="06c6354f899f95a2e0c6a3fe5d570fb3" category="list-text">单击状态列中的筛选器图标，然后选择 * 失败 * ， * 警告 * 或两者。</block>
+  <block id="202fb926cf9309ce674dce57d623e78a" category="inline-image-macro">显示筛选器图标，可用于筛选表，以便仅显示已通过，失败或包含警告的规则。</block>
+  <block id="2ad463ee636371e42c7ca5636e28fed7" category="paragraph"><block ref="2ad463ee636371e42c7ca5636e28fed7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c5d5d1929d7a4a13da82909982901f4e" category="list-text">单击状态列旁边的箭头，查看有关各个规则的详细信息。</block>
+  <block id="b09ee340cf3bb35ade0990ee9bbcabc8" category="inline-image-macro">显示有关规则的详细信息，包括问题描述，影响和解析。</block>
+  <block id="a89ca4858b9e96829f0eaf450d2c6df6" category="paragraph"><block ref="a89ca4858b9e96829f0eaf450d2c6df6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="763b4a62989ab53c3781e84d97960bbc" category="list-text">按照解决方案中的说明修复问题描述。</block>
+  <block id="6ad500dce2c2a7d8f7b13693cf492abe" category="inline-xref">查看配置历史记录</block>
+  <block id="2625ad3fd82097f140d0bc8d371ccda9" category="paragraph">如果需要， <block ref="8fbdc8d58e24479b2bffb697841f542c" category="inline-xref-macro-rx"></block> 基础架构以帮助您解决问题描述。</block>
+  <block id="02d591fa96f231677fb827a48cbe57b1" category="paragraph">在代理的下一个收集期之后，您解决的规则的状态应显示为 " 通过 " 。</block>
+  <block id="802d3156d7f68322e8ca95584629cb30" category="section-title">修复失败的规则</block>
+  <block id="351c1a6b45f8840d4c1a4e9ee589573d" category="paragraph">Converged Systems Advisor 可以通过更正融合基础架构中的底层问题描述来解决某些失败的规则。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">关于此任务</block>
+  <block id="4e3abf9ee681918e75136c8643d1b6fb" category="list-text">您必须具有高级许可证。</block>
+  <block id="97b32378ece8468ddfbdabc0ff920cc3" category="list-text">您必须被分配为融合基础架构的所有者。</block>
+  <block id="d8615765e8e292dd939bf87224df7e05" category="list-text">选择 * 可修复的筛选器规则 * 。</block>
+  <block id="3d7ac1b543a43164220663463e8d2ae7" category="list-text">展开要解析的规则。</block>
+  <block id="796f6174c88667af46eeef46c9ebefba" category="inline-image-macro">显示了扳手图标，可用于自动修复失败的规则。</block>
+  <block id="3b521101805d8fdb2ea6abac2d2fddcb" category="list-text">单击 <block ref="42948ea8407431ac3aebb834069c3081" category="inline-image-macro-rx" type="image"></block> 位于扩展规则的右上角。</block>
+  <block id="9d090cca2b0bb235d833fc152f4a1e95" category="paragraph">如果此图标已禁用，则可能是因为代理脱机，您没有所有者权限或您没有高级许可证。</block>
+  <block id="5034d5c0e6e5f309421842bba0171e21" category="list-text">如有必要，请填写输入值。</block>
+  <block id="4ed2f0fd2887d376f8661c62f2726132" category="paragraph">根据失败的规则，需要使用某些输入值来解析问题描述。</block>
+  <block id="aac3b6603b045fbde7518cd9ed13f031" category="list-text">如果要在成功完成修复后进行数据收集，请选择 * 修复作业完成时收集 * 选项。</block>
+  <block id="42a29a38eaebc4cd2f01a5fbdd7560aa" category="list-text">单击 * 运行修复 * 。</block>
+  <block id="8183c9dbb2354fb933c18a1e36501526" category="list-text">单击 * 确认 * 。</block>
+  <block id="bfc045b4e61163bafe6a55ea0791d7b8" category="list-text">要查看为解决失败的规则而采取的操作，请单击 * 操作 * 图标并选择 * 修复操作 * 。</block>
+  <block id="aa2e3bc4a59e8dd66e574a74b917b05b" category="inline-image-macro">显示操作图标，用于打开菜单以查看已修复的操作。</block>
+  <block id="7ec3bd6219f41f64a90c3960344b842e" category="paragraph"><block ref="7ec3bd6219f41f64a90c3960344b842e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f715709e86a0e4352fd5030dd232c8cd" category="section-title">禁止失败的规则</block>
+  <block id="293df73a9b50a370a73fb719ee2421b1" category="paragraph">Converged Systems Advisor 允许您禁止显示规则，以便不会显示在信息板中，也不会再在规则失败时发送电子邮件通知。</block>
+  <block id="a0063f9781e30cf5197307c2991a6ad2" category="paragraph">例如，建议不要启用 telnet ，但如果您希望启用它，则可以禁止该规则。</block>
+  <block id="4a7307c336893b2d270760d3b3cb38eb" category="paragraph">要配置通知，您必须具有高级许可证。</block>
+  <block id="25c1c98d63843493c60d7f6fabd12311" category="list-text">在信息板中，单击 * 规则 * 。</block>
+  <block id="308a821e385567451839a9424c3a0859" category="list-text">通过筛选表的内容来查找要查找的规则。</block>
+  <block id="12f6b83ab6c268342595376953a17e80" category="list-text">为状态为 " 警告 " 或 " 失败 " 的规则选择一行或多行，然后单击 * 警报 * 图标。</block>
+  <block id="008427ab5412d6ddcdad9d6bfaa3a149" category="inline-image-macro">显示表上方的警报图标，可用于禁止规则。</block>
+  <block id="fcaf1234e9852d27e0b9d5ab8c5cf389" category="paragraph"><block ref="fcaf1234e9852d27e0b9d5ab8c5cf389" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e69c9ca1da916fbe7c75dadd97962038" category="list-text">选择持续时间，然后单击 * 提交 * 。</block>
+  <block id="dcdfbaafd1cee028472b916b24ae285f" category="admonition">如果要启用警报，请按照相同步骤操作，然后选择 * 结束禁止 * 。</block>
+  <block id="4639e34f277e9cc25cab4e3d77223113" category="paragraph">Converged Systems Advisor 在指定的持续时间内不再向您通知此规则，并且此规则将不再显示在信息板中。</block>
+  <block id="c0baf402396dab2430411379fb31fb66" category="section-title">显示禁止的规则</block>
+  <block id="1ffeb833453e69841ffa25ed250f8850" category="list-text">单击 * 设置 * 图标并选择 * 禁止规则 * 。</block>
+  <block id="b6b001d1dff9d0dbe8295732f02275ea" category="inline-image-macro">显示了设置图标，可打开菜单以选择禁止的规则。</block>
+  <block id="2206ba8c8f83e664f85e355245f63e87" category="paragraph"><block ref="2206ba8c8f83e664f85e355245f63e87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b165f6e721b097b70c6ad4b29a4d279d" category="list-text">选择要开始显示的禁止规则。</block>
+  <block id="ec322b3a2d92a535cd71909b666547c0" category="list-text">单击 * 警报 * 图标。</block>
+  <block id="07c26e41b63d0ff3970894104e144d9d" category="list-text">选择 * 结束禁止 * ，然后单击 * 提交 * 。</block>
+  <block id="77f317049f7895469c3d010a42706564" category="paragraph">已为选定规则启用警报，此规则将显示在规则表和信息板中。</block>
+  <block id="b4d4c91661a500ca9f836dd268c8d92a" category="summary">您可以通过响应警报，查看变更历史记录以及生成报告以提供基础架构的整体视图来监控融合基础架构。</block>
+  <block id="382088a5073a61e9b13725ada78c8e59" category="doc">监控融合基础架构</block>
+  <block id="97eb92a13cf2b5bd7063ad249b6f2569" category="section-title">查看警报中失败的规则和警告</block>
+  <block id="6f60fe9da42eedfd7df6bbc30d7b77da" category="section-title">修复失败的规则</block>
+  <block id="f052a30a2aeb64391002dc3341563048" category="section-title">禁止失败的规则</block>
+  <block id="e5fb1eac98e8be5c995e7929e8b70da0" category="paragraph">您可以查看已禁止的规则列表，如果需要，可以选择结束禁止。</block>
+  <block id="78d8b6135ca87d41ab89914e626de9a5" category="section-title">查看基础架构的历史记录</block>
+  <block id="255d8d695266132eb9b6a52c6ee00b71" category="paragraph">当您收到有关规则失败的警报时，您可以查看配置中发生的更改的历史记录，以帮助您解决问题描述。</block>
+  <block id="ddb6cc4a6a81ec19ebb07387b482e42f" category="list-text">选择融合基础架构。</block>
+  <block id="7a1c2c362657dac6fb6d5de1697d59eb" category="list-text">单击 * 更多 &gt; 历史记录 * 。</block>
+  <block id="f5a1e9ab2662a2f1e774fa5b1b22354c" category="inline-image-macro">显示了包含历史记录选项的更多菜单。</block>
+  <block id="d86f023c281e4c7e1cc6422740a2ce3d" category="paragraph"><block ref="d86f023c281e4c7e1cc6422740a2ce3d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="819726a36e174ef47ab655e2c54e1f30" category="list-text">单击日历上的某一天可查看在每次数据收集期间发现的警告和故障数量。</block>
+  <block id="ddff6108b62f0e074e78accb27419744" category="admonition">每天显示的数字与代理收集数据的次数相对应。例如，如果保持默认收集间隔为 24 小时，则每天应显示一个收集。</block>
+  <block id="b69e4b5d485bc08cef823be6ac4ba22d" category="paragraph">下图显示了当月 27 日的单个集合。</block>
+  <block id="ff23ac22b6549ebac2e097387d9e1a7e" category="inline-image-macro">显示月 27 日的第一个黄色圆点和一个黄色圆点。</block>
+  <block id="d5c441097ffe44c888eb3afd6f7afb21" category="paragraph"><block ref="d5c441097ffe44c888eb3afd6f7afb21" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="017ef171d8620c381816c046d14e0a28" category="list-text">要查看有关所收集数据的更多详细信息，请单击某个集合的 * 转至 CI 信息板 * 。</block>
+  <block id="420fee2342b69a09df56c9f4c8948315" category="list-text">如果需要，请查看上次未发现任何警告或故障的历史记录。</block>
+  <block id="7297f536b887e2351b3f1d8d075f4043" category="paragraph">比较两个收集期间之间的数据有助于确定发生了哪些更改。</block>
+  <block id="567235aef678e48ef18482e34043f721" category="section-title">正在生成报告</block>
+  <block id="64b90563965409f7bfe8d73a0d85c567" category="paragraph">如果您拥有高级版许可证，则可以生成多种类型的报告，以提供有关融合基础架构当前状态的详细信息：清单报告，运行状况报告，评估报告等。</block>
+  <block id="a911f6618c123405cc3fc8cfe65c731f" category="list-text">单击 * 报告 * 。</block>
+  <block id="51ed89d13fed8fbbd34332091a1f4cf3" category="list-text">选择报告并单击 * 生成 * 。</block>
+  <block id="3b1f0b66bd433b7e1259d5ca6f0f6e84" category="list-text">选择报告选项：</block>
+  <block id="46496ed8b9ac1d5f6eeba7ff09cf405c" category="list-text">也可以从最近的数据收集更改为以前的数据收集。</block>
+  <block id="d6d980dc9979eb210416d40a6eed3028" category="list-text">选择要查看报告的方式：在浏览器中，以下载的 PDF 格式或通过电子邮件查看。</block>
+  <block id="4e821fd1fc9d0d94e03013829b560a2f" category="inline-image-macro">显示了用于生成报告的选项，其中包括选择融合基础架构和快照，然后选择要查看的方式。</block>
+  <block id="a4ca0ac64711a4aec786760c86c6dc75" category="paragraph"><block ref="a4ca0ac64711a4aec786760c86c6dc75" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cdfd3e7337dd38ee1623080a3c618e83" category="paragraph">Converged Systems Advisor 将生成报告。</block>
+  <block id="f24126e7aabc8fc06c1874eb6abef5eb" category="section-title">跟踪支持合同</block>
+  <block id="08dd468a8c74db6c2663baba0ec0d793" category="paragraph">您可以为配置中的每个设备添加有关支持合同的详细信息：开始日期，结束日期和合同 ID 。这样，您就可以轻松地在一个中央位置跟踪详细信息，从而知道何时续订每个设备的支持合同。</block>
+  <block id="a6a6a713a212d5be421f5c986e13a878" category="list-text">单击 * 选择一个 CI* 并选择融合基础架构。</block>
+  <block id="9f529ff9d992ed0eefdeba5bcf4ccce3" category="list-text">在支持合同小工具中，单击 * 编辑合同 * 图标。</block>
+  <block id="4acbaa402382b53ae1547f7303cf04da" category="list-text">选择 * 开始日期 * 和 * 结束日期 * ，然后输入 * 合同 ID* 。</block>
+  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">单击 * 提交 * 。</block>
+  <block id="3cd95388ab719dadee5bcf6a664ddea7" category="list-text">对配置中的每个设备重复上述步骤。</block>
+  <block id="9e1d8362ca0406d31099d22cf48d0b99" category="paragraph">现在， Converged Systems Advisor 将显示每个设备的支持合同详细信息。您可以轻松地查看哪些设备具有有效的和已过期的支持合同。</block>
+  <block id="4b95f23f0f314a2b4da695b700811595" category="inline-image-macro">显示了四个支持合同：一个已过期，另三个处于活动状态。</block>
+  <block id="ee5940588622152ee61a29d80da69ddc" category="paragraph"><block ref="ee5940588622152ee61a29d80da69ddc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="666dfdc92a9ae18acf492302e071d09e" category="summary">当您与其他用户共享融合基础架构时，您可以提供只读，写入或所有者权限。</block>
+  <block id="f4040f71a7d553f2519487070892b115" category="doc">用户角色</block>
+  <block id="f9736c983077f8f7ecce4803263c835c" category="paragraph">当您与其他用户共享融合基础架构时，必须提供只读，写入或所有者权限。</block>
+  <block id="08a7773f23ba1fab2a1f9f0cc4fd2242" category="paragraph">下表列出了每个用户角色可以执行的任务。</block>
+  <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">任务</block>
+  <block id="d8bd6e60adcc01ce20f509ea6800de8f" category="cell">只读</block>
+  <block id="1129c0e4d43f2d121652a7302712cff6" category="cell">写入</block>
+  <block id="b6f4a2ec6356bbd56d49f2096bf9d3d3" category="cell">所有者</block>
+  <block id="5c2cfa1c6483a2055e455e9fe917150c" category="cell">查看系统</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">是的。</block>
+  <block id="7a873aab992e5e0739ab89574668b232" category="cell">更新系统名称</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">否</block>
+  <block id="39bb7ebe2d2851afbd84381cb85b6bab" category="cell">更新支持合同详细信息</block>
+  <block id="3fa7e1f59dbad21ae04cb45eb44902ab" category="cell">编辑数据收集间隔</block>
+  <block id="12e7c44e5b7cb54e6ce9a17051959801" category="cell">请求新的数据收集</block>
+  <block id="e8c371197783251f857e86da91b8fe35" category="cell">共享系统</block>
+  <block id="bd8040acd9ca680be2aa7f93ebb36e14" category="cell">是，具有只读或写访问权限</block>
+  <block id="e89e5b89aea3717ddc42c434fe92255b" category="cell">是，具有只读，写或所有者访问权限</block>
+  <block id="3c13d4713cd753567d8d7ae5dbf2a445" category="cell">修改系统的组件</block>
+  <block id="be62ee4908c8d3dca05c47093c17858d" category="cell">删除系统</block>
+  <block id="af30d3755f96862e145057d908a2e786" category="summary">如果您拥有高级版许可证，则 Converged Systems Advisor 可以通过电子邮件通知提醒您 FlexPod 基础架构发生的更改。</block>
+  <block id="19a5158f1235c29843008925adb7baf8" category="doc">配置通知</block>
+  <block id="cd34eac38f2c4b9f2103eda33482b061" category="list-text">在 Converged Systems Advisor 门户中，单击 * 设置图标 * ，然后单击 * 警报设置 * 。</block>
+  <block id="4e6aad27476e9fe331f476974ff873e5" category="list-text">检查对于每个具有高级许可证的融合基础架构，您希望收到的通知。</block>
+  <block id="d498146c1e8ccfa027b0be4e0ec6c938" category="paragraph">每个通知都包含以下信息：</block>
+  <block id="51931057b0a67bf82ab417b2870f3a3c" category="list-text">收集失败</block>
+  <block id="4596170a0369f156d6a5f2091e13b52a" category="list-text">如果 Converged Systems Advisor 无法从融合基础架构收集数据，则会向您发出警报。</block>
+  <block id="7abf3c6257605cebf46fa1d1dfb7f567" category="list-text">脱机代理</block>
+  <block id="f0a59a4f9d275170a08a14a81258c126" category="list-text">当 Converged Systems Advisor 代理未联机时向您发出警报。</block>
+  <block id="3b0e647e86cb4c7b03e82d277f5f75b6" category="list-text">每日警报摘要</block>
+  <block id="e50c05288bdcd3e7f9ac99e37a5935f4" category="list-text">提醒您前一天发生的规则失败。</block>
+  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">单击 * 保存 * 。</block>
+  <block id="e34a46d20515530b01e1c96a225829e4" category="paragraph">现在， Converged Systems Advisor 将向与融合基础架构关联的用户发送电子邮件通知。</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="e0315085076faa5f8bd08e82d140ee63" category="inline-link-macro">Converged Systems Advisor 注意事项</block>
+  <block id="4abf4a1cccc2bcfbc79190153a49a2fb" category="paragraph"><block ref="4abf4a1cccc2bcfbc79190153a49a2fb" category="inline-link-macro-rx"></block></block>
+  <block id="fea69bb2f9adb3acd9912f4b8845328f" category="summary">要开始使用 Converged Systems Advisor ，您必须准备好环境。</block>
+  <block id="ebd4d70d369b168865892524fb385472" category="doc">准备您的环境</block>
+  <block id="0f7a50e7e27ae4b8a6ada4185d771634" category="paragraph">要开始使用 Converged Systems Advisor ，您必须准备好环境。准备环境包括验证对您的配置的支持以及注册 NetApp 支持站点帐户。</block>
+  <block id="9c76809ba74f487564d81d73527b3fe2" category="inline-link-macro">了解 Converged Systems Advisor 的工作原理</block>
+  <block id="ebd37a66dc59778d2804027afa1f58a5" category="paragraph">您可能需要 <block ref="771043ac6a9633eb387c627af684f340" category="inline-link-macro-rx"></block> 开始之前</block>
+  <block id="acae4ba9c958f18bf1b49e96b4af9738" category="list-text">在中验证支持<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>：</block>
+  <block id="41a3fbf39e4637ff6ae392a274957047" category="list-text">验证 Converged Systems Advisor 是否支持您的 FlexPod 融合基础架构。</block>
+  <block id="68bbe7c77d8372a4b1f52aca16c1d943" category="list-text">验证是否具有支持 Converged Systems Advisor 代理的 VMware ESXi 服务器。</block>
+  <block id="bc7fdfa6747d9e82b4939e6908125106" category="paragraph">为了最大限度地减少带宽使用量， NetApp 建议将代理安装在与 FlexPod 融合基础架构相同的数据中心中。</block>
+  <block id="5ac5af6f1a6d7ab3113bf48bce81f5b0" category="list-text">确保安装代理的网络允许组件之间进行连接：</block>
+  <block id="0c44c7a8e009741e355249ae724ea5bf" category="list-text">代理必须连接到每个 FlexPod 组件，才能收集配置数据。</block>
+  <block id="dbaf3f863e61397546349245ecfbdfa0" category="list-text">代理还需要出站 Internet 连接才能与以下端点进行通信：</block>
+  <block id="6464743ee6a2ff8ae3e8cab2528f5a6e" category="list-text">csa.netapp.com</block>
+  <block id="8df6590d0d74f73adbfe5f8379f58893" category="list-text">docker.com</block>
+  <block id="0b505db73d92bac18356fa3feb3cf7e3" category="list-text">Docker</block>
+  <block id="f15b13a8a13824d20ee27e7fa1a637a9" category="list-text">转至<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> 并注册帐户（如果您没有帐户）。</block>
+  <block id="b3b0d32e083781e38eb5aa3923fbd5b8" category="paragraph">要配置代理并访问门户，需要 NetApp 支持站点帐户。</block>
+  <block id="51dfc4332789916d0d45402bb63b0740" category="summary">作为合作伙伴或经销商，您可以验证客户基础架构的部署情况。</block>
+  <block id="33dd6d0a84d49364e0252ed85d6c8008" category="doc">验证合作伙伴和经销商的部署</block>
+  <block id="3e63df2d8130d6beb5aedd0b3a623455" category="paragraph">作为合作伙伴或经销商，您可以通过查看信息板上显示的数据或生成运行状况报告来验证客户基础架构的部署情况。</block>
+  <block id="bf49a2af93184828c602f30985ab7b3e" category="list-title">开始之前</block>
+  <block id="7cb24243c2f9dc81564e7c17ee96502a" category="list-text">您已在客户站点安装新的 FlexPod ，或者正在使用现有 FlexPod 。</block>
+  <block id="b828c89f48e5931a2f3e94a1a8a438bb" category="list-text">您已在 FlexPod 设备上创建帐户。</block>
+  <block id="891db3e486cd7319b253443e598258a9" category="list-text">如果您使用的是 TACACS+ 服务器，则已授予 CSA 用户权限。</block>
+  <block id="ea4bf3bfa43cc087b048001387e44202" category="list-text">您已下载并安装此代理。</block>
+  <block id="c2a536bd136ebbff93df02f66cdfa216" category="inline-link-macro">设置和部署代理</block>
+  <block id="6b604d4a2761364bcc54cdca23050f1f" category="paragraph">请参见 <block ref="c493233aaa3279340a41c1d7e26d3e4f" category="inline-link-macro-rx"></block>。</block>
+  <block id="ab8671fbf18903d8d9040f241c26f3c4" category="list-text">您可以为代理设置网络连接，也可以选择在代理上安装 SSL 证书。</block>
+  <block id="284f34a0af39b4a6009a8dd20ad8a40a" category="list-text">利用 NetApp 凭据，您为客户创建了 CI ，以便将基础架构添加到门户中。</block>
+  <block id="c65ffe1d7cf10fedb9d945fa4f2747c0" category="paragraph">请参见 <block ref="7fb29a0e0fb1c8ef914768025b76cc3b" category="inline-link-macro-rx"></block> 在 CSA 门户中创建 CI 。</block>
+  <block id="c694cfbda1d422c56933f41ed2f42d12" category="list-text">您也可以选择与其他用户共享基础架构。</block>
+  <block id="95928bd14e09a05a7b9ffbd1c4bcd1bd" category="paragraph">合作伙伴和经销商使用自己的 NetApp 凭据登录到 CSA 门户以启动验证过程。</block>
+  <block id="383cbb4f450bb9faa09fc9988b680b22" category="list-text">登录到<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block> 使用您的 NetApp 凭据。</block>
+  <block id="f0e9f34f0828883f7e388c1c501c43be" category="list-text">单击 * 选择一个 CI* ，然后单击客户的相应 CI ，或者在搜索框中键入此 CI 名称。此时将显示此 CI 的信息板。</block>
+  <block id="2619c13f9c80221c7c784b18d2577797" category="paragraph">作为合作伙伴或经销商，您可以使用以下方法验证客户的基础架构：</block>
+  <block id="aa33dea2c5b586714ddaff5b57479455" category="list-text">在信息板上，您可以验证基础架构的各个方面：</block>
+  <block id="045a4a98e67e0ccc2e5fa0bc9433dc20" category="list-text">* 固件互操作性 * 显示已安装的软件版本。单击每个标题可查看其他详细信息。</block>
+  <block id="ea2d295b0de68cb7f17155b911364d3f" category="list-text">* 支持合同 * 显示合同到期时间。单击追加信息的 * 查看详细信息 * 。</block>
+  <block id="a2fecfd4fc9e1ff1687f192020980447" category="list-text">* 代理状态 * 显示有关代理的详细信息，包括受监控的设备。</block>
+  <block id="d33175282e5e9dd3f4c93082e969592b" category="list-text">* 容量 * 显示磁盘空间，网络端口和 UCS 刀片式服务器机箱的利用率。单击链接可查看每个利用率的详细信息。</block>
+  <block id="fa20339c0bb6d12c4a44d9897faea4bc" category="list-text">* 运行状况 * 以图形方式显示基础架构的存储，计算，网络和虚拟化功能规则的状态。单击图形的颜色区域可查看其他详细信息。</block>
+  <block id="58f7fb86ef80cd20f35da08ef88659a7" category="list-text">* 规则摘要 * 显示规则失败和警告的警报。单击每行左侧的箭头，或单击设备名称以查看其他详细信息。</block>
+  <block id="6c43bac8f5c611f216fc4d5a14ab648e" category="list-text">在操作栏中，选择 * 报告 -&gt; 运行状况报告 * 以生成详细的融合系统运行状况报告。您可以在浏览器中查看它，将其下载为 PDF 文件或通过电子邮件共享它。</block>
+  <block id="571a926cd2e7deab39daf05b2533b8d8" category="doc">查看基础架构的历史记录</block>
+  <block id="7a49965d9cfff28dae6c97f9b420a932" category="summary">NetApp 融合系统顾问可验证，监控和优化 FlexPod 融合基础架构的部署，以确保业务应用程序获得最佳性能和可用性。</block>
+  <block id="04fbad68af42342b74d64c44c053aeb6" category="doc">Converged Systems Advisor</block>
+  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">了解新功能</block>
+  <block id="9019b4a8afd649f588dde381d9d2c1cb" category="inline-link-macro">Converged Systems Advisor 中的新增功能</block>
+  <block id="cfaf20a40a53abf04e998d745a541106" category="paragraph"><block ref="cfaf20a40a53abf04e998d745a541106" category="inline-link-macro-rx"></block></block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">入门</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">快速入门</block>
+  <block id="30974525ad850301dc82692fbf1875de" category="paragraph"><block ref="30974525ad850301dc82692fbf1875de" category="inline-link-macro-rx"></block></block>
+  <block id="11a009d53ca4078eeb1d7f09553e18d5" category="section-title">了解 Converged Systems Advisor</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="inline-link-macro">概述</block>
+  <block id="433e74eb36d7b9b81d0daefd838e9fc3" category="list-text"><block ref="433e74eb36d7b9b81d0daefd838e9fc3" category="inline-link-macro-rx"></block></block>
+  <block id="2d242bb36ec91b32005f9296ff03a912" category="inline-link-macro">架构</block>
+  <block id="299cf6f7124b7dd4cdecf41a2dde5691" category="list-text"><block ref="299cf6f7124b7dd4cdecf41a2dde5691" category="inline-link-macro-rx"></block></block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="inline-link-macro">许可</block>
+  <block id="a136464e5f9b093e6667a604b15e3605" category="list-text"><block ref="a136464e5f9b093e6667a604b15e3605" category="inline-link-macro-rx"></block></block>
+  <block id="2c73d1eaa92fa653dab6b18c453721b0" category="section-title">获得帮助并与同行联系</block>
+  <block id="d0bd79212ef041ed73ac193cda56b985" category="inline-link">NetApp 社区：融合基础架构</block>
+  <block id="9c57c6e5c44386158ad4e62b7404eb56" category="paragraph"><block ref="9c57c6e5c44386158ad4e62b7404eb56" category="inline-link-rx"></block></block>
+  <block id="76349c2170a5e8f7ab2e2e2ce564165d" category="summary">要开始使用 Converged Systems Advisor ，您必须准备环境，安装和设置代理，并将融合基础架构添加到门户。</block>
+  <block id="7e156a5779175bc209a90f37db31f6e0" category="doc">开始使用 Converged Systems Advisor</block>
+  <block id="0c6612b13f695372bd37700714ed1430" category="paragraph">要开始使用 Converged Systems Advisor ，您必须准备环境，安装和设置代理，并向门户添加融合基础架构。</block>
+  <block id="713856a9e25b955fc362c74ba01c8c73" category="paragraph">准备环境包括验证对配置的支持，为代理创建帐户以及注册 NetApp 支持站点帐户。</block>
+  <block id="52bf1942dcfb1c141867def7c2796418" category="inline-xref">在每个 FlexPod 组件上创建帐户</block>
+  <block id="f50dcc97b97d9278ef4fdb3ef6e1da3f" category="list-text"><block ref="42cd4f375d7c524be1664eb35460cb25" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a478c363f47702e06b92b7c1d5f4089c" category="paragraph">代理需要凭据才能收集配置数据。配置代理时，必须提供凭据。</block>
+  <block id="d87b78a031b9948c6c89981ce3d89f1b" category="section-title">在 FlexPod 设备上创建帐户</block>
+  <block id="0cd05894cf4c7bb8f868ffe1d1290fea" category="paragraph">您必须在 Cisco UCS Manager 和 Cisco Nexus 交换机上设置只读帐户。ONTAP 系统和 VMware 需要管理员帐户。您可以在 APIC 上为其他用户设置只读访问帐户。代理使用这些帐户从每个设备收集配置数据。</block>
+  <block id="2099da3d792d28b71a89dc894beb5412" category="section-title">为 Cisco UCS Manager 创建只读帐户</block>
+  <block id="d0a91502d061d00cbb9e6dc6cffd77d8" category="list-text">登录到 Cisco UCS Manager 。</block>
+  <block id="6096415620060705d9595c8fcdea6a16" category="list-text">创建一个名为 _csa-readonly_ 的本地身份验证用户。</block>
+  <block id="8b21b866bd2a7de4e562a060cc292063" category="admonition">默认情况下，所有新用户都是只读的。</block>
+  <block id="2d8f09b5e52b0c5b7187bbebd4f2579f" category="section-title">为 Nexus 交换机创建只读帐户</block>
+  <block id="8f3824888496549aad15cdf6df65ad33" category="list-text">使用 SSH 或 telnet 登录到每个 Nexus 交换机。</block>
+  <block id="3b38f09e87b817db54392ca6b1472e1e" category="list-text">进入全局配置模式：</block>
+  <block id="bedbd0468de13d5fb35dc8cafead626c" category="list-text">创建新用户：</block>
+  <block id="33779c44170cc34cb1bbefd6d30a5208" category="list-text">保存配置：</block>
+  <block id="18ee0f6fb35c83513ae3e270c131adf7" category="paragraph">如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至 <block ref="1f496b11ca6becda819d4556c4ea6608" category="inline-xref-macro-rx"></block>。</block>
+  <block id="441b67283784cf29a2752c9221d9104d" category="section-title">为 ONTAP 创建管理员帐户</block>
+  <block id="2eb574bbc5428e7dea15be69deaa1c65" category="list-text">登录到 OnCommand 系统管理器，然后单击设置图标：</block>
+  <block id="ff04c64278a2550f801d1574ac8721bb" category="inline-image-macro">System Manager 中的设置图标。</block>
+  <block id="f75f73a91fb7e1b449135d8a270ae45d" category="paragraph"><block ref="8402a9390d1a047bb229c69f6d499dcc" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="a3bb348ea680d62531cc238832ec85a9" category="list-text">在用户页面上，单击 * 添加 * 。</block>
+  <block id="420a2546a3b1365ceef517f1c2fbedff" category="list-text">输入用户名和密码并添加 * 。 ssh* ， * ontapi* 和 * 控制台 * 作为具有管理员访问权限的用户登录方法。</block>
+  <block id="8bdd45b91a31a8690735acc4dc31dd7c" category="inline-image-macro">显示了 System Manager 中的 " 添加用户 " 屏幕，其中新的 ONTAP 用户具有 ssh 和 ontapi 权限。</block>
+  <block id="635784ac2bb89e09681e74e579ca8fcb" category="paragraph"><block ref="635784ac2bb89e09681e74e579ca8fcb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d50762e2e2ae9423f1ddc5c966abf6f8" category="section-title">为 VMware 创建只读帐户</block>
+  <block id="8ab62d7f9f3a4115127d107eb3bb968e" category="list-text">登录到 vCenter 。</block>
+  <block id="b49e1321d03903b7162f038b7d1172a4" category="list-text">在 vCenter 菜单中，选择 * 管理 * 。</block>
+  <block id="0fe0ca267ec8a3414939edcddc2655f8" category="list-text">在角色下，选择 * 只读 * 。</block>
+  <block id="0f1e92f24deba3a45e3d35cf0d9904e7" category="list-text">单击 * 克隆角色操作 * 图标并将名称更改为 * CSA * 。</block>
+  <block id="1bb04863ceac05afe9ad4fdad53ae507" category="list-text">选择新创建的 * CSA * 角色。</block>
+  <block id="1fa75ccc3b524ebb284b414f693d9ea3" category="list-text">单击 * 编辑角色 * 图标。</block>
+  <block id="530c373900375f89da032a2be406339b" category="list-text">在 * 编辑角色 * 下，选择 * 全局 * ，然后选中 * 许可证 * 。</block>
+  <block id="c1c72f117598ab72cba25e02bccc6ce1" category="list-text">在边栏上，选择 * 单点登录 -&gt; 用户和组 -&gt; 创建新用户 * 。</block>
+  <block id="6bc62772cb888790f62ed044695c938b" category="list-text">在域 vpshere.local 下将新用户命名为 * CSARO* 。</block>
+  <block id="f0492f189d9f3e559364e7a80d965b66" category="list-text">在边栏上，选择 * 访问控制 * 下的 * 全局权限 * 。</block>
+  <block id="c4d670cd7c54761045ecf7ea7b25881d" category="list-text">选择用户 * CSARO* 并分配角色 * CSA * 。</block>
+  <block id="be4288b6ed1d0ecfaaf07da5641ac434" category="list-text">登录到 Web Client 。</block>
+  <block id="e28a0e6a0ac7170c91b6d87fdc748f98" category="paragraph">使用用户 ID * CSARO@vsphere.local* 和先前创建的密码。</block>
+  <block id="7be11821733a031669f85a1a5370ba38" category="section-title">在 APIC 上创建只读帐户</block>
+  <block id="633f9fb33a1388464d4bf0b5da121e14" category="list-text">单击 * 管理 * 。</block>
+  <block id="3a8f71da9eee0ee42f05f2f8d1d0f8f2" category="list-text">单击 * 创建新的本地用户 * 。</block>
+  <block id="e291dc9a4f7b47bba8f92fc5d0e3dde4" category="list-text">在 * 用户身份 * 下，输入用户信息。</block>
+  <block id="4f92120b362aa5d46fe2dd945e59a62b" category="list-text">在 * 安全性 * 下，选择所有安全域选项。</block>
+  <block id="67af9425d7e9ad7680fec5bf53372882" category="list-text">如果需要，单击 * + * 以添加用户证书和 SSH 密钥。</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">单击 * 下一步 * 。</block>
+  <block id="0dc0ee3389edaea118e1a45a6903949a" category="list-text">单击 * + * 为您的域添加角色。</block>
+  <block id="0cc4bd8e3fd7dbb38ce965c9c9e4ecfc" category="list-text">从下拉菜单中选择 * 角色名称 * 。</block>
+  <block id="250e8d621353745811bcc80cd5d064bb" category="list-text">为 * 角色权限类型 * 选择 * 读取 * 。</block>
+  <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">单击 * 完成 * 。</block>
+  <block id="275fe1c07e5b801ba6ba209e8429002d" category="section-title">部署代理</block>
+  <block id="5cd2b1880169837e25d4f1460662faad" category="paragraph">您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。</block>
+  <block id="e9df7b526871e1af66c58d80e0a5111a" category="inline-xref">下载并安装代理</block>
+  <block id="78101ef6c0779de08b1416b9c3192d77" category="list-text"><block ref="35db1a96bdc74882892c9a3ad7bed133" category="inline-xref-macro-rx"></block></block>
+  <block id="a0a3282ed6dd2a46a69cacb4c53cd598" category="inline-xref">为代理设置网络</block>
+  <block id="560f339ffbc95c1d9e2bbea8745d7de3" category="list-text"><block ref="fb6f86724092168a486d00273ca30c97" category="inline-xref-macro-rx"></block></block>
+  <block id="afaf395cc9e80eeef6c225888e99a98a" category="inline-xref">如果需要，请在代理上安装 SSL 证书</block>
+  <block id="1b38ed85a443a952ad76b68bf23769fa" category="list-text"><block ref="103fd69b0420c45c6e760ec436c53011" category="inline-xref-macro-rx"></block></block>
+  <block id="92a159a5819ea2a230346fe9a8561216" category="inline-xref">配置代理以发现您的 FlexPod 基础架构</block>
+  <block id="ce173e4ce871869d4655c419893b22c0" category="list-text"><block ref="206a2ab2cff5047902495fb5dc2a8730" category="inline-xref-macro-rx"></block></block>
+  <block id="ff7b3a545ce0d3e37f3491c0365fd883" category="section-title">下载并安装代理</block>
+  <block id="3e29de7ce6b52ed5b2efb0ccd6d814af" category="paragraph">您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。</block>
+  <block id="a1808424c169f18629e29f0d62f1fcdb" category="paragraph">要最大程度地减少带宽使用量，应将代理安装在与 FlexPod 配置位于同一数据中心的 VMware ESXi 服务器上。代理必须能够连接到每个 FlexPod 组件和 Internet ，以便可以使用 HTTPS 端口 443 将配置数据发送到 Converged Systems Advisor 门户。</block>
+  <block id="5731b3791a0c926c2e0d4fd691c8b8ae" category="paragraph">此代理将通过开放式虚拟化格式（ OVF ）模板部署为 VMware vSphere 虚拟机。该模板基于 Debian ，具有 1 个 vCPU 和 2 GB RAM （对于多个或更大的 FlexPod 系统，可能需要更多的内存）。</block>
+  <block id="2f5f4104d2369384772742794186a5ee" category="list-text">下载代理：</block>
+  <block id="283dd3a1146b22159cc711daf4b83a86" category="list-text">单击 * 下载代理 * 。</block>
+  <block id="763956d175b6f4a7857600adc356352a" category="list-text">通过在 VMware ESXi 服务器上部署 OVF 模板来安装代理。</block>
+  <block id="c46511864b55b0df238295aa98452ec4" category="paragraph">在某些 VMware 版本上，部署 OVF 模板时可能会收到警告。虚拟机是在最新版本的 vCenter 上开发的，与旧版本的硬件兼容，因此可能会出现此警告。您应在确认警告之前查看配置选项，然后继续安装。</block>
+  <block id="7c18ca1754eac6117d06a06207ce5382" category="section-title">为代理设置网络</block>
+  <block id="329cd1f5e59ba758295de91326be0e01" category="paragraph">您必须确保已在代理虚拟机上正确设置网络，以便在代理和 FlexPod 设备之间以及代理与多个 Internet 端点之间进行通信。请注意，在系统初始化之前，虚拟机上会禁用网络堆栈。</block>
+  <block id="724bb0e043ebedd4c528a2ad4d7b0adb" category="list-text">确保通过出站 Internet 连接可以访问以下端点：</block>
+  <block id="bdad4c067bbbc6dec75356d1c530686d" category="paragraph">默认用户名为 `CSA` ，默认密码为 `NetApp` 。</block>
+  <block id="d59729c9e3b22da01a8010c4c446e0c7" category="admonition">出于安全考虑， SSHD 默认处于禁用状态。</block>
+  <block id="95f7e4a76daadedf42ba81d66ec78941" category="list-text">出现提示时，更改默认密码并记下此密码，因为它无法恢复。</block>
+  <block id="17b9e6bd62d19982683ebb767f9317b1" category="paragraph">更改密码后，系统将重新启动并启动代理软件。</block>
+  <block id="11dfdf5f669d5123bb4032af68545aba" category="list-text">如果 DHCP 在子网中不可用，请使用标准 Debian 工具配置静态 IP 地址和 DNS 设置，然后重新启动代理。</block>
+  <block id="a0e6a5fd5358310f791eeb5382cc260d" category="inline-link-macro">单击此处了解详细说明</block>
+  <block id="86259f9852f91497e3e1d2fd3d115bfc" category="paragraph"><block ref="675b653dc4a3b6331b86bde725aa69f3" category="inline-link-macro-rx"></block>。</block>
+  <block id="df4283c930edcdb46c45530338d7eaf6" category="inline-link">手册页</block>
+  <block id="6a8cb1a182d8afbf0f4cc04515d5716a" category="paragraph">Debian 虚拟机的网络配置默认为 DHCP 。已安装 NetworkManager 并提供了一个文本用户界面，您可以从命令 nmtui 启动此界面（请参见<block ref="95715ffe5b6c7600e8f0d16b6b6064ce" category="inline-link-rx"></block> 了解更多详细信息）。</block>
+  <block id="f93e60fa5e03356de106feb392f31b27" category="inline-link">Debian wiki 上的网络配置页面</block>
+  <block id="fc239c96114ecfe7779c0eda49dec747" category="paragraph">有关网络连接的其他帮助，请参见<block ref="9f18f481b02a08531df854d052dfd37c" category="inline-link-rx"></block>。</block>
+  <block id="48aa8739f4f4121f8aa3ae2d609c08c2" category="list-text">如果您的安全策略要求代理必须位于一个网络上才能与 FlexPod 设备进行通信，而另一个网络必须与 Internet 进行通信，请在 vCenter 中添加另一个网络接口并配置正确的 VLAN 和 IP 地址。</block>
+  <block id="09c910e2b610ff827c810320a5bb1bf1" category="list-text">如果需要代理服务器才能访问 Internet ，请运行以下命令：</block>
+  <block id="9c161583590077a38147451093c8e3b7" category="paragraph">`sUdo CSA_SET_proxy`</block>
+  <block id="a42c5a3e72e626b0102050296595b5f6" category="paragraph">此命令将生成两个提示符，并显示所需的代理条目格式。第一个提示符用于指定 HTTP 代理，第二个提示符用于指定 HTTPS 代理。</block>
+  <block id="6493001546d3670c20983d0c9086630f" category="paragraph">下面是 HTTP 代理的提示符：</block>
+  <block id="0c93fbbaac62b215373a9e38e9977f90" category="inline-image-macro">显示 HTTP 代理提示符的屏幕截图。</block>
+  <block id="602bfc44630c83752cb212e8e3fa3034" category="paragraph"><block ref="602bfc44630c83752cb212e8e3fa3034" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="264420168f7168ebab16ddf30346c7b2" category="list-text">网络启动后，请等待大约 5 分钟，以便系统更新并启动。</block>
+  <block id="421c75e0d71b645e17e0c5021c658416" category="paragraph">代理运行时，控制台上会显示一条广播消息。</block>
+  <block id="babc70026f560cfa0d6c61295c5225d6" category="list-text">从代理运行以下命令行界面命令，以验证连接：</block>
+  <block id="a2daedf39c86073e7c4cd232bfbd100e" category="paragraph">如果命令失败，请验证 DNS 设置。代理虚拟机必须具有有效的 DNS 配置并能够访问 csa.netapp.com 。</block>
+  <block id="19f77703ec1a53feaa16f7a9751f0a54" category="section-title">在代理上安装 SSL 证书</block>
+  <block id="ec184748fa512f7e90e12fac5d2da94f" category="paragraph">当虚拟机首次启动时，代理会创建一个自签名证书。如果需要，您可以删除该证书并使用自己的 SSL 证书。</block>
+  <block id="9533f62043c0f6a64722739ba689fbd0" category="paragraph">Converged Systems Advisor 支持以下功能：</block>
+  <block id="aca50f4ea5e538572c25e7ef1c877f50" category="list-text">与 OpenSSL 1.0.1 或更高版本兼容的任何密码</block>
+  <block id="014f10162fac6ab78ea8f52a63b4b609" category="list-text">TLS 1.1 和 TLS 1.2</block>
+  <block id="f28c30feee14e0e3a4891672e11903c9" category="list-text">登录到代理的虚拟机控制台。</block>
+  <block id="146553325b51e54bcf0792d1cf4e39a1" category="list-text">导航到 ` 选项 /CSA/Certs`</block>
+  <block id="760317b4e4066ad5978fae4a5b173735" category="list-text">删除代理创建的自签名证书。</block>
+  <block id="3f40ebc6677d56438abc875acca060ee" category="list-text">粘贴 SSL 证书。</block>
+  <block id="9ead19f5a06efd01e02fd83050e576f0" category="list-text">重新启动虚拟机。</block>
+  <block id="c9b14be3bee9b401f753a94ca3ded907" category="section-title">配置代理以发现 FlexPod 基础架构</block>
+  <block id="cce04dd5930e941a442176af284fb516" category="paragraph">您必须将代理配置为从 FlexPod 融合基础架构中的每个设备收集配置数据。</block>
+  <block id="d6649c6eb0292890a97eb268a7e94af9" category="list-text">打开 Web 浏览器并输入代理虚拟机的 IP 地址。</block>
+  <block id="6fe5959541c89cbce478c554777ac5d8" category="list-text">输入 NetApp 支持站点帐户的用户名和密码，登录到代理。</block>
+  <block id="7608393b2da1bb3b5d734c44470e02be" category="list-text">添加希望代理发现的 FlexPod 设备。</block>
+  <block id="fd6f3efc498de1b121d4286a7865dda4" category="paragraph">您有两种选择：</block>
+  <block id="1364b2acff150024c37f0452146b6d84" category="list-text">单击 * 添加设备 * 以逐个输入有关 FlexPod 设备的详细信息。</block>
+  <block id="c750134cf0be6481ba8ff6528300b71a" category="list-text">单击 * 导入设备 * 以填写并上传包含所有设备详细信息的 CSV 模板。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
+  <block id="6624e3ce2082bff6a9538a57b6e135ac" category="list-text">用户名和密码应与您先前为设备创建的帐户对应。</block>
+  <block id="6e4517322a6a78e6e22096c260aea198" category="list-text">如果 UCS 环境配置了 LDAP 用户管理，则必须在用户名之前添加用户的域。例如： local\csa-readonly</block>
+  <block id="64c2f93dc8ddeec207e25d7b17093c26" category="paragraph">FlexPod 基础架构中的每个设备都应显示在表中并带有复选标记。</block>
+  <block id="ee74ecd3efa95b8078ceb5dc392b12fd" category="inline-image-macro">在状态列中显示每个所需设备，并带有绿色复选标记。</block>
+  <block id="7e0f6190afd11994fbf2acbbb620f788" category="paragraph"><block ref="7e0f6190afd11994fbf2acbbb620f788" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="91dd7b0081abea60a0763bc35637f5ba" category="section-title">向门户添加基础架构</block>
+  <block id="775d2ba16d79b874e995444c31ce184d" category="paragraph">选择所有必需组件后，您应在每个设备类型旁边看到一个绿色复选标记。</block>
+  <block id="4f043b26c1328f0930d8b487af491e8a" category="section-title">使用 TACACS+ 服务器授予 CSA 用户权限</block>
+  <block id="62a7d89267f8f25ef4b1bd80b1bb9b82" category="paragraph">如果您使用的是 TACACS+ 服务器，并且需要为交换机授予 CSA 用户权限，则必须创建一个用户权限组，并为该组授予对 CSA 所需的特定设置命令的访问权限。</block>
+  <block id="85ad73480f819de59e2df469c4b46dc4" category="paragraph">以下命令应写入 TACACS+ 服务器的配置文件。</block>
+  <block id="fc0cbb5a7205b6cf0664d8b69726908a" category="list-text">输入以下命令创建具有只读访问权限的用户权限组： group=group_name ｛ default service=deny service=exec ｛ priv-lvl=0 ｝ ｝</block>
+  <block id="bdc54b3290834bff5f9c73e4644958ce" category="list-text">输入以下命令以授予对 CSA 所需命令的访问权限： cmd=show ｛ permit "environment" permit "version" permit "feature" permit "feature-set" permit hardware 。 * permit "interface" permit "interface tunter" permit "inventory" permit "license" permit "module" permit "port-channel database" permit "ntp peers" permit "license use" permit "port-channel summary" permit "running-config " permit "start-config" permit "permit. "CDP 邻居详细信息 " 允许 "VLAN" 允许 "VPC" 允许 "VPC 对等保活 " 允许 "Mac 地址表 " 允许 "LACP 端口通道 " 允许 "policy-map" 允许 "policy-map system type QoS" 允许 "policy-map system type queuing" 允许 "policy-map system type network-cns" 允许 "zoneset active" 允许 "s"san-l" 允许 "fet" 数据库详细信息 允许 "zoneset active" 允许 "vsan" 允许 "vsan use" 允许 "vsan 成员资格 " ｝</block>
+  <block id="73a4aebaeec211620a602108d2b9404c" category="list-text">输入以下命令将 CSA 用户帐户添加到新创建的组： user=user_account ｛ member=group_name login=file/etc/passwd ｝</block>
+  <block id="e7d336fd675578d55b211bb25a960940" category="section-title">配置通知</block>
+  <block id="9bfe1d682437c9325f30cb732077f115" category="doc">Converged Systems Advisor 中的新增功能</block>
+  <block id="49f34bfa1825e63e5d97c99ba28bc215" category="section-title">2020 年 7 月 31 日</block>
+  <block id="7f6806da5c10db2d4b7238eff6a3048e" category="paragraph">此版本包括以下增强功能：</block>
+  <block id="1d1dc74e655dfdea0a8ddb51d61996a5" category="list-text"><block ref="1f29bdfefe55e3bb65f3709ed5f0ba05" category="inline-xref-macro-rx"></block></block>
+  <block id="247614e0a41492cd6d4a3eeb5bca6333" category="list-text"><block ref="6a66f062dad1a3503157e2346c820d3c" category="inline-xref-macro-rx"></block></block>
+  <block id="e472339f84111c01e68b8257137a2b22" category="list-text"><block ref="56e3284e19e0b171a2242f210e14f6df" category="inline-xref-macro-rx"></block></block>
+  <block id="47d666e6df1427f5d1fd84e8f73f7230" category="section-title">存储更改检测（差异）的新功能</block>
+  <block id="217ff35f7d6b3469892b68928ba39705" category="paragraph">现在，您可以检测存储系统上发生的更改。要检查更改情况，请在 * 存储清单 * 页面中单击 * 查看配置差异 * 。然后，选择先前的配置数据和时间，这些数据和时间将与最新的存储配置进行比较。发生的任何更改都将突出显示以供快速查看。</block>
+  <block id="d12b8ca6afcdf0d8044a82908222bbaf" category="section-title">扩展了集群互连交换机的配置保证</block>
+  <block id="f8046d35bf2bc5985759f821ad3a42eb" category="paragraph">在 Converged Systems Advisor 门户中，配置保证检查已进行扩展，可监控以下型号的 ONTAP 集群互连交换的可支持性：</block>
+  <block id="85b827a1928acc59a94521cd88bfd8c3" category="section-title">NVMe 设计的初始覆盖范围</block>
+  <block id="fa5c0cce16f3f3a76bf624862e41bcbd" category="paragraph">添加了初始配置保证检查，用于监控 ONTAP 中 NVMe FlexPod 存储设计的可支持性。</block>
+  <block id="92a02a450197db41e0b230ea53ef8ff3" category="doc">使用 TACACS+ 服务器授予 CSA 用户权限</block>
+  <block id="e518836d5edd45b09ec72b8a2caf2b83" category="paragraph">如果您使用的是 TACACS+ 服务器，并且需要为交换机授予 CSA 用户权限，则必须创建一个用户权限组，并为该组授予对 CSA 所需的特定设置命令的访问权限。以下命令应写入 TACACS+ 服务器的配置文件。</block>
+  <block id="b689686306a7a611fc6499acdfee3772" category="summary">Converged Systems Advisor 可验证 FlexPod 基础架构的部署情况，并提供持续监控和通知，以确保业务连续性。</block>
+  <block id="4daf49986af67aba8f5e944968d88167" category="doc">Converged Systems Advisor 概述</block>
+  <block id="b3072b853bb7e155aaf1f74dc7548418" category="paragraph">观看以下视频，了解 Converged Systems Advisor 的概述：</block>
+  <block id="fccce43bca628d5f348a9d60196dd5ac" category="inline-link">阅读产品规格</block>
+  <block id="c4a6f4e43c995f810acb8c7b73e0d5d1" category="paragraph">有关 Converged Systems Advisor 提供的价值的更多详细信息，<block ref="f25cd14a6ee6a3fdd35c3bb14df6ae32" category="inline-link-rx"></block>。</block>
+  <block id="f5a33842927eb03d2f6ec5e320ebfcec" category="summary">您可以生成多种类型的报告，例如合作伙伴的运行状况报告或部署验证报告。</block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">生成报告</block>
+  <block id="6610ef9bd5e35768446c72320c3ad413" category="paragraph">如果您拥有高级版许可证，则可以生成多种类型的报告，以提供有关融合基础架构当前状态的详细信息：清单报告，运行状况报告，评估报告，合作伙伴部署验证报告等。</block>
+  <block id="84337504add563b4ec594010634eff77" category="summary">要解锁 Converged Systems Advisor 中的功能，需要许可证。您可以从每个 FlexPod 融合基础架构的几个许可选项中进行选择。</block>
+  <block id="794df3791a8c800841516007427a2aa3" category="cell">许可证</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="cell">功能</block>
+  <block id="6f1bf85c9ebb3c7fa26251e1e335e032" category="cell">术语</block>
+  <block id="9654f0c8da8f367f3742a2c03f71cdd5" category="cell">无许可证</block>
+  <block id="6c05ba238f74e7e5841e247c02782965" category="paragraph">用于演示产品功能的有限版本：</block>
+  <block id="13fb576ab15b58ff9f2c42c2ca9fba59" category="list-text">在 24 小时试用期间监控 FlexPod 配置</block>
+  <block id="8b88eb36420b3734f1a32cc92729f737" category="list-text">运行状况信息板，用于查看 FlexPod 最佳实践合规性</block>
+  <block id="5c94f844e0c2aa342c0fc3c39b222f44" category="list-text">有限的清单和修复（在许可版本中提供）</block>
+  <block id="b24ce0cd392a5b0b8dedc66c25213594" category="list-text">免费</block>
+  <block id="41108d73c7c8c7e5306ab8252c1fee46" category="list-text">一次性使用（ 24 小时）</block>
+  <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">标准</block>
+  <block id="d812b7d7941c1b7e96f8c371e1b23668" category="list-text">持续监控 FlexPod 配置</block>
+  <block id="7d841c4ea708b59b4c75cfe062d368ff" category="list-text">计算，网络，存储和虚拟机管理程序的固件互操作性</block>
+  <block id="04d40b337323b71473e55502652986f0" category="list-text">生命周期管理工具，用于识别变更并防止配置偏离</block>
+  <block id="7aedb869ed87ea13dba5ebd6c35b375a" category="list-text">用于高级故障排除的详细清单和系统示意图</block>
+  <block id="3f0ea683d61b7d4cab7f17b7ca918290" category="list-text">由 NetApp 直接提供支持</block>
+  <block id="8a8d17b8bc23dd596aa82fa82f407a6e" category="paragraph">基于订阅的许可证：</block>
+  <block id="ecd2535bf841c57eafcac599e5fb523e" category="list-text">最少 12 个月</block>
+  <block id="b9b5754ccad548be3f9f4b58d1234564" category="list-text">最多 60 个月</block>
+  <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">高级版</block>
+  <block id="9c014c91b2b7fffa5bffd53c69726d82" category="paragraph">标准许可证中包含的所有功能，以及：</block>
+  <block id="c5562ce2e22a86c247849904ecef3dc8" category="list-text">报告</block>
+  <block id="ba4e88caeeb0ee1bb85ccef6dc858be5" category="paragraph">全面的实时报告 FlexPod 运行状况，互操作性和清单</block>
+  <block id="3ee2dd0d0cd3925e0e213578441f88ac" category="list-text">通知和警报</block>
+  <block id="b861373e1977a76436240aebcf8a34e0" category="paragraph">定期通知配置运行状况和状态变化</block>
+  <block id="6ee6d9fef76364b6211226d197ecc12d" category="summary">要开始使用，请为 FlexPod 设备设置帐户。</block>
+  <block id="763bff2d0a7510e1f497deffa1445dc8" category="doc">为 FlexPod 设备创建帐户</block>
+  <block id="b73ab54ffa874225e874120d5e960d8d" category="paragraph">要开始使用，请为 FlexPod 设备设置帐户：</block>
+  <block id="3b96bcbc483e9dd6bc3de826b5ffebb4" category="list-text"><block ref="198faeb348646b73e8da0473fcbe5455" category="inline-xref-macro-rx"></block></block>
+  <block id="dcc7b585896b920ed248bedc33fd4226" category="list-text"><block ref="81f1ba78fc4860b0c6197cc3de611053" category="inline-xref-macro-rx"></block></block>
+  <block id="0aa7c76a9a217ac66f5c793b6cb1779f" category="list-text"><block ref="2b75336c52fd5d571ce4755e5e6519ea" category="inline-xref-macro-rx"></block></block>
+  <block id="9d3cabb8bde54e4363132768c56ce892" category="list-text"><block ref="846474009d05c567cc71d50a068b3621" category="inline-xref-macro-rx"></block></block>
+  <block id="2bc3d9e6e8aac0760ec9c02e91515774" category="list-text"><block ref="eff313783d36eafeb3b0aebc4c097d24" category="inline-xref-macro-rx"></block></block>
+  <block id="c5a6e959bd6cf63be1fd9acf96a06c5c" category="list-text"><block ref="bc9cf9da7b1de83caf24ede548f23300" category="inline-xref-macro-rx"></block></block>
+  <block id="3f797dc0f189f9b373d1432af32b220f" category="paragraph">代理使用这些帐户从每个设备收集配置信息。</block>
+  <block id="3d69dc5441492f15abb95321c2cc1ada" category="section-title">为 Nexus 交换机创建只读帐户</block>
+  <block id="c2b8d6852be42f06f88b0c3fbbc5422e" category="list-text">使用 SSH 或 Telnet 登录到每个 Nexus 交换机。</block>
+  <block id="ec376469ee262b680d7560c874cb55d3" category="paragraph">如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至 <block ref="5dddc1466e8f7274f5d10e745bddaa1c" category="inline-link-macro-rx"></block>。</block>
+  <block id="9594abb61036587b970df022c2515a6e" category="paragraph">如果您使用的是 TACACS+ 服务器，并且需要为交换机授予 CSA 用户权限，则应创建一个用户权限组，并为该组授予对 CSA 所需的特定设置命令的访问权限。</block>
+  <block id="8e8c3bcc7746453643cf1bcd798bfab0" category="list-text">输入以下命令创建具有只读访问权限的用户权限组：</block>
+  <block id="a00ed1ca8e2bff8f5a9a44d1f182e66d" category="list-text">输入以下命令以授予对 CSA 所需命令的访问权限：</block>
+  <block id="164354e7a574442b2d5ff39fd82a9775" category="list-text">输入以下命令将 CSA 用户帐户添加到新创建的组中：</block>
+  <block id="bdb0dc2742052e838432bdb344b2269d" category="summary">开始使用 Converged Systems Advisor 代理和门户包括几个步骤。</block>
+  <block id="d765707c3b28b87a0166a122e0893c44" category="doc">Converged Systems Advisor 快速入门</block>
+  <block id="bb4e793023539d2e73eea517a0009f8f" category="paragraph">开始使用 Converged Systems Advisor 代理和适用于 FlexPod 的门户包括几个步骤。</block>
+  <block id="861d7392cf2a3c7ca2ed1442f6237101" category="paragraph">验证是否支持您的配置 <block ref="5db18581d3c751db9049195c8f5e0955" category="inline-link-macro-rx"></block>。</block>
+  <block id="005c54fa8a7e7bd788a9d809d1387a85" category="section-title">在 FlexPod 设备上创建帐户</block>
+  <block id="2f166ccfcdb92d24539f300510b6c06a" category="inline-link-macro">在 FlexPod 设备上创建帐户</block>
+  <block id="ef53b42f68445a3ad4051becb0f15d0a" category="paragraph">在 Cisco UCS Manager ， Cisco Nexus 交换机， ONTAP 系统， VMware 和 APIC 中设置帐户。代理使用这些帐户收集配置数据。<block ref="3431097fc9e072fa942c7d7d18ec5a22" category="inline-link-macro-rx"></block>。</block>
+  <block id="2c1c5cb63f66b3d5b5f4eeb79a858979" category="paragraph">对于使用 TACACS+ 服务器的用户，您需要为交换机授予 CSA 用户权限，创建用户权限组并为组授予对 CSA 所需的特定设置命令的访问权限。<block ref="4c9d56d5e4670c50abdba1f72cb4866c" category="inline-link-macro-rx"></block></block>
+  <block id="c0fb3c98adaf760968c2a76d78a5b482" category="inline-link-macro">部署代理</block>
+  <block id="0550cf7fd37a5b054ce87062df5f3254" category="paragraph">在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。<block ref="96f9770b130e3bbf775f182c9ade7098" category="inline-link-macro-rx"></block>。</block>
+  <block id="0d68d2879e160e76749e7cf93c2fa146" category="section-title">在门户中添加 / 共享基础架构</block>
+  <block id="19262993c294a1c73c8ae843e52a78f8" category="inline-link-macro">在门户中添加和共享基础架构</block>
+  <block id="98e6f4726c519b5915a8c7eda3e7406d" category="paragraph">将每个 FlexPod 设备添加到 Converged Systems Advisor 门户，以创建可监控的整个基础架构。您还可以共享融合基础架构，使其他人能够登录到门户，以便查看和监控配置。<block ref="8650b55bc84e39256db0ba998f0a5b40" category="inline-link-macro-rx"></block>。</block>
+  <block id="68b25f35698ade6b2d3fe83dec7cf861" category="paragraph">借助高级版许可证，您可以设置通知，以便通过电子邮件通知提醒您 FlexPod 基础架构发生的更改。<block ref="ebe1a4d3225f5bb69764eba03129edce" category="inline-link-macro-rx"></block></block>
+  <block id="b44a488d2f5dc6040330205f250e7850" category="section-title">设置静态 IP 地址</block>
+  <block id="db15846e3abf8485dbf81a496e64d90a" category="paragraph">如果您的环境没有 DHCP 服务器，则可以在 Converged Systems Advisor 代理上设置静态 IP 地址。<block ref="708dd38422a6a2d257990b66f3dbd251" category="inline-link-macro-rx"></block></block>
+  <block id="ade2db7ff69f464a3b4134ab103d943b" category="summary">Converged Systems Advisor 是一个软件即服务（ SaaS ）平台，由内部代理和基于云的门户组成。</block>
+  <block id="77a689c1bae0e53995786b80a8e17081" category="doc">Converged Systems Advisor 的工作原理</block>
+  <block id="0a00ece35e033d1841a339c210e04460" category="paragraph">下图显示了 Converged Systems Advisor 组件之间的关系：</block>
+  <block id="21662a34f2c5913ae9ffdfc6a87df49d" category="inline-image-macro">一个概念图，显示安装在数据中心以及基于云的门户中的 FlexPod 和 Converged Systems Advisor 代理。</block>
+  <block id="15141ad14b4848210c9524f5d11800b6" category="paragraph"><block ref="15141ad14b4848210c9524f5d11800b6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ee3f80be147065bd8cb81d11a0fb5bb8" category="list-text">位于内部的 Converged Systems Advisor 代理使用您提供的凭据从 FlexPod 融合基础架构收集配置数据。</block>
+  <block id="5d64a5d6c8d20705c06e727402864f7a" category="list-text">代理会将数据发送到 Converged Systems Advisor 门户。</block>
+  <block id="adcb1449e4f973f9450c864800b1b9c7" category="list-text">用户使用 Web 浏览器登录到 Converged Systems Advisor 门户，以验证，监控和优化其 FlexPod 融合基础架构。</block>
+  <block id="e6fd1f675823f4d8c0538e7f54e2e725" category="inline-link-macro">了解 Converged Systems Advisor 如何确保数据安全</block>
+  <block id="4c4f62ffb153bddcdb3f3b3c38e73c3b" category="paragraph"><block ref="c922e371de9560d3839bd4c1500caf95" category="inline-link-macro-rx"></block>。</block>
+  <block id="d7eb081e4b63d797a86524b23182f6e0" category="summary">您可以为配置中的每个设备添加有关支持合同的详细信息，包括开始日期，结束日期和合同 ID 。</block>
+  <block id="707403f6f79d0a1227617b22557b065b" category="doc">跟踪支持合同</block>
+  <block id="3b2546b817f28d703c31d7aed00be35b" category="summary">如果您在使用 Converged Systems Advisor 时遇到问题，以下信息可能有助于您解决问题描述。</block>
+  <block id="463cc44c201d5ae719550157ac2a413b" category="doc">对 Converged Systems Advisor 进行故障排除</block>
+  <block id="428d0d725fffa01833d1c1657a9cc053" category="section-title">您无法通过 Web 浏览器连接到代理</block>
+  <block id="1bcbf11c77c23773c9cd5195b4d8ac35" category="paragraph">您需要通过 Web 浏览器连接到代理，以配置 FlexPod 设备的发现。如果无法通过 Web 浏览器进行连接，请确保代理已通过出站 Internet 连接到 csa.netapp.com 。如果没有 Internet 连接，代理应用程序将无法启动，从而使您无法访问其 Web 界面。</block>
+  <block id="8304febf8351132b2b9a821976ba71e7" category="inline-link-macro">配置代理虚拟机以使用它</block>
+  <block id="188d24abd8a88712d74796685ffaa46e" category="paragraph">如果需要代理服务器才能访问 Internet ， <block ref="d49ad811ca1415593c51e7dfbe6a5e10" category="inline-link-macro-rx"></block>。</block>
+  <block id="7b88f77ca44f1eb0b8273fa36ebbb216" category="section-title">代理无法发现设备</block>
+  <block id="d80389ce860d30c8106b32799e3e3061" category="paragraph">如果代理无法发现 FlexPod 设备，请验证以下内容：</block>
+  <block id="52a6ce76970c0a52517ae2b898732a02" category="list-text">确保代理与每个 FlexPod 设备的连接均已打开。</block>
+  <block id="60bf94fc90364efe96c1ada472fecdd1" category="paragraph">要进行验证，请从代理对每个设备执行 ping 操作。</block>
+  <block id="286407c3fa4f709f217f24946aae87f3" category="list-text">验证本地网络是否正在使用 172.17.x.x 子网。</block>
+  <block id="eb093e4c122374d8c203c9c40f0afc9a" category="paragraph">代理在内部使用 172.17.x.x 子网。如果本地网络使用同一子网，则必须更改代理上的子网：</block>
+  <block id="44c57355f2137f5740ef1cdb5f9c7035" category="paragraph">默认用户名为 `CSA` ，默认密码为 `NetApp` 。您应在登录后更改默认密码。</block>
+  <block id="8ab2a3d62ebd7af039152e14f12d58ac" category="list-text">使用以下内容添加文件 ` /etc/docker/daemon.json` ：</block>
+  <block id="ea680b088905eba82105c090c1d63e93" category="paragraph">bip 地址可以是任何不冲突的 IP 地址。不需要处于 172 范围内。</block>
+  <block id="c93bb56c92330fc7f15bdb5f83e6cebc" category="list-text">重新启动虚拟机。</block>
+  <block id="b36869091223af043b61346977f2e3d7" category="section-title">无法使用 SSH 连接到代理 VM</block>
+  <block id="ce5f0b7deafe1859b1b53204e08d13e5" category="paragraph">默认情况下，代理虚拟机的 SSH 处于禁用状态。</block>
+  <block id="a3902f858969f391d50709c249064a7c" category="list-text">要启动 SSH ，请通过 vCenter 中的控制台登录到代理 VM ，然后运行以下命令：</block>
+  <block id="44a23a7131a2e87264023226122897b4" category="paragraph">`sUdo su` `systemctl start ssh`</block>
+  <block id="1f697227c3ddcc4288f43237b393d856" category="list-text">要检查是否已启用 SSH ，请运行以下命令：</block>
+  <block id="5285394e5834a03059adcf3a5c96ba35" category="paragraph">`sytemctl 已启用 ssh`</block>
+  <block id="efbf3282c28d88b8f4ac719755b8f812" category="list-text">要检查代理 VM 上的 SSH 状态，请运行以下命令：</block>
+  <block id="e8088ad97b5eacf66e0007a17928a4b0" category="paragraph">`systemctl status ssh`</block>
+  <block id="7153dae840d94fd333315e2381595ab1" category="list-text">要使 SSH 在重新启动后保持不变，请运行以下命令：</block>
+  <block id="d334971ac8733188439f1850f5f8bfc3" category="paragraph">`sUdo su` `sytemctl enable ssh`</block>
+  <block id="19e149b86fe87374d6b13ab3c1aa59c1" category="summary">在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。</block>
+  <block id="299c9bc2f2558e7ca5b14d172d438580" category="doc">设置和部署代理</block>
+  <block id="57750ce19329b425174cbc93e6a43e62" category="list-text"><block ref="0bf5e97b243054f72da9a63ad8890d33" category="inline-xref-macro-rx"></block></block>
+  <block id="2214fd2fdaa4608476ac6f7c414cfc1c" category="list-text"><block ref="970f7963be3b539669866471b49eb842" category="inline-xref-macro-rx"></block></block>
+  <block id="b2dad7356075346268f85e3b33bd7d98" category="list-text"><block ref="9707b20d628746abe74ac98ac3cf317d" category="inline-xref-macro-rx"></block></block>
+  <block id="78bdb79e38127e38c9f36e8fa078ac0f" category="list-text"><block ref="73d26a40aa0069c926cf11f2b34f94d9" category="inline-xref-macro-rx"></block></block>
+  <block id="6078750bfcc811063bfb2a2ceaba55e2" category="paragraph">使用以下格式输入 HTTP 代理： `http://user:password@proxy-server:proxy-port`</block>
+  <block id="565c0cc9c79be5003d947c57c93b6855" category="paragraph">如果 Internet 访问不需要 HTTP 代理，请保留空白。</block>
+  <block id="427cb0ec1b7b1f159c664b2e33c2ab42" category="section-title">在代理上安装 SSL 证书</block>
+  <block id="ffaa787fcbf7a79905f4077f8a8c365a" category="paragraph">可选：如果需要，请在代理上安装 SSL 证书。</block>
+  <block id="befa1cf57e6e8a9ac1352c5e81a8ed05" category="paragraph">Converged Systems Advisor 支持以下功能： * 与 OpenSSL 1.0.1 或更高版本兼容的任何密码 * TLS 1.1 和 TLS 1.2</block>
+  <block id="a93da1113a93232875b14fb26869da02" category="paragraph">您必须将代理配置为从 FlexPod 融合基础架构中的每个设备收集配置数据。代理需要凭据才能收集配置数据。配置代理时，必须提供凭据。</block>
+  <block id="bf8b4438caf3a61a994abe5231b39201" category="list-text">使用客户的 NetApp 支持站点帐户用户名和密码登录到代理。</block>
+  <block id="e6b0b23d462e5d837da86ce23da0f93d" category="admonition">对于代表客户部署 CSA 许可版本的合作伙伴，在此步骤中使用客户帐户非常重要（对于 NetApp 支持和记录管理）。</block>
+  <block id="458a6d581be6d26cc492ea80b79c1cd9" category="paragraph">请注意以下事项： * 用户名和密码应适用于您先前为设备创建的帐户。* 如果 UCS 环境配置了 LDAP 用户管理，则必须在用户名之前添加用户的域。例如： local\csa-readonly</block>
+  <block id="ed3bafb82e73ad72d2174d40ff5e566e" category="paragraph">FlexPod 基础架构中的每个设备都应显示在表中并带有复选标记。<block ref="7e0f6190afd11994fbf2acbbb620f788" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="115b9f0ff63d039cd385c57b40bf95a9" category="sidebar">Converged Systems Advisor 文档</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="96573196b0bc5ca16f36a7ab51440d98" category="sidebar">新增功能归档</block>
+  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
+  <block id="cb59b87e00d11222bfd9159d0d23836f" category="sidebar">入门</block>
+  <block id="fcfe3322250efe8a9b82e67dc1a52629" category="sidebar">设置和部署代理</block>
+  <block id="2db72662c8c544bb8061d0dd7316e260" category="sidebar">在门户中添加基础架构</block>
+  <block id="ed921ee7e2f886f27ab4462f27404241" category="sidebar">在代理上设置静态 IP</block>
+  <block id="6cf8e922cda64d990e6cd69cd9ddde4f" category="sidebar">监控基础架构</block>
+  <block id="6c9d9b02e3e64a4c7870f630c5d9dbc2" category="sidebar">查看基础架构历史记录</block>
+  <block id="b7b722eea69a1d2e85256ecaa18b4620" category="sidebar">监控规则</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="sidebar">故障排除</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="sidebar">相关链接</block>
+</blocks>

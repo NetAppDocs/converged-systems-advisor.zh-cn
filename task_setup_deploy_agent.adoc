@@ -1,0 +1,157 @@
+---
+sidebar: sidebar 
+permalink: task_setup_deploy_agent.html 
+keywords: setup, deploy, FlexPod, configuration, VMware, ESXi server, FlexPod, converged, infrastructure, data, agent 
+summary: 在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。 
+---
+= 设置和部署代理
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。
+
+.步骤
+. <<Download and install the agent>>
+. <<Set up networking for the agent>>
+. <<Install an SSL certificate on the agent>>
+. <<Configure the agent to discover your FlexPod infrastructure>>
+
+
+
+
+== 下载并安装代理
+
+您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。
+
+要最大程度地减少带宽使用量，应将代理安装在与 FlexPod 配置位于同一数据中心的 VMware ESXi 服务器上。代理必须能够连接到每个 FlexPod 组件和 Internet ，以便可以使用 HTTPS 端口 443 将配置数据发送到 Converged Systems Advisor 门户。
+
+此代理将通过开放式虚拟化格式（ OVF ）模板部署为 VMware vSphere 虚拟机。该模板基于 Debian ，具有 1 个 vCPU 和 2 GB RAM （对于多个或更大的 FlexPod 系统，可能需要更多的内存）。
+
+.步骤
+. 下载代理：
++
+.. 登录到 https://csa.netapp.com/["Converged Systems Advisor 门户"^]。
+.. 单击 * 下载代理 * 。
+
+
+. 通过在 VMware ESXi 服务器上部署 OVF 模板来安装代理。
++
+在某些 VMware 版本上，部署 OVF 模板时可能会收到警告。虚拟机是在最新版本的 vCenter 上开发的，与旧版本的硬件兼容，因此可能会出现此警告。您应在确认警告之前查看配置选项，然后继续安装。
+
+
+
+
+
+== 为代理设置网络
+
+您必须确保已在代理虚拟机上正确设置网络，以便在代理和 FlexPod 设备之间以及代理与多个 Internet 端点之间进行通信。请注意，在系统初始化之前，虚拟机上会禁用网络堆栈。
+
+.步骤
+. 确保通过出站 Internet 连接可以访问以下端点：
++
+** csa.netapp.com
+** docker.com
+** Docker
+
+
+. 使用 VMware vSphere 客户端登录到代理的虚拟机控制台。
++
+默认用户名为 `CSA` ，默认密码为 `NetApp` 。
+
++
+
+TIP: 出于安全考虑， SSHD 默认处于禁用状态。
+
+. 出现提示时，更改默认密码并记下此密码，因为它无法恢复。
++
+更改密码后，系统将重新启动并启动代理软件。
+
+. 如果 DHCP 在子网中不可用，请使用标准 Debian 工具配置静态 IP 地址和 DNS 设置，然后重新启动代理。
++
+link:task_setting_static_ip.html["单击此处了解详细说明"]。
+
++
+Debian 虚拟机的网络配置默认为 DHCP 。已安装 NetworkManager 并提供了一个文本用户界面，您可以从命令 nmtui 启动此界面（请参见 https://manpages.debian.org/stretch/network-manager/nmtui.1.en.html["手册页"^] 了解更多详细信息）。
+
++
+有关网络连接的其他帮助，请参见 https://wiki.debian.org/NetworkConfiguration["Debian wiki 上的网络配置页面"^]。
+
+. 如果您的安全策略要求代理必须位于一个网络上才能与 FlexPod 设备进行通信，而另一个网络必须与 Internet 进行通信，请在 vCenter 中添加另一个网络接口并配置正确的 VLAN 和 IP 地址。
+. 如果需要代理服务器才能访问 Internet ，请运行以下命令：
++
+`sUdo CSA_SET_proxy`
+
++
+此命令将生成两个提示符，并显示所需的代理条目格式。第一个提示符用于指定 HTTP 代理，第二个提示符用于指定 HTTPS 代理。
+
++
+使用以下格式输入 HTTP 代理： `http://user:password@proxy-server:proxy-port`
+
++
+如果 Internet 访问不需要 HTTP 代理，请保留空白。
+
+. 网络启动后，请等待大约 5 分钟，以便系统更新并启动。
++
+代理运行时，控制台上会显示一条广播消息。
+
+. 从代理运行以下命令行界面命令，以验证连接：
++
+....
+curl -k https://www.netapp.com/us/index.aspx
+....
++
+如果命令失败，请验证 DNS 设置。代理虚拟机必须具有有效的 DNS 配置并能够访问 csa.netapp.com 。
+
+
+
+
+
+== 在代理上安装 SSL 证书
+
+可选：如果需要，请在代理上安装 SSL 证书。
+
+当虚拟机首次启动时，代理会创建一个自签名证书。如果需要，您可以删除该证书并使用自己的 SSL 证书。
+
+Converged Systems Advisor 支持以下功能： * 与 OpenSSL 1.0.1 或更高版本兼容的任何密码 * TLS 1.1 和 TLS 1.2
+
+.步骤
+. 登录到代理的虚拟机控制台。
+. 导航到 ` 选项 /CSA/Certs`
+. 删除代理创建的自签名证书。
+. 粘贴 SSL 证书。
+. 重新启动虚拟机。
+
+
+
+
+== 配置代理以发现您的 FlexPod 基础架构
+
+您必须将代理配置为从 FlexPod 融合基础架构中的每个设备收集配置数据。代理需要凭据才能收集配置数据。配置代理时，必须提供凭据。
+
+.步骤
+. 打开 Web 浏览器并输入代理虚拟机的 IP 地址。
+. 使用客户的 NetApp 支持站点帐户用户名和密码登录到代理。
++
+
+NOTE: 对于代表客户部署 CSA 许可版本的合作伙伴，在此步骤中使用客户帐户非常重要（对于 NetApp 支持和记录管理）。
+
+. 添加希望代理发现的 FlexPod 设备。
++
+您有两种选择：
+
++
+.. 单击 * 添加设备 * 以逐个输入有关 FlexPod 设备的详细信息。
+.. 单击 * 导入设备 * 以填写并上传包含所有设备详细信息的 CSV 模板。
++
+请注意以下事项： * 用户名和密码应适用于您先前为设备创建的帐户。* 如果 UCS 环境配置了 LDAP 用户管理，则必须在用户名之前添加用户的域。例如： local\csa-readonly
+
+
+
+
+
+FlexPod 基础架构中的每个设备都应显示在表中并带有复选标记。image:screenshot_agent_configuration.gif["在状态列中显示每个所需设备，并带有绿色复选标记。"]

@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+keywords: converged systems advisor, netapp, documentation, flexpod, converged, infrastructure, validation, monitoring, getting started, new 
+summary: NetApp 融合系统顾问可验证，监控和优化 FlexPod 融合基础架构的部署，以确保业务应用程序获得最佳性能和可用性。 
+---
+= Converged Systems Advisor
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 融合系统顾问可验证，监控和优化 FlexPod 融合基础架构的部署，以确保业务应用程序获得最佳性能和可用性。
+
+
+
+== 了解新功能
+
+link:reference_new.html["Converged Systems Advisor 中的新增功能"]
+
+
+
+== 入门
+
+link:task_quick_start.html["快速入门"]
+
+
+
+== 了解 Converged Systems Advisor
+
+* link:concept_overview.html["概述"]
+* link:concept_architecture.html["架构"]
+* link:concept_licensing.html["许可"]
+
+
+
+
+== 获得帮助并与同行联系
+
+https://community.netapp.com/t5/Converged-Infrastructure/ct-p/flexpod-and-converged-infrastructure["NetApp 社区：融合基础架构"^]

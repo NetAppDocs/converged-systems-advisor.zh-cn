@@ -1,0 +1,73 @@
+---
+sidebar: sidebar 
+permalink: concept_licensing.html 
+keywords: licenses, standard, premium, features, licensing, alerts, notifications, emails, reports, term, subscription, reporting 
+summary: 要解锁 Converged Systems Advisor 中的功能，需要许可证。您可以从每个 FlexPod 融合基础架构的几个许可选项中进行选择。 
+---
+= 许可
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+要解锁 Converged Systems Advisor 中的功能，需要许可证。您可以从每个 FlexPod 融合基础架构的几个许可选项中进行选择。
+
+[cols="12,64,24"]
+|===
+| 许可证 | 功能 | 术语 
+
+
+| 无许可证  a| 
+用于演示产品功能的有限版本：
+
+* 在 24 小时试用期间监控 FlexPod 配置
+* 运行状况信息板，用于查看 FlexPod 最佳实践合规性
+* 有限的清单和修复（在许可版本中提供）
+
+ a| 
+* 免费
+* 一次性使用（ 24 小时）
+
+
+
+
+| 标准  a| 
+* 持续监控 FlexPod 配置
+* 运行状况信息板，用于查看 FlexPod 最佳实践合规性
+* 计算，网络，存储和虚拟机管理程序的固件互操作性
+* 生命周期管理工具，用于识别变更并防止配置偏离
+* 用于高级故障排除的详细清单和系统示意图
+* 由 NetApp 直接提供支持
+
+ a| 
+基于订阅的许可证：
+
+* 最少 12 个月
+* 最多 60 个月
+
+
+
+
+| 高级版  a| 
+标准许可证中包含的所有功能，以及：
+
+* 报告
++
+全面的实时报告 FlexPod 运行状况，互操作性和清单
+
+* 通知和警报
++
+定期通知配置运行状况和状态变化
+
+
+ a| 
+基于订阅的许可证：
+
+* 最少 12 个月
+* 最多 60 个月
+
+
+|===

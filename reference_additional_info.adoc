@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: reference_additional_info.html 
+keywords: help, technical report, tr, 4036, best practices, imt, interoperability matrix, community, forum, docs, documentation, copyrights, notice 
+summary: 您可以通过各种资源获得有关 Converged Systems Advisor 的帮助和更多信息。 
+---
+= 从何处获取帮助和查找更多信息
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以通过各种资源获得有关 Converged Systems Advisor 的帮助和更多信息。
+
+* https://www.netapp.com/us/media/ds-3896.pdf["Converged Systems Advisor 产品规格"^]
++
+有关 Converged Systems Advisor 提供的价值的更多详细信息。
+
+* https://www.netapp.com/us/media/tr-4036.pdf["NetApp 技术报告 4036 ：《 FlexPod 数据中心技术规格》"^]
++
+查看 Converged Systems Advisor 将您的配置与之进行比较的最佳实践和固件要求。
+
+* http://mysupport.netapp.com/matrix["NetApp 互操作性表工具"^]
++
+验证是否支持您的配置
+
+* http://community.netapp.com["NetApp 社区"^]
++
+与同行联系、提出问题、交换意见、查找资源并共享最佳实践。
+
+* http://docs.netapp.com["NetApp 产品文档"^]
++
+在 NetApp 产品文档中搜索说明、资源和答案。
+
+* https://mysupport.netapp.com/portal["创建支持案例"]
++
+创建支持案例以获得更多帮助。支持案例应在 * 类别 1 -> 远程诊断工具 * 和 * 类别 2 -> 融合系统顾问 * 下打开。
+
+

@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_prepare_environment.html 
+keywords: prepare, environment, verifying, support, accounts, account, configuration, registering, FlexPod, VMware, ESXi server, connection, connectivity, agent, portal 
+summary: 要开始使用 Converged Systems Advisor ，您必须准备好环境。 
+---
+= 准备您的环境
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+要开始使用 Converged Systems Advisor ，您必须准备好环境。准备环境包括验证对您的配置的支持以及注册 NetApp 支持站点帐户。
+
+您可能需要 link:concept_architecture.html["了解 Converged Systems Advisor 的工作原理"] 开始之前
+
+.步骤
+. 在中验证支持 http://mysupport.netapp.com/matrix["NetApp 互操作性表工具"^]：
++
+.. 验证 Converged Systems Advisor 是否支持您的 FlexPod 融合基础架构。
+.. 验证是否具有支持 Converged Systems Advisor 代理的 VMware ESXi 服务器。
++
+为了最大限度地减少带宽使用量， NetApp 建议将代理安装在与 FlexPod 融合基础架构相同的数据中心中。
+
+
+
+. 确保安装代理的网络允许组件之间进行连接：
++
+** 代理必须连接到每个 FlexPod 组件，才能收集配置数据。
+** 代理还需要出站 Internet 连接才能与以下端点进行通信：
++
+*** csa.netapp.com
+*** docker.com
+*** Docker
+
+
+
+
+. 转至 https://mysupport.netapp.com["NetApp 支持站点"^] 并注册帐户（如果您没有帐户）。
++
+要配置代理并访问门户，需要 NetApp 支持站点帐户。
+
+

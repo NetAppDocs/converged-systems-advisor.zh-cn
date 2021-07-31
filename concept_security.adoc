@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: concept_security.html 
+keywords: security, data, transfer, privacy, encrypted, encryption, https, tls, customer, business 
+summary: Converged Systems Advisor 会收集有关 FlexPod 融合基础架构的配置数据，以帮助您验证和监控系统。您可能希望了解如何收集数据，如何将数据传输到 NetApp 以及如何确保数据安全和隐私。 
+---
+= 安全性
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Converged Systems Advisor 会收集有关 FlexPod 融合基础架构的配置数据，以帮助您验证和监控系统。您可能希望了解如何收集数据，如何将数据传输到 NetApp 以及如何确保数据安全和隐私。
+
+
+
+== 如何收集数据
+
+Converged Systems Advisor 代理需要凭据才能访问 FlexPod 融合基础架构中的设备。Cisco UCS 和 Nexus 交换机需要只读凭据，而 ONTAP 则需要管理员凭据。凭据会进行加密并存储在代理本地，不会发送到基于云的门户。
+
+提供凭据后，代理将从设备收集 _configuration_data 。从不访问或传输设备上的 _Customer_ 数据。代理收集的典型配置数据示例包括：
+
+* Capacity
+* CPU 和内存
+* 设备连接
+* 设备名称和 ID
+* 设备状态
+* 固件版本
+* IP 地址
+* iSCSI 目标
+* licenses
+* MAC 地址
+* 型号
+* 序列号
+
+
+
+
+== 数据传输方式
+
+代理从 FlexPod 融合基础架构发现配置数据后，将使用 HTTPS 将数据发送到 Converged Systems Advisor 门户。通信使用 NetApp 的 TLS 1.2 证书进行加密。
+
+image:diagram_data_transfer.gif["显示了从代理到门户的加密 HTTPS 连接。"]
+
+
+
+== 如何保护数据的安全和隐私
+
+配置数据驻留在 NetApp 网络中，并由 NetApp IT 管理。数据通过数据访问层进行保护，该层要求对请求访问的每个用户进行正面标识。
+
+部署此代理的用户可以通过使用 NetApp 支持站点帐户登录来从 Converged Systems Advisor 门户访问数据。此用户对融合基础架构拥有 _owner_ 权限。所有者可以通过授予只读，写入或所有者权限与其他用户共享融合基础架构。这些用户还必须拥有已注册的 NetApp 支持站点帐户才能登录到该门户。
+
+link:reference_user_roles.html["查看只读，写入和所有者权限之间的差异"]。

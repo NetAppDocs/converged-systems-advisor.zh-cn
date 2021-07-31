@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_architecture.html 
+keywords: architecture, diagram, components, flexpod, agent, portal, cloud, on premise 
+summary: Converged Systems Advisor 是一个软件即服务（ SaaS ）平台，由内部代理和基于云的门户组成。 
+---
+= Converged Systems Advisor 的工作原理
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Converged Systems Advisor 是一个软件即服务（ SaaS ）平台，由内部代理和基于云的门户组成。
+
+下图显示了 Converged Systems Advisor 组件之间的关系：
+
+image:diagram_architecture.gif["一个概念图，显示安装在数据中心以及基于云的门户中的 FlexPod 和 Converged Systems Advisor 代理。"]
+
+. 位于内部的 Converged Systems Advisor 代理使用您提供的凭据从 FlexPod 融合基础架构收集配置数据。
+. 代理会将数据发送到 Converged Systems Advisor 门户。
+. 用户使用 Web 浏览器登录到 Converged Systems Advisor 门户，以验证，监控和优化其 FlexPod 融合基础架构。
+
+
+link:concept_security.html["了解 Converged Systems Advisor 如何确保数据安全"]。

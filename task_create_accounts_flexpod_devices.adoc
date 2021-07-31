@@ -1,0 +1,197 @@
+---
+sidebar: sidebar 
+permalink: task_create_accounts_flexpod_devices.html 
+keywords: create, accounts, FlexPod, devices, support, accounts, account, configuration, registering, FlexPod, VMware, ESXi server, connection, connectivity, agent, portal 
+summary: 要开始使用，请为 FlexPod 设备设置帐户。 
+---
+= 为 FlexPod 设备创建帐户
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+要开始使用，请为 FlexPod 设备设置帐户：
+
+* <<Create a read-only account for Cisco UCS Manager>>
+* <<Create a read-only account for Nexus switches>>
+* <<Create an admin account for ONTAP>>
+* <<Create a read-only account for VMware>>
+* <<Create a read-only account on the APIC>>
+* <<Grant CSA user privileges using a TACACS+ server>>
+
+
+代理使用这些帐户从每个设备收集配置信息。
+
+
+
+== 为 Cisco UCS Manager 创建只读帐户
+
+.步骤
+. 登录到 Cisco UCS Manager 。
+. 创建一个名为 _csa-readonly_ 的本地身份验证用户。
++
+
+TIP: 默认情况下，所有新用户都是只读的。
+
+
+
+
+
+== 为 Nexus 交换机创建只读帐户
+
+.步骤
+. 使用 SSH 或 Telnet 登录到每个 Nexus 交换机。
+. 进入全局配置模式：
++
+....
+ configure terminal
+.. Create a new user:
+....
++
+....
+ username [name] password [password] role network-operator
+.. Save the configuration:
+....
++
+....
+copy running configuration startup configuration
+....
+
+
+如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至 link:task_grant_user_privileges.html["使用 TACACS+ 服务器授予 CSA 用户权限"]。
+
+
+
+== 为 ONTAP 创建管理员帐户
+
+.步骤
+. 登录到 OnCommand 系统管理器，然后单击设置图标：
++
+image:screenshot_system_manager_settings.gif["System Manager 中的设置图标。"]。
+
+. 在用户页面上，单击 * 添加 * 。
+. 输入用户名和密码并添加 * 。 ssh* ， * ontapi* 和 * 控制台 * 作为具有管理员访问权限的用户登录方法。
++
+image:screenshot_system_manager_add_user.gif["显示了 System Manager 中的 \" 添加用户 \" 屏幕，其中新的 ONTAP 用户具有 ssh 和 ontapi 权限。"]
+
+
+
+
+
+== 为 VMware 创建只读帐户
+
+.步骤
+. 登录到 vCenter 。
+. 在 vCenter 菜单中，选择 * 管理 * 。
+. 在角色下，选择 * 只读 * 。
+. 单击 * 克隆角色操作 * 图标并将名称更改为 * CSA * 。
+. 选择新创建的 * CSA * 角色。
+. 单击 * 编辑角色 * 图标。
+. 在 * 编辑角色 * 下，选择 * 全局 * ，然后选中 * 许可证 * 。
+. 在边栏上，选择 * 单点登录 -> 用户和组 -> 创建新用户 * 。
+. 在域 vpshere.local 下将新用户命名为 * CSARO* 。
+. 在边栏上，选择 * 访问控制 * 下的 * 全局权限 * 。
+. 选择用户 * CSARO* 并分配角色 * CSA * 。
+. 登录到 Web Client 。
++
+使用用户 ID * CSARO@vsphere.local* 和先前创建的密码。
+
+
+
+
+
+== 在 APIC 上创建只读帐户
+
+.步骤
+. 单击 * 管理 * 。
+. 单击 * 创建新的本地用户 * 。
+. 在 * 用户身份 * 下，输入用户信息。
+. 在 * 安全性 * 下，选择所有安全域选项。
+. 如果需要，单击 * + * 以添加用户证书和 SSH 密钥。
+. 单击 * 下一步 * 。
+. 单击 * + * 为您的域添加角色。
+. 从下拉菜单中选择 * 角色名称 * 。
+. 为 * 角色权限类型 * 选择 * 读取 * 。
+. 单击 * 完成 * 。
+
+
+
+
+== 使用 TACACS+ 服务器授予 CSA 用户权限
+
+如果您使用的是 TACACS+ 服务器，并且需要为交换机授予 CSA 用户权限，则应创建一个用户权限组，并为该组授予对 CSA 所需的特定设置命令的访问权限。
+
+以下命令应写入 TACACS+ 服务器的配置文件。
+
+.步骤
+. 输入以下命令创建具有只读访问权限的用户权限组：
+
+
+[listing]
+----
+  group=group_name {
+    default service=deny
+    service=exec{
+      priv-lvl=0
+    }
+  }
+----
+. 输入以下命令以授予对 CSA 所需命令的访问权限：
+
+
+[listing]
+----
+  cmd=show {
+    permit "environment"
+    permit "version"
+    permit "feature"
+    permit "feature-set"
+    permit hardware.*
+    permit "interface"
+    permit "interface"
+    permit "interface transceiver"
+    permit "inventory"
+    permit "license"
+    permit "module"
+    permit "port-channel database"
+    permit "ntp peers"
+    permit "license usage"
+    permit "port-channel summary"
+    permit "running-config"
+    permit "startup-config"
+    permit "running-config diff"
+    permit "switchname"
+    permit "int mgmt0"
+    permit "cdp neighbors detail"
+    permit "vlan"
+    permit "vpc"
+    permit "vpc peer-keepalive"
+    permit "mac address-table"
+    permit "lacp port-channel"
+    permit "policy-map"
+    permit "policy-map system type qos"
+    permit "policy-map system type queuing"
+    permit "policy-map system type network-qos"
+    permit "zoneset active"
+    permit "san-port-channel summary"
+    permit "flogi database"
+    permit "fcns database detail"
+    permit "fcns database detail"
+    permit "zoneset active"
+    permit "vsan"
+    permit "vsan usage"
+    permit "vsan membership"
+    }
+----
+. 输入以下命令将 CSA 用户帐户添加到新创建的组中：
+
+
+[listing]
+----
+  user=user_account{
+    member=group_name
+    login=file/etc/passwd
+  }
+----

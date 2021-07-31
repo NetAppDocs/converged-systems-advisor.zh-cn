@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_configure_notifications.html 
+keywords: configure, Converged, Systems, Advisor, infrastructure, email, notifications, alert, portal, collection, failures, offline, agent, daily, alert, digest 
+summary: 如果您拥有高级版许可证，则 Converged Systems Advisor 可以通过电子邮件通知提醒您 FlexPod 基础架构发生的更改。 
+---
+= 配置通知
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您拥有高级版许可证，则 Converged Systems Advisor 可以通过电子邮件通知提醒您 FlexPod 基础架构发生的更改。
+
+.步骤
+. 在 Converged Systems Advisor 门户中，单击 * 设置图标 * ，然后单击 * 警报设置 * 。
+. 检查对于每个具有高级许可证的融合基础架构，您希望收到的通知。
++
+每个通知都包含以下信息：
+
++
+收集失败:: 如果 Converged Systems Advisor 无法从融合基础架构收集数据，则会向您发出警报。
+脱机代理:: 当 Converged Systems Advisor 代理未联机时向您发出警报。
+每日警报摘要:: 提醒您前一天发生的规则失败。
+
+
+. 单击 * 保存 * 。
+
+
+现在， Converged Systems Advisor 将向与融合基础架构关联的用户发送电子邮件通知。

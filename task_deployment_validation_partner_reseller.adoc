@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_deployment_validation_partners_resellers.html 
+keywords: review, alerts, warnings, failed, rules, alerts, history, remediate, remediation, suppress, display, fail, warning, pass, notifications, email 
+summary: 作为合作伙伴或经销商，您可以验证客户基础架构的部署情况。 
+---
+= 验证合作伙伴和经销商的部署
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+作为合作伙伴或经销商，您可以通过查看信息板上显示的数据或生成运行状况报告来验证客户基础架构的部署情况。
+
+.开始之前
+* 您已在客户站点安装新的 FlexPod ，或者正在使用现有 FlexPod 。
+* 您已在 FlexPod 设备上创建帐户。
+* 如果您使用的是 TACACS+ 服务器，则已授予 CSA 用户权限。
+* 您已下载并安装此代理。
++
+请参见 link:task_setup_deploy_agent.html["设置和部署代理"]。
+
+* 您可以为代理设置网络连接，也可以选择在代理上安装 SSL 证书。
+* 利用 NetApp 凭据，您为客户创建了 CI ，以便将基础架构添加到门户中。
++
+请参见 link:task_add_infrastructure["向门户添加基础架构"] 在 CSA 门户中创建 CI 。
+
+* 您也可以选择与其他用户共享基础架构。
+
+
+合作伙伴和经销商使用自己的 NetApp 凭据登录到 CSA 门户以启动验证过程。
+
+. 登录到 https://csa.netapp.com/["Converged Systems Advisor 门户"^] 使用您的 NetApp 凭据。
+. 单击 * 选择一个 CI* ，然后单击客户的相应 CI ，或者在搜索框中键入此 CI 名称。此时将显示此 CI 的信息板。
+
+
+作为合作伙伴或经销商，您可以使用以下方法验证客户的基础架构：
+
+* 在信息板上，您可以验证基础架构的各个方面：
++
+** * 固件互操作性 * 显示已安装的软件版本。单击每个标题可查看其他详细信息。
+** * 支持合同 * 显示合同到期时间。单击追加信息的 * 查看详细信息 * 。
+** * 代理状态 * 显示有关代理的详细信息，包括受监控的设备。
+** * 容量 * 显示磁盘空间，网络端口和 UCS 刀片式服务器机箱的利用率。单击链接可查看每个利用率的详细信息。
+** * 运行状况 * 以图形方式显示基础架构的存储，计算，网络和虚拟化功能规则的状态。单击图形的颜色区域可查看其他详细信息。
+** * 规则摘要 * 显示规则失败和警告的警报。单击每行左侧的箭头，或单击设备名称以查看其他详细信息。
+
+
+* 在操作栏中，选择 * 报告 -> 运行状况报告 * 以生成详细的融合系统运行状况报告。您可以在浏览器中查看它，将其下载为 PDF 文件或通过电子邮件共享它。
+

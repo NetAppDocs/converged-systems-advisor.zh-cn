@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task_review_infrastructure_history.html 
+keywords: review, history, converged, infrastructure, configuration, resolve, issue, warnings, failures, collected, collections, data 
+summary: 当您收到有关规则失败的警报时，您可以查看配置中发生的更改的历史记录，以帮助您解决问题描述。 
+---
+= 查看基础架构的历史记录
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+当您收到有关规则失败的警报时，您可以查看配置中发生的更改的历史记录，以帮助您解决问题描述。
+
+.步骤
+. 选择融合基础架构。
+. 单击 * 更多 > 历史记录 * 。
++
+image:screenshot_history_navigation.gif["显示了包含历史记录选项的更多菜单。"]
+
+. 单击日历上的某一天可查看在每次数据收集期间发现的警告和故障数量。
++
+
+TIP: 每天显示的数字与代理收集数据的次数相对应。例如，如果保持默认收集间隔为 24 小时，则每天应显示一个收集。
+
++
+下图显示了当月 27 日的单个集合。
+
++
+image:screenshot_history_status.gif["显示月 27 日的第一个黄色圆点和一个黄色圆点。"]
+
+. 要查看有关所收集数据的更多详细信息，请单击某个集合的 * 转至 CI 信息板 * 。
+. 如果需要，请查看上次未发现任何警告或故障的历史记录。
++
+比较两个收集期间之间的数据有助于确定发生了哪些更改。
+
+

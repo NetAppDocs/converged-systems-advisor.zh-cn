@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task_setting_static_ip.html 
+keywords: networking, ip address, static, static ip, agent 
+summary: 如果您的环境没有 DHCP 服务器，则可以在 Converged Systems Advisor 代理上设置静态 IP 地址。 
+---
+= 在代理上设置静态 IP 地址
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您的环境没有 DHCP 服务器，则可以在 Converged Systems Advisor 代理上设置静态 IP 地址。
+
+.步骤
+. 使用 VMware vSphere 客户端登录到代理的虚拟机控制台。
++
+默认用户名为 * 。 sc* ，默认密码为 * 。 netapp* 。如果出现提示，请更改密码。
+
+. 在 CSA 提示符处输入 `sudo su –` 以成为 root 用户。
+. 输入 ` # systemctl stop csa.service` 以停止 CSA 服务。
+. 输入以下命令以确定正确的接口文件名。
++
+在此示例中，接口文件名称为 `eth0` 。
+
++
+` # ls /etc/network/interfaces.d/`
+
+. 输入 ` # /sbin/ifdown eth0` 以停止活动接口。
+. 使用您选择的编辑器编辑 /etc/network/interfaces.d/eth0 文件。
++
+` # nano /etc/network/interfaces.d/eth0` 或 ` # vi /etc/network/interfaces.d/eth0`
+
++
+此文件包含以下内容：
+
++
+`allow-hotplug eth0` `iface eth0 inet dhcp`
+
+. 删除 `iface eth0 inet dhcp` 并添加以下内容。注意：必须用正确的值替换下面示例中字段名称后面的所有条目。例如，示例中的网关值为 `192.168.11.1` 。但是，您应输入正确的网关地址，而不是 `192.168.11.1` 。
++
+`iface eth0 inet static` `address 192.168.11.100` `netmask 255.255.255.0` `gateway 192.168.11.1` `dns-domain example.com` `dns-nameservers 192.168.11.1`
+
+. 保存文件。
++
+在 nano 中，输入 * 。 Ctrl + o* ，然后输入 * 。 Ctrl + x* 进行保存。
+
+. 输入 `vi/etc/resolv.conf` 以打开配置文件。
+. 将 `nameserver <IP_address>` 添加到文件顶部。
+. 输入 ` # ifup eth0` 以启动网络接口。
+. 输入 `systemctl start csa.service` 以重新启动 Converged Systems Advisor 。
+

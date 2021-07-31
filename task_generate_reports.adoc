@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: generate, report, reports, converged, infrastructure, health, inventory, assessment, deployment, validation, partners, issues, configured, configuration, interoperability, downloaded, PDF, email 
+summary: 您可以生成多种类型的报告，例如合作伙伴的运行状况报告或部署验证报告。 
+---
+= 生成报告
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您拥有高级版许可证，则可以生成多种类型的报告，以提供有关融合基础架构当前状态的详细信息：清单报告，运行状况报告，评估报告，合作伙伴部署验证报告等。
+
+.步骤
+. 单击 * 报告 * 。
+. 选择报告并单击 * 生成 * 。
+. 选择报告选项：
++
+.. 选择融合基础架构。
+.. 也可以从最近的数据收集更改为以前的数据收集。
+.. 选择要查看报告的方式：在浏览器中，以下载的 PDF 格式或通过电子邮件查看。
++
+image:screenshot_reports_generate.gif["显示了用于生成报告的选项，其中包括选择融合基础架构和快照，然后选择要查看的方式。"]
+
+
+
+
+
+Converged Systems Advisor 将生成报告。

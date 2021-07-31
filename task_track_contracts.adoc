@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_track_contracts.html 
+keywords: track, support, contracts, renew, converged, infrastructure, device, devices, 
+summary: 您可以为配置中的每个设备添加有关支持合同的详细信息，包括开始日期，结束日期和合同 ID 。 
+---
+= 跟踪支持合同
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以为配置中的每个设备添加有关支持合同的详细信息：开始日期，结束日期和合同 ID 。这样，您就可以轻松地在一个中央位置跟踪详细信息，从而知道何时续订每个设备的支持合同。
+
+.步骤
+. 单击 * 选择一个 CI* 并选择融合基础架构。
+. 在支持合同小工具中，单击 * 编辑合同 * 图标。
+. 选择 * 开始日期 * 和 * 结束日期 * ，然后输入 * 合同 ID* 。
+. 单击 * 提交 * 。
+. 对配置中的每个设备重复上述步骤。
+
+
+现在， Converged Systems Advisor 将显示每个设备的支持合同详细信息。您可以轻松地查看哪些设备具有有效的和已过期的支持合同。
+
+image:screenshot_support_contracts.gif["显示了四个支持合同：一个已过期，另三个处于活动状态。"]

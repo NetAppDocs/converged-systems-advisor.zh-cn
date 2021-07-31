@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: reference_issues.html 
+keywords: new, features, bugs, known issues, limitations, known limitations, supported, unsupported, release notes 
+summary: 已知问题用于确定可能会阻止您成功使用此服务的问题。如果存在 Bug Online 报告，则错误 ID 包含指向此报告的超链接。 
+---
+= 已知问题
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知问题用于确定可能会阻止您成功使用此服务的问题。如果存在 Bug Online 报告，则错误 ID 包含指向此报告的超链接。
+
+[cols="12,53"]
+|===
+| 错误 ID | Description 
+
+
+| https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1234597["1234597"^] | Converged Systems Advisor 不会修复四个以上 SVM 的 DNS 配置。 
+
+
+| https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1234603["123123603"^] | 在启用收集的情况下创建多个修复作业后，仅会为第一个修复作业触发收集。 
+
+
+| https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1335590["133590"^] | 已从 Converged Systems Advisor 中删除 " 存储故障转移状态 " CA 规则。 
+
+
+| https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1335593["1335593"^] | Nexus 和 MDS 交换机的版本号在 "Upgrade Advisor" 下显示不正确。 
+|===
