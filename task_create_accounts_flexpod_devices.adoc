@@ -55,9 +55,7 @@ TIP: 默认情况下，所有新用户都是只读的。
 .. Save the configuration:
 ....
 +
-....
-copy running configuration startup configuration
-....
+ copy running configuration startup configuration
 
 
 如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至 link:task_grant_user_privileges.html["使用 TACACS+ 服务器授予 CSA 用户权限"]。

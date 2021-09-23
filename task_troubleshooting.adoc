@@ -44,9 +44,7 @@ summary: 如果您在使用 Converged Systems Advisor 时遇到问题，以下�
 
 .. 使用以下内容添加文件 ` /etc/docker/daemon.json` ：
 +
-....
-{ "bip": "172.44.x.x"}
-....
+ { "bip": "172.44.x.x"}
 +
 bip 地址可以是任何不冲突的 IP 地址。不需要处于 172 范围内。
 

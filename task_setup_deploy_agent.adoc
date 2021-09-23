@@ -101,9 +101,7 @@ Debian 虚拟机的网络配置默认为 DHCP 。已安装 NetworkManager 并提
 
 . 从代理运行以下命令行界面命令，以验证连接：
 +
-....
-curl -k https://www.netapp.com/us/index.aspx
-....
+ curl -k https://www.netapp.com/us/index.aspx
 +
 如果命令失败，请验证 DNS 设置。代理虚拟机必须具有有效的 DNS 配置并能够访问 csa.netapp.com 。
 

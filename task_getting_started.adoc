@@ -82,20 +82,14 @@ TIP: 默认情况下，所有新用户都是只读的。
 . 使用 SSH 或 telnet 登录到每个 Nexus 交换机。
 . 进入全局配置模式：
 +
-....
-configure terminal
-....
+ configure terminal
 +
 .. 创建新用户：
 +
-....
-username [name] password [password] role [role]
-....
+ username [name] password [password] role [role]
 .. 保存配置：
 +
-....
-copy running configuration startup configuration
-....
+ copy running configuration startup configuration
 
 
 
@@ -249,9 +243,7 @@ image:screenshot_http_proxy.gif["显示 HTTP 代理提示符的屏幕截图。"]
 
 . 从代理运行以下命令行界面命令，以验证连接：
 +
-....
-curl -k https://www.netapp.com/us/index.aspx
-....
+ curl -k https://www.netapp.com/us/index.aspx
 +
 如果命令失败，请验证 DNS 设置。代理虚拟机必须具有有效的 DNS 配置并能够访问 csa.netapp.com 。
 
