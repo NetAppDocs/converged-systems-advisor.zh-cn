@@ -1,5 +1,14 @@
+---
+settings:
+  name: Converged Systems Advisor
+  rss_page: reference_new.html
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: true
+    langs: zh-cn,us-en,ja-jp
 sidebar:
-  
   entries:
   - title: Converged Systems Advisor 文档
     url: "/index.html"
