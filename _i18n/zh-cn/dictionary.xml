@@ -17,7 +17,6 @@
   <block id="0737ee285ab66d2b8009bb58d622261c" category="cell"><block ref="8a3f01dd75676a73cfafd2b1daf552ce" category="inline-link-rx"></block></block>
   <block id="839eaaea535ab65cf6fcf7a1845e1d71" category="cell">Nexus 和 MDS 交换机的版本号在 "Upgrade Advisor" 下显示不正确。</block>
   <block id="1fac350b63f9cdd13f2a806c4b0df46c" category="summary">NetApp 会定期更新 Converged Systems Advisor ，为您提供新功能，增强功能和错误修复。</block>
-  <block id="4cc1d8055af07717e6a2ef77c1ccd878" category="doc">《 Converged Systems Advisor 中的新增功能》归档</block>
   <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">NetApp 互操作性表工具</block>
   <block id="65d73807e625a264821492e5d4d33a03" category="paragraph">要确认 CSA 代理支持 FlexPod 组件，请参考<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block> IMT</block>
   <block id="c1df1da7a1ce305a3b60af9d5733ac1d" category="section-title">内容</block>
@@ -628,7 +627,6 @@
   <block id="bdc54b3290834bff5f9c73e4644958ce" category="list-text">输入以下命令以授予对 CSA 所需命令的访问权限： cmd=show ｛ permit "environment" permit "version" permit "feature" permit "feature-set" permit hardware 。 * permit "interface" permit "interface tunter" permit "inventory" permit "license" permit "module" permit "port-channel database" permit "ntp peers" permit "license use" permit "port-channel summary" permit "running-config " permit "start-config" permit "permit. "CDP 邻居详细信息 " 允许 "VLAN" 允许 "VPC" 允许 "VPC 对等保活 " 允许 "Mac 地址表 " 允许 "LACP 端口通道 " 允许 "policy-map" 允许 "policy-map system type QoS" 允许 "policy-map system type queuing" 允许 "policy-map system type network-cns" 允许 "zoneset active" 允许 "s"san-l" 允许 "fet" 数据库详细信息 允许 "zoneset active" 允许 "vsan" 允许 "vsan use" 允许 "vsan 成员资格 " ｝</block>
   <block id="73a4aebaeec211620a602108d2b9404c" category="list-text">输入以下命令将 CSA 用户帐户添加到新创建的组： user=user_account ｛ member=group_name login=file/etc/passwd ｝</block>
   <block id="e7d336fd675578d55b211bb25a960940" category="section-title">配置通知</block>
-  <block id="9bfe1d682437c9325f30cb732077f115" category="doc">Converged Systems Advisor 中的新增功能</block>
   <block id="49f34bfa1825e63e5d97c99ba28bc215" category="section-title">2020 年 7 月 31 日</block>
   <block id="7f6806da5c10db2d4b7238eff6a3048e" category="paragraph">此版本包括以下增强功能：</block>
   <block id="1d1dc74e655dfdea0a8ddb51d61996a5" category="list-text"><block ref="1f29bdfefe55e3bb65f3709ed5f0ba05" category="inline-xref-macro-rx"></block></block>
@@ -777,4 +775,6 @@
   <block id="b7b722eea69a1d2e85256ecaa18b4620" category="sidebar">监控规则</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="sidebar">故障排除</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="sidebar">相关链接</block>
+  <block id="5a78e583f1007c774adcf85474a63773" category="doc">Converged Systems Advisor 中的新增功能</block>
+  <block id="f22b831ba6d141bbc230c57682a06371" category="doc">《 Converged Systems Advisor 中的新增功能》归档</block>
 </blocks>
