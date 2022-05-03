@@ -6,6 +6,7 @@ summary: NetApp 融合系统顾问可验证，监控和优化 FlexPod 融合基�
 ---
 = Converged Systems Advisor
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

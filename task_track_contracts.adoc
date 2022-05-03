@@ -6,6 +6,7 @@ summary: 您可以为配置中的每个设备添加有关支持合同的详细�
 ---
 = 跟踪支持合同
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

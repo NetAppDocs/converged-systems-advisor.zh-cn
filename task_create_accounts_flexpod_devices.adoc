@@ -6,6 +6,7 @@ summary: 要开始使用，请为 FlexPod 设备设置帐户。
 ---
 = 为 FlexPod 设备创建帐户
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

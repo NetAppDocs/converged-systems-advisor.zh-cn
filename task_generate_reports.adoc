@@ -6,6 +6,7 @@ summary: 您可以生成多种类型的报告，例如合作伙伴的运行状�
 ---
 = 生成报告
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

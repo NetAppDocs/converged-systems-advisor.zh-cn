@@ -6,6 +6,7 @@ summary: 如果您是 NetApp 合作伙伴，则可以在运行部署验证之前
 ---
 = 合作伙伴部署验证报告
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Converged Systems Advisor 是一个软件即服务（ SaaS ）平台，
 ---
 = Converged Systems Advisor 的工作原理
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

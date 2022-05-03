@@ -6,6 +6,7 @@ summary: 要开始使用 Converged Systems Advisor ，您必须准备好环境�
 ---
 = 准备您的环境
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

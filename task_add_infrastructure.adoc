@@ -6,6 +6,7 @@ summary: 向门户添加基础架构。
 ---
 = 向门户添加基础架构
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

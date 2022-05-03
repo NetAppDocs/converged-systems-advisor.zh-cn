@@ -6,6 +6,7 @@ summary: 您可以修复失败的规则，禁止规则，查看已禁止的规�
 ---
 = 监控基础架构中的规则
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

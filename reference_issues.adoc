@@ -6,6 +6,7 @@ summary: 已知问题用于确定可能会阻止您成功使用此服务的问�
 ---
 = 已知问题
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

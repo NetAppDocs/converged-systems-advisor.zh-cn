@@ -6,6 +6,7 @@ summary: 如果您拥有高级版许可证，则 Converged Systems Advisor 可�
 ---
 = 配置通知
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 您可以通过响应警报，查看变更历史记录以及生成报�
 ---
 = 监控融合基础架构
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

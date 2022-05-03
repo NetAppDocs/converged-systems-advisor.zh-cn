@@ -6,6 +6,7 @@ summary: 当您收到有关规则失败的警报时，您可以查看配置中�
 ---
 = 查看基础架构的历史记录
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

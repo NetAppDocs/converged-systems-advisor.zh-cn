@@ -6,6 +6,7 @@ summary: 开始使用 Converged Systems Advisor 代理和门户包括几个步�
 ---
 = Converged Systems Advisor 快速入门
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

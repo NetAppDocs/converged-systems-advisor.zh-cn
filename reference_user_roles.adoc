@@ -6,6 +6,7 @@ summary: 当您与其他用户共享融合基础架构时，您可以提供只�
 ---
 = 用户角色
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

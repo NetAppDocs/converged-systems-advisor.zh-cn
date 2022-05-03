@@ -6,6 +6,7 @@ summary: 如果您的环境没有 DHCP 服务器，则可以在 Converged System
 ---
 = 在代理上设置静态 IP 地址
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Converged Systems Advisor 可验证 FlexPod 基础架构的部署情况
 ---
 = Converged Systems Advisor 概述
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

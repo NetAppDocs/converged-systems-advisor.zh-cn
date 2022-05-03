@@ -6,6 +6,7 @@ summary: Converged Systems Advisor 会收集有关 FlexPod 融合基础架构的
 ---
 = 安全性
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

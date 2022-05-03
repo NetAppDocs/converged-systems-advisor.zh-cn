@@ -6,6 +6,7 @@ summary: 如果您使用的是 TACACS+ 服务器，并且需要为交换机授�
 ---
 = 使用 TACACS+ 服务器授予 CSA 用户权限
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

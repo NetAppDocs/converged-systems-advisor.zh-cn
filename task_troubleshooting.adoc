@@ -6,6 +6,7 @@ summary: 如果您在使用 Converged Systems Advisor 时遇到问题，以下�
 ---
 = 对 Converged Systems Advisor 进行故障排除
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

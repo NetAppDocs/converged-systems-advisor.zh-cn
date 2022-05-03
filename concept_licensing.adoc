@@ -6,6 +6,7 @@ summary: 要解锁 Converged Systems Advisor 中的功能，需要许可证。�
 ---
 = 许可
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

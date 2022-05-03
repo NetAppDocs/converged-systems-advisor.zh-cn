@@ -6,6 +6,7 @@ summary: NetApp 会定期更新 Converged Systems Advisor ，为您提供新功�
 ---
 = 《 Converged Systems Advisor 中的新增功能》归档
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。
 ---
 = 设置和部署代理
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
