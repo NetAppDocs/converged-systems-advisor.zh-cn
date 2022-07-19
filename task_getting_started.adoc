@@ -46,7 +46,7 @@ summary: 要开始使用 Converged Systems Advisor ，您必须准备环境，�
 
 
 
-. <<Creating accounts on FlexPod devices,在每个 FlexPod 组件上创建帐户>>。
+.  accounts on FlexPod devices,在每个 FlexPod 组件上创建帐户。
 +
 代理需要凭据才能收集配置数据。配置代理时，必须提供凭据。
 
@@ -95,7 +95,7 @@ TIP: 默认情况下，所有新用户都是只读的。
 
 
 
-如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至 <<Granting CSA user privileges using a TACACS+ server>>。
+如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至  CSA user privileges using a TACACS+ server。
 
 
 
@@ -159,10 +159,10 @@ image:screenshot_system_manager_add_user.gif["显示了 System Manager 中的 \"
 您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。
 
 .步骤
-. <<Downloading and installing the agent,下载并安装代理>>
-. <<Setting up networking for the agent,为代理设置网络>>
-. <<Installing an SSL certificate on the agent,如果需要，请在代理上安装 SSL 证书>>
-. <<Configuring the agent to discover your FlexPod infrastructure,配置代理以发现您的 FlexPod 基础架构>>
+.  and installing the agent,下载并安装代理
+.  up networking for the agent,为代理设置网络
+.  an SSL certificate on the agent,如果需要，请在代理上安装 SSL 证书
+.  the agent to discover your FlexPod infrastructure,配置代理以发现您的 FlexPod 基础架构
 
 
 

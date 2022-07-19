@@ -24,14 +24,14 @@ NetApp 会定期更新 Converged Systems Advisor ，为您提供新功能，增�
 
 此归档文件包含以下版本中的信息：
 
-* <<30 April 2020>>
-* <<3 February 2020>>
-* <<7 November 2019>>
-* <<24 July 2019>>
-* <<25 April 2019>>
-* <<28 March 2019>>
-* <<17 January 2019>>
-* <<13 September 2018>>
+*  April 2020
+*  February 2020
+*  November 2019
+*  July 2019
+*  April 2019
+*  March 2019
+*  January 2019
+*  September 2018
 
 
 
@@ -40,10 +40,10 @@ NetApp 会定期更新 Converged Systems Advisor ，为您提供新功能，增�
 
 此版本包含以下增强功能：
 
-* <<Upgrade Advisor>>
-* <<Cluster interconnect switch>>
-* <<Capacity card enhancements>>
-* <<System diagram alerts>>
+*  Advisor
+*  interconnect switch
+*  card enhancements
+*  diagram alerts
 
 
 
@@ -98,7 +98,7 @@ UCS 刀片式服务器利用率链接到计算层中刀片式服务器的详细�
 
 | https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1253405["1253405"^] | Nexus 交换机端口状态可能在 Converged Systems Advisor 中显示不正确。 
 |===
-* 返回到 <<Contents>>
+* 返回到 
 
 
 
@@ -107,8 +107,8 @@ UCS 刀片式服务器利用率链接到计算层中刀片式服务器的详细�
 
 此版本包含以下增强功能：
 
-* <<Navigation enhancements>>
-* <<Aggregate details>>
+*  enhancements
+*  details
 
 
 
@@ -145,7 +145,7 @@ image:screenshot_redcloud_new-aggregate_details.gif["屏幕截图，宽度 = 65%
 
 | https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1279956["1279956"^] | 单节点 MetroCluster 不会在集群详细信息页面上的概述和规则摘要中显示 IOXM 扩展模块。 
 |===
-* 返回到 <<Contents>>
+* 返回到 
 
 
 
@@ -157,9 +157,9 @@ NOTE: 将 FlexPod 添加到 Converged Systems Advisor 后，此版本中的所�
 
 此版本包含以下新增功能和增强功能：
 
-* <<MetroCluster awareness>>
-* <<NVMe awareness>>
-* <<Improved interoperability functionality>>
+*  awareness
+*  awareness
+*  interoperability functionality
 
 
 
@@ -180,7 +180,7 @@ NOTE: 将 FlexPod 添加到 Converged Systems Advisor 后，此版本中的所�
 
 Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链接到一个弹出窗口，其中显示了每个组件支持的当前，最近和最新版本。弹出窗口中添加了一个新报告，用于显示每个组件层的个性化互操作性报告。
 
-* 返回到 <<Contents>>
+* 返回到 
 
 
 
@@ -189,8 +189,8 @@ Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链
 
 此版本包含以下新增功能和增强功能：
 
-* <<Support for Cisco ACI in FlexPod>>
-* <<Support for multiple clusters in a single FlexPod>>
+*  for Cisco ACI in FlexPod
+*  for multiple clusters in a single FlexPod
 
 
 
@@ -205,7 +205,7 @@ Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链
 
 现在， Converged Systems Advisor 可在一个 FlexPod 中支持多个集群。所有集群都会处理 Storage ONTAP 规则，所有集群都会反映在系统图中。
 
-* 返回到 <<Contents>>
+* 返回到 
 
 
 
@@ -214,8 +214,8 @@ Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链
 
 此版本包含以下新增功能和增强功能：
 
-* <<Automatically resolving failed rules>>
-* <<Displaying suppressed rules>>
+*  resolving failed rules
+*  suppressed rules
 
 
 
@@ -252,7 +252,7 @@ Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链
 
 | https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1211999["1211999"^] | 空间预留状态显示不正确 
 |===
-* 返回到 <<Contents>>
+* 返回到 
 
 
 
@@ -277,7 +277,7 @@ Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链
 
 | https://mysupport.netapp.com/NOW/cgi-bin/bol?Type=Detail&Display=1212001["1212001"] | 机架式服务器的电源信息可能会在 CSA 中显示不正确 
 |===
-* 返回到 <<Contents>>
+* 返回到 
 
 
 
@@ -286,11 +286,11 @@ Converged Systems Advisor 提供了一个更新的互操作性卡，此卡将链
 
 此版本包含以下新增功能和增强功能：
 
-* <<Support for new FlexPod devices>>
-* <<Detailed information about hosts and virtual machines>>
-* <<Simplified experience when adding an infrastructure>>
-* <<Device import using a file>>
-* <<Integration with NetApp Active IQ>>
+*  for new FlexPod devices
+*  information about hosts and virtual machines
+*  experience when adding an infrastructure
+*  import using a file
+*  with NetApp Active IQ
 
 
 
@@ -361,7 +361,7 @@ image:screenshot_active_iq.gif["屏幕截图，宽度 = 65% ，对齐 = 左"]
 
 | 2794 | 尽管虚拟机上未安装 VMware 工具，但 Converged Systems Advisor 对名为 "VMware tools check" 的规则显示 "Pass" 。 
 |===
-* 返回到 <<Contents>>
+* 返回到 
 
 
 

@@ -37,7 +37,7 @@ image:screenshot_rules_information.gif["显示有关规则的详细信息，包�
 
 . 按照解决方案中的说明修复问题描述。
 +
-如果需要， <<Reviewing the history for an infrastructure,查看配置历史记录>> 基础架构以帮助您解决问题描述。
+如果需要，  the history for an infrastructure,查看配置历史记录 基础架构以帮助您解决问题描述。
 
 
 
