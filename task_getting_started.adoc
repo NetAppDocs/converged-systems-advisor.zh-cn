@@ -46,7 +46,7 @@ summary: 要开始使用 Converged Systems Advisor ，您必须准备环境，�
 
 
 
-.  accounts on FlexPod devices,在每个 FlexPod 组件上创建帐户。
+. <<在 FlexPod 设备上创建帐户,在每个 FlexPod 组件上创建帐户>>。
 +
 代理需要凭据才能收集配置数据。配置代理时，必须提供凭据。
 
@@ -95,7 +95,7 @@ TIP: 默认情况下，所有新用户都是只读的。
 
 
 
-如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至  CSA user privileges using a TACACS+ server。
+如果您使用的是 TACACS+ 服务器，并且需要授予 CSA 用户权限，请转至 <<使用 TACACS+ 服务器授予 CSA 用户权限>>。
 
 
 
@@ -159,10 +159,10 @@ image:screenshot_system_manager_add_user.gif["显示了 System Manager 中的 \"
 您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。
 
 .步骤
-.  and installing the agent,下载并安装代理
-.  up networking for the agent,为代理设置网络
-.  an SSL certificate on the agent,如果需要，请在代理上安装 SSL 证书
-.  the agent to discover your FlexPod infrastructure,配置代理以发现您的 FlexPod 基础架构
+. <<下载并安装代理,下载并安装代理>>
+. <<为代理设置网络,为代理设置网络>>
+. <<在代理上安装 SSL 证书,如果需要，请在代理上安装 SSL 证书>>
+. <<配置代理以发现 FlexPod 基础架构,配置代理以发现您的 FlexPod 基础架构>>
 
 
 
@@ -171,6 +171,7 @@ image:screenshot_system_manager_add_user.gif["显示了 System Manager 中的 \"
 
 您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。
 
+.关于此任务
 要最大程度地减少带宽使用量，应将代理安装在与 FlexPod 配置位于同一数据中心的 VMware ESXi 服务器上。代理必须能够连接到每个 FlexPod 组件和 Internet ，以便可以使用 HTTPS 端口 443 将配置数据发送到 Converged Systems Advisor 门户。
 
 此代理将通过开放式虚拟化格式（ OVF ）模板部署为 VMware vSphere 虚拟机。该模板基于 Debian ，具有 1 个 vCPU 和 2 GB RAM （对于多个或更大的 FlexPod 系统，可能需要更多的内存）。
@@ -256,6 +257,7 @@ image:screenshot_http_proxy.gif["显示 HTTP 代理提示符的屏幕截图。"]
 
 当虚拟机首次启动时，代理会创建一个自签名证书。如果需要，您可以删除该证书并使用自己的 SSL 证书。
 
+.关于此任务
 Converged Systems Advisor 支持以下功能：
 
 * 与 OpenSSL 1.0.1 或更高版本兼容的任何密码
@@ -298,6 +300,7 @@ Converged Systems Advisor 支持以下功能：
 
 
 
+.结果
 FlexPod 基础架构中的每个设备都应显示在表中并带有复选标记。
 
 image:screenshot_agent_configuration.gif["在状态列中显示每个所需设备，并带有绿色复选标记。"]
@@ -333,6 +336,7 @@ image:screenshot_add_infrastructure_pikesupdate.gif["显示表中选择的四个
 
 
 
+.结果
 Converged Systems Advisor 会将基础架构添加到门户中，并开始收集有关每个设备的配置数据。等待几分钟，以便代理从设备收集信息。
 
 
@@ -359,6 +363,7 @@ TIP: 您可以在一个字段中输入多个电子邮件地址，方法是在第
 . 单击 * 发送 * 。
 
 
+.结果
 用户应收到一封电子邮件，其中包含有关访问 Converged Systems Advisor 的说明。
 
 
@@ -396,4 +401,5 @@ TIP: 您可以在一个字段中输入多个电子邮件地址，方法是在第
 . 单击 * 保存 * 。
 
 
+.结果
 现在， Converged Systems Advisor 将向与融合基础架构关联的用户发送电子邮件通知。

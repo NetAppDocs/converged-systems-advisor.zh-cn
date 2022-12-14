@@ -17,10 +17,10 @@ summary: 在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。
 您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。
 
 .步骤
-.  and install the agent
-.  up networking for the agent
-.  an SSL certificate on the agent
-.  the agent to discover your FlexPod infrastructure
+. <<下载并安装代理>>
+. <<为代理设置网络>>
+. <<在代理上安装 SSL 证书>>
+. <<配置代理以发现您的 FlexPod 基础架构>>
 
 
 
@@ -29,6 +29,7 @@ summary: 在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。
 
 您必须在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。
 
+.关于此任务
 要最大程度地减少带宽使用量，应将代理安装在与 FlexPod 配置位于同一数据中心的 VMware ESXi 服务器上。代理必须能够连接到每个 FlexPod 组件和 Internet ，以便可以使用 HTTPS 端口 443 将配置数据发送到 Converged Systems Advisor 门户。
 
 此代理将通过开放式虚拟化格式（ OVF ）模板部署为 VMware vSphere 虚拟机。该模板基于 Debian ，具有 1 个 vCPU 和 2 GB RAM （对于多个或更大的 FlexPod 系统，可能需要更多的内存）。
@@ -116,6 +117,7 @@ Debian 虚拟机的网络配置默认为 DHCP 。已安装 NetworkManager 并提
 
 当虚拟机首次启动时，代理会创建一个自签名证书。如果需要，您可以删除该证书并使用自己的 SSL 证书。
 
+.关于此任务
 Converged Systems Advisor 支持以下功能： * 与 OpenSSL 1.0.1 或更高版本兼容的任何密码 * TLS 1.1 和 TLS 1.2
 
 .步骤
@@ -153,4 +155,5 @@ NOTE: 对于代表客户部署 CSA 许可版本的合作伙伴，在此步骤中
 
 
 
+.结果
 FlexPod 基础架构中的每个设备都应显示在表中并带有复选标记。image:screenshot_agent_configuration.gif["在状态列中显示每个所需设备，并带有绿色复选标记。"]

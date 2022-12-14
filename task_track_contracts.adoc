@@ -24,6 +24,7 @@ summary: 您可以为配置中的每个设备添加有关支持合同的详细�
 . 对配置中的每个设备重复上述步骤。
 
 
+.结果
 现在， Converged Systems Advisor 将显示每个设备的支持合同详细信息。您可以轻松地查看哪些设备具有有效的和已过期的支持合同。
 
 image:screenshot_support_contracts.gif["显示了四个支持合同：一个已过期，另三个处于活动状态。"]

@@ -18,49 +18,49 @@ summary: 开始使用 Converged Systems Advisor 代理和门户包括几个步�
 
 
 
-== 准备您的环境
+== image:number1.png["数字 1"] 准备您的环境
 
 [role="quick-margin-para"]
 验证是否支持您的配置 link:task_prepare_environment.html["准备您的环境"]。
 
 
 
-== 在 FlexPod 设备上创建帐户
+== image:number2.png["数字 2"] 在 FlexPod 设备上创建帐户
 
 [role="quick-margin-para"]
 在 Cisco UCS Manager ， Cisco Nexus 交换机， ONTAP 系统， VMware 和 APIC 中设置帐户。代理使用这些帐户收集配置数据。link:task_create_accounts_flexpod_devices.html["在 FlexPod 设备上创建帐户"]。
 
 
 
-== 使用 TACACS+ 服务器授予 CSA 用户权限
+== image:number3.png["第3个"] 使用 TACACS+ 服务器授予 CSA 用户权限
 
 [role="quick-margin-para"]
 对于使用 TACACS+ 服务器的用户，您需要为交换机授予 CSA 用户权限，创建用户权限组并为组授予对 CSA 所需的特定设置命令的访问权限。link:task_grant_user_privileges.html["使用 TACACS+ 服务器授予 CSA 用户权限"]
 
 
 
-== 设置和部署代理
+== image:number4.png["第4个"] 设置和部署代理
 
 [role="quick-margin-para"]
 在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。link:task_setup_deploy_agent.html["部署代理"]。
 
 
 
-== 在门户中添加 / 共享基础架构
+== image:number5.png["第5个"] 在门户中添加 / 共享基础架构
 
 [role="quick-margin-para"]
 将每个 FlexPod 设备添加到 Converged Systems Advisor 门户，以创建可监控的整个基础架构。您还可以共享融合基础架构，使其他人能够登录到门户，以便查看和监控配置。link:task_add_infrastructure.html["在门户中添加和共享基础架构"]。
 
 
 
-== 配置通知
+== image:number6.png["数字6."] 配置通知
 
 [role="quick-margin-para"]
 借助高级版许可证，您可以设置通知，以便通过电子邮件通知提醒您 FlexPod 基础架构发生的更改。link:task_configure_notifications.html["配置通知"]
 
 
 
-== 设置静态 IP 地址
+== image:number7.png["数字7."] 设置静态 IP 地址
 
 [role="quick-margin-para"]
 如果您的环境没有 DHCP 服务器，则可以在 Converged Systems Advisor 代理上设置静态 IP 地址。link:task_setting_static_ip.html["在代理上设置静态 IP 地址"]

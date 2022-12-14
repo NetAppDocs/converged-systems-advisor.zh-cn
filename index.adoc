@@ -18,7 +18,7 @@ NetApp 融合系统顾问可验证，监控和优化 FlexPod 融合基础架构�
 
 
 
-== 了解新功能
+== 了解新增功能
 
 link:reference_new.html["Converged Systems Advisor 中的新增功能"]
 

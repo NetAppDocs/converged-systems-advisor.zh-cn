@@ -31,4 +31,5 @@ summary: 如果您拥有高级版许可证，则 Converged Systems Advisor 可�
 . 单击 * 保存 * 。
 
 
+.结果
 现在， Converged Systems Advisor 将向与融合基础架构关联的用户发送电子邮件通知。

@@ -483,7 +483,6 @@
   <block id="571a926cd2e7deab39daf05b2533b8d8" category="doc">查看基础架构的历史记录</block>
   <block id="7a49965d9cfff28dae6c97f9b420a932" category="summary">NetApp 融合系统顾问可验证，监控和优化 FlexPod 融合基础架构的部署，以确保业务应用程序获得最佳性能和可用性。</block>
   <block id="04fbad68af42342b74d64c44c053aeb6" category="doc">Converged Systems Advisor</block>
-  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">了解新功能</block>
   <block id="9019b4a8afd649f588dde381d9d2c1cb" category="inline-link-macro">Converged Systems Advisor 中的新增功能</block>
   <block id="cfaf20a40a53abf04e998d745a541106" category="paragraph"><block ref="cfaf20a40a53abf04e998d745a541106" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">入门</block>
@@ -695,17 +694,14 @@
   <block id="d765707c3b28b87a0166a122e0893c44" category="doc">Converged Systems Advisor 快速入门</block>
   <block id="bb4e793023539d2e73eea517a0009f8f" category="paragraph">开始使用 Converged Systems Advisor 代理和适用于 FlexPod 的门户包括几个步骤。</block>
   <block id="861d7392cf2a3c7ca2ed1442f6237101" category="paragraph">验证是否支持您的配置 <block ref="5db18581d3c751db9049195c8f5e0955" category="inline-link-macro-rx"></block>。</block>
-  <block id="005c54fa8a7e7bd788a9d809d1387a85" category="section-title">在 FlexPod 设备上创建帐户</block>
   <block id="2f166ccfcdb92d24539f300510b6c06a" category="inline-link-macro">在 FlexPod 设备上创建帐户</block>
   <block id="ef53b42f68445a3ad4051becb0f15d0a" category="paragraph">在 Cisco UCS Manager ， Cisco Nexus 交换机， ONTAP 系统， VMware 和 APIC 中设置帐户。代理使用这些帐户收集配置数据。<block ref="3431097fc9e072fa942c7d7d18ec5a22" category="inline-link-macro-rx"></block>。</block>
   <block id="2c1c5cb63f66b3d5b5f4eeb79a858979" category="paragraph">对于使用 TACACS+ 服务器的用户，您需要为交换机授予 CSA 用户权限，创建用户权限组并为组授予对 CSA 所需的特定设置命令的访问权限。<block ref="4c9d56d5e4670c50abdba1f72cb4866c" category="inline-link-macro-rx"></block></block>
   <block id="c0fb3c98adaf760968c2a76d78a5b482" category="inline-link-macro">部署代理</block>
   <block id="0550cf7fd37a5b054ce87062df5f3254" category="paragraph">在 VMware ESXi 服务器上部署 Converged Systems Advisor 代理。代理会收集有关 FlexPod 融合基础架构中每个设备的配置数据，并将这些数据发送到 Converged Systems Advisor 门户。<block ref="96f9770b130e3bbf775f182c9ade7098" category="inline-link-macro-rx"></block>。</block>
-  <block id="0d68d2879e160e76749e7cf93c2fa146" category="section-title">在门户中添加 / 共享基础架构</block>
   <block id="19262993c294a1c73c8ae843e52a78f8" category="inline-link-macro">在门户中添加和共享基础架构</block>
   <block id="98e6f4726c519b5915a8c7eda3e7406d" category="paragraph">将每个 FlexPod 设备添加到 Converged Systems Advisor 门户，以创建可监控的整个基础架构。您还可以共享融合基础架构，使其他人能够登录到门户，以便查看和监控配置。<block ref="8650b55bc84e39256db0ba998f0a5b40" category="inline-link-macro-rx"></block>。</block>
   <block id="68b25f35698ade6b2d3fe83dec7cf861" category="paragraph">借助高级版许可证，您可以设置通知，以便通过电子邮件通知提醒您 FlexPod 基础架构发生的更改。<block ref="ebe1a4d3225f5bb69764eba03129edce" category="inline-link-macro-rx"></block></block>
-  <block id="b44a488d2f5dc6040330205f250e7850" category="section-title">设置静态 IP 地址</block>
   <block id="db15846e3abf8485dbf81a496e64d90a" category="paragraph">如果您的环境没有 DHCP 服务器，则可以在 Converged Systems Advisor 代理上设置静态 IP 地址。<block ref="708dd38422a6a2d257990b66f3dbd251" category="inline-link-macro-rx"></block></block>
   <block id="ade2db7ff69f464a3b4134ab103d943b" category="summary">Converged Systems Advisor 是一个软件即服务（ SaaS ）平台，由内部代理和基于云的门户组成。</block>
   <block id="77a689c1bae0e53995786b80a8e17081" category="doc">Converged Systems Advisor 的工作原理</block>
@@ -777,4 +773,21 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="sidebar">相关链接</block>
   <block id="5a78e583f1007c774adcf85474a63773" category="doc">Converged Systems Advisor 中的新增功能</block>
   <block id="f22b831ba6d141bbc230c57682a06371" category="doc">《 Converged Systems Advisor 中的新增功能》归档</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
+  <block id="6e5bc02812454d72aa1b3361bc2f6c73" category="inline-image-macro">数字 1</block>
+  <block id="559f8475e1ff74d0a5b077794558916f" category="section-title"><block ref="dc5de6e35d5028cc4c0b89b89e621258" category="inline-image-macro-rx" type="image"></block> 准备您的环境</block>
+  <block id="3db14b7ee6183c9d58f1e9d5e8e63efd" category="inline-image-macro">数字 2</block>
+  <block id="bc83ea51badfd0910cc8d7bae37d8acd" category="section-title"><block ref="8a21168e601d45e544969f8d2c358917" category="inline-image-macro-rx" type="image"></block> 在 FlexPod 设备上创建帐户</block>
+  <block id="9f3ebc84fe13f3200262a9c4b7c9807d" category="inline-image-macro">第3个</block>
+  <block id="3e12ab5fae17206c542331228866ed0d" category="section-title"><block ref="436aa95806ef0877809848921c187b08" category="inline-image-macro-rx" type="image"></block> 使用 TACACS+ 服务器授予 CSA 用户权限</block>
+  <block id="86f188df3015051c771264e12c69d0e4" category="inline-image-macro">第4个</block>
+  <block id="511da2848c80f269eb677e5a5710cbcd" category="section-title"><block ref="b0069e021ff5287a729b22bfea26bbe1" category="inline-image-macro-rx" type="image"></block> 设置和部署代理</block>
+  <block id="5870ed875d2bc967928d9a48d0bcac54" category="inline-image-macro">第5个</block>
+  <block id="3a9f59ee192096314f07968a153e54b2" category="section-title"><block ref="c76f59d4b1b742813df5111ab3a44f58" category="inline-image-macro-rx" type="image"></block> 在门户中添加 / 共享基础架构</block>
+  <block id="efd2db6ed66cb68b1ef85f7fc95f01ef" category="inline-image-macro">数字6.</block>
+  <block id="000de680812539d81f6b9eb895793c90" category="section-title"><block ref="434171cc767ea1c526904692eaabbd08" category="inline-image-macro-rx" type="image"></block> 配置通知</block>
+  <block id="71bb2e8e85702bc6dc8fe49bc2ca2664" category="inline-image-macro">数字7.</block>
+  <block id="ec82488760b9c067f6a1effc164db7f9" category="section-title"><block ref="a30b4945ccf5eb8b859e8a3c07b0e494" category="inline-image-macro-rx" type="image"></block> 设置静态 IP 地址</block>
+  <block id="492e5546e60705134bff8d7f80511a8d" category="section-title">了解新增功能</block>
 </blocks>

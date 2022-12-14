@@ -31,4 +31,5 @@ image:screenshot_reports_generate.gif["显示了用于生成报告的选项，�
 
 
 
+.结果
 Converged Systems Advisor 将生成报告。
