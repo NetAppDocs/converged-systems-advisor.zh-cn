@@ -16,11 +16,11 @@ summary: 您可以通过各种资源获得有关 Converged Systems Advisor 的�
 [role="lead"]
 您可以通过各种资源获得有关 Converged Systems Advisor 的帮助和更多信息。
 
-* https://www.netapp.com/us/media/ds-3896.pdf["Converged Systems Advisor 产品规格"^]
+* https://www.netapp.com/data-storage/flexpod/cooperative-support/["Converged Systems Advisor 产品规格"^]
 +
 有关 Converged Systems Advisor 提供的价值的更多详细信息。
 
-* https://www.netapp.com/us/media/tr-4036.pdf["NetApp 技术报告 4036 ：《 FlexPod 数据中心技术规格》"^]
+* https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_solution_overview.html["NetApp 技术报告 4036 ：《 FlexPod 数据中心技术规格》"^]
 +
 查看 Converged Systems Advisor 将您的配置与之进行比较的最佳实践和固件要求。
 
